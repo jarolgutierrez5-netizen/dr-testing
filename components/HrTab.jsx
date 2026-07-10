@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import { SectionIntro, GameFilter } from "./shared";
 import { HrCard } from "./HrCard";
 import { getBatterLogs } from "@/lib/dataAccess";
@@ -7,11 +7,28 @@ import { battingAgg } from "@/lib/projections";
 import { classifyHr, HR_LABELS } from "@/lib/classification";
 import { useGameFilter, useFavorites } from "@/lib/hooks";
 
-export function HrTab() {
+// focusPlayer/onFocusHandled support deep-linking straight to one player's card --
+// e.g. clicking a tracked batter in Pitcher Report's Lineup tab (see
+// components/DiamondLedger.jsx's focusHrPlayer). The matching card force-opens and
+// scrolls into view once; onFocusHandled then clears the focus so it doesn't fight a
+// manual collapse or re-trigger on unrelated re-renders.
+export function HrTab({ focusPlayer, onFocusHandled }) {
   const { games, game, setGame, filtered } = useGameFilter(getBatterLogs());
   const [activeLabels, setActiveLabels] = useState(new Set());
   const { favorites, toggleFavorite } = useFavorites();
   const [favoritesOnly, setFavoritesOnly] = useState(false);
+  const focusRef = useRef(null);
+
+  useEffect(() => {
+    if (!focusPlayer) return;
+    // Give the target card's forceOpen effect a moment to expand before measuring
+    // where to scroll -- scrolling against the collapsed height would land short.
+    const t = setTimeout(() => {
+      focusRef.current?.scrollIntoView({ behavior: "smooth", block: "center" });
+      onFocusHandled && onFocusHandled();
+    }, 150);
+    return () => clearTimeout(t);
+  }, [focusPlayer]);
 
   const toggleLabel = (key) => {
     setActiveLabels(prev => {
@@ -57,7 +74,10 @@ export function HrTab() {
       </div>
 
       <div className="grid lg:grid-cols-2 gap-4">
-        {visible.map((p, i) => <HrCard key={i} p={p} isFavorite={favorites.has(p.name)} onToggleFavorite={() => toggleFavorite(p.name)} />)}
+        {visible.map((p, i) => (
+          <HrCard key={i} p={p} isFavorite={favorites.has(p.name)} onToggleFavorite={() => toggleFavorite(p.name)}
+            forceOpen={p.name === focusPlayer} rootRef={p.name === focusPlayer ? focusRef : undefined} />
+        ))}
       </div>
     </div>
   );

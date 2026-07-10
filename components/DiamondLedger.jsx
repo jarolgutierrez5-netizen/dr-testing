@@ -23,6 +23,10 @@ export default function DiamondLedger() {
   const [section, setSection] = useState("games");
   const [collapsed, setCollapsed] = useState(true);
   const [showTrackRecord, setShowTrackRecord] = useState(false);
+  // Deep-link target for HrTab: set when a tracked batter is clicked in Pitcher
+  // Report's Lineup tab, cleared by HrTab once it's scrolled to/opened the card.
+  const [focusPlayer, setFocusPlayer] = useState(null);
+  const focusHrPlayer = (name) => { setSection("hr"); setFocusPlayer(name); };
 
   // Hydrates lib/liveStore.js from /api/standings (real MLB Stats API data, TTL-cached
   // server-side). Updating the store synchronously during render -- rather than in a
@@ -34,8 +38,12 @@ export default function DiamondLedger() {
   if (liveStandings) setLiveData(liveStandings);
 
   const TABS = {
-    games: <GamesTodayTab setSection={setSection} />, hits: <HitsTab />, hr: <HrTab />, rbi: <RbiTab />, tb: <TbTab />,
-    sb: <SbTab />, hrrbi: <HrrbiTab />, k: <KTab />, pitcher: <PitcherReportTab setSection={setSection} />, saves: <SavesTab />, parlay: <ParlayTab />,
+    games: <GamesTodayTab setSection={setSection} />, hits: <HitsTab />,
+    hr: <HrTab focusPlayer={focusPlayer} onFocusHandled={() => setFocusPlayer(null)} />,
+    rbi: <RbiTab />, tb: <TbTab />,
+    sb: <SbTab />, hrrbi: <HrrbiTab />, k: <KTab />,
+    pitcher: <PitcherReportTab onSelectPlayer={focusHrPlayer} />,
+    saves: <SavesTab />, parlay: <ParlayTab />,
   };
 
   return (

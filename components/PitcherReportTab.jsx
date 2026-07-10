@@ -8,7 +8,7 @@ import { arsenalGrade, pitchOutcomeLabel, metricColorClass, batterPlatoonRead, M
 import { LEAGUE_AVG_K_PCT } from "@/lib/constants";
 import { useGameFilter } from "@/lib/hooks";
 
-function PitcherReportCard({ pi, setSection }) {
+function PitcherReportCard({ pi, onSelectPlayer }) {
   const [open, setOpen] = useState(false);
   const [tab, setTab] = useState("season");
   const seasonStats = getPitcherSeasonStats(pi.name);
@@ -161,8 +161,12 @@ function PitcherReportCard({ pi, setSection }) {
                   const platoon = batterPlatoonRead(pi.throws, b.bats);
                   const platoonTone = { green: "border-emerald-400/40 text-emerald-300", amber: "border-amber-400/40 text-amber-300" };
                   const isTopThreat = b.name === topThreatName;
+                  const clickable = b.real && !!onSelectPlayer;
                   return (
-                    <div key={i} className={`flex items-center justify-between rounded-lg border px-3 py-2 ${isTopThreat ? "border-amber-400/40" : "border-slate-500/15"}`}>
+                    <div key={i}
+                      onClick={() => clickable && onSelectPlayer(b.name)}
+                      title={clickable ? `Jump to ${b.name}'s HR projection` : undefined}
+                      className={`flex items-center justify-between rounded-lg border px-3 py-2 transition-colors ${isTopThreat ? "border-amber-400/40" : "border-slate-500/15"} ${clickable ? "cursor-pointer hover:border-emerald-400/40" : ""}`}>
                       <div className="flex items-center gap-2.5 flex-wrap">
                         <span className="font-body text-[11px] text-slate-500 w-4">{b.order}</span>
                         <span className="font-body text-[12px] text-slate-200">{b.name}</span>
@@ -175,11 +179,10 @@ function PitcherReportCard({ pi, setSection }) {
                         <span className="font-body text-[11px] text-slate-400">
                           {b.seasonHr !== undefined ? `${b.seasonHr} HR` : b.real ? "HR unconfirmed" : "—"}
                         </span>
-                        {b.real && setSection && (
-                          <button onClick={() => setSection("hr")} title={`View ${b.name}'s props`}
-                            className="font-body text-[10px] px-2 py-1 rounded-full border border-emerald-400/30 text-emerald-300 hover:bg-emerald-400/10 transition-colors">
-                            View Props →
-                          </button>
+                        {clickable && (
+                          <span className="font-body text-[10px] px-2 py-1 rounded-full border border-emerald-400/30 text-emerald-300">
+                            HR Projection →
+                          </span>
                         )}
                       </div>
                     </div>
@@ -199,14 +202,28 @@ function PitcherReportCard({ pi, setSection }) {
   );
 }
 
-export function PitcherReportTab({ setSection }) {
+export function PitcherReportTab({ onSelectPlayer }) {
   const { games, game, setGame, filtered } = useGameFilter(getPitcherLogs());
+
+  // Groups starters by game so both sides of a matchup sit side by side. Some games
+  // only have one tracked starter (no real last-start line for the other side yet) --
+  // that shows as a single card rather than inventing a second one.
+  const gameOrder = [...new Set(filtered.map(pi => pi.game))];
+  const grouped = gameOrder.map(g => ({ game: g, pitchers: filtered.filter(pi => pi.game === g) }));
+
   return (
     <div>
-      <SectionIntro emoji="🧢" label="Pitcher Report" note="Full last-start line, real season stats where confirmed, and a mock arsenal/command breakdown for projected starters." />
+      <SectionIntro emoji="🧢" label="Pitcher Report" note="Full last-start line, real season stats where confirmed, and a mock arsenal/command breakdown for projected starters. Starters are grouped by game, side by side." />
       <GameFilter games={games} value={game} onChange={setGame} />
-      <div className="grid lg:grid-cols-2 gap-4">
-        {filtered.map((pi,i) => <PitcherReportCard key={i} pi={pi} setSection={setSection} />)}
+      <div className="space-y-6">
+        {grouped.map(({ game: g, pitchers }) => (
+          <div key={g}>
+            <div className="font-body text-[10px] text-slate-500 uppercase tracking-wider mb-2">{g}</div>
+            <div className="grid sm:grid-cols-2 gap-4">
+              {pitchers.map((pi, i) => <PitcherReportCard key={i} pi={pi} onSelectPlayer={onSelectPlayer} />)}
+            </div>
+          </div>
+        ))}
       </div>
     </div>
   );

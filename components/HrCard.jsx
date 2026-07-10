@@ -1,13 +1,19 @@
 "use client";
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import { Avatar, Pill, LabelBadge, HrTrend, MatchupPeriodPanel, ZoneGrid, PitchMixFootnote, PitchTable } from "./shared";
 import { getStarter, getSeasonStats, getInjuryStatus, getSeasonHr, getWeather, dataConfidence } from "@/lib/dataAccess";
 import { battingAgg, overProb, pct, wxPill } from "@/lib/projections";
 import { classifyHr, hrWhyText, effectiveBatterSide, pitchTypeAdvantage, matchupVerdict, METRIC_FORMAT, zoneTone, zoneHeatTone } from "@/lib/classification";
 import { mockMatchupHistory, mockPitcherArsenal, mockBatterVsPitch, mockZoneProfile, mockPitcherZoneAttack } from "@/lib/mockGenerators";
 
-export function HrCard({ p, isFavorite, onToggleFavorite }) {
+// forceOpen/rootRef exist for deep-linking here from elsewhere (e.g. clicking a
+// tracked batter in Pitcher Report's Lineup tab -- see components/HrTab.jsx and
+// components/DiamondLedger.jsx's focusPlayer wiring). forceOpen only ever flips
+// open from false to true, once -- it never forces the card shut, so a manual
+// collapse afterward isn't fought on the next render.
+export function HrCard({ p, isFavorite, onToggleFavorite, forceOpen, rootRef }) {
   const [open, setOpen] = useState(false);
+  useEffect(() => { if (forceOpen) setOpen(true); }, [forceOpen]);
   const [tab, setTab] = useState("stats");
   const [statsYear, setStatsYear] = useState(2026);
   const [matchupPeriod, setMatchupPeriod] = useState("season");
@@ -44,7 +50,7 @@ export function HrCard({ p, isFavorite, onToggleFavorite }) {
   }, [p.name, oppSP?.name, side]);
 
   return (
-    <div style={{ background: "#111A2E" }} className={`rounded-2xl border ${a.hr > 0 ? "border-amber-400/30" : "border-slate-500/15"} overflow-hidden`}>
+    <div ref={rootRef} style={{ background: "#111A2E" }} className={`rounded-2xl border ${a.hr > 0 ? "border-amber-400/30" : "border-slate-500/15"} overflow-hidden`}>
       <div onClick={() => setOpen(!open)} className="w-full text-left p-5 cursor-pointer">
         <div className="flex items-start justify-between gap-4">
           <div className="flex items-center gap-3">
