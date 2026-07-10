@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 import { getBatterLogs, getPitcherLogs } from "@/lib/dataAccess";
-import { battingAgg, overProb, pct, projectStrikeouts, computeKLine } from "@/lib/projections";
+import { battingAgg, overProb, pct, projectStrikeouts, computeKLine, pitcherK9 } from "@/lib/projections";
 import { STAT_CONFIGS } from "@/lib/classification";
 import { mockAdvancedPitchingMetrics, mockTeamKRate } from "@/lib/mockGenerators";
 import { storage } from "@/lib/storage";
@@ -32,7 +32,7 @@ function buildTodaysProjectionSnapshot() {
     });
   });
   getPitcherLogs().forEach(pi => {
-    const k9Hint = (pi.k / pi.ip) * 9;
+    const k9Hint = pitcherK9(pi);
     const adv = mockAdvancedPitchingMetrics(pi.name, k9Hint);
     const oppKPct = mockTeamKRate(pi.opp);
     const projK = projectStrikeouts(adv.kPct, oppKPct);

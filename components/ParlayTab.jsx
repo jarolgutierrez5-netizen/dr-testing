@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import { Pill, SectionIntro } from "./shared";
 import { getBatterLogs, getPitcherLogs, dataConfidence, pitcherDataConfidence, getInjuryStatus } from "@/lib/dataAccess";
-import { battingAgg, overProb, pct } from "@/lib/projections";
+import { battingAgg, overProb, pct, pitcherK9 } from "@/lib/projections";
 import { STAT_CONFIGS } from "@/lib/classification";
 import { mockAdvancedPitchingMetrics, mockTeamKRate } from "@/lib/mockGenerators";
 import { projectStrikeouts, computeKLine } from "@/lib/projections";
@@ -34,7 +34,7 @@ function buildParlayLeg(name, statKey) {
   if (statKey === "k") {
     const pi = getPitcherLogs().find(x => x.name === name);
     if (!pi) return null;
-    const k9Hint = (pi.k / pi.ip) * 9;
+    const k9Hint = pitcherK9(pi);
     const adv = mockAdvancedPitchingMetrics(pi.name, k9Hint);
     const oppKPct = mockTeamKRate(pi.opp);
     const projK = projectStrikeouts(adv.kPct, oppKPct);

@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { PropCard, SectionIntro, GameFilter } from "./shared";
 import { getPitcherLogs } from "@/lib/dataAccess";
-import { projectStrikeouts, computeKLine, overProb, pct, wxPill } from "@/lib/projections";
+import { projectStrikeouts, computeKLine, overProb, pct, wxPill, pitcherK9 } from "@/lib/projections";
 import { mockAdvancedPitchingMetrics, mockTeamKRate } from "@/lib/mockGenerators";
 import { LEAGUE_AVG_K_PCT, BF_PER_9, START_IP_ASSUMPTION } from "@/lib/constants";
 import { useGameFilter } from "@/lib/hooks";
@@ -12,7 +12,7 @@ export function KTab() {
   const [cushionSort, setCushionSort] = useState("none"); // 'none' | 'desc' | 'asc'
 
   const enriched = filtered.map(pi => {
-    const k9Hint = (pi.k / pi.ip) * 9; // real, from last start -- seeds the mock advanced metrics
+    const k9Hint = pitcherK9(pi); // real, from last start -- seeds the mock advanced metrics
     const adv = mockAdvancedPitchingMetrics(pi.name, k9Hint);
     const oppKPct = mockTeamKRate(pi.opp);
     const projK = projectStrikeouts(adv.kPct, oppKPct);

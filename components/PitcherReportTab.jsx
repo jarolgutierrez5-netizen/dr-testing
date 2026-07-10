@@ -2,7 +2,7 @@
 import { useState, useMemo } from "react";
 import { Avatar, Pill, SectionIntro, GameFilter, ZoneGrid } from "./shared";
 import { getPitcherLogs, getPitcherSeasonStats, getInjuryStatus, getWeather, pitcherDataConfidence } from "@/lib/dataAccess";
-import { wxPill } from "@/lib/projections";
+import { wxPill, pitcherK9, pitcherWhip } from "@/lib/projections";
 import { mockPitcherArsenal, mockPitcherZoneAttack, mockLineup, mockTeamKRate } from "@/lib/mockGenerators";
 import { arsenalGrade, pitchOutcomeLabel, metricColorClass, batterPlatoonRead, METRIC_FORMAT, zoneHeatTone } from "@/lib/classification";
 import { LEAGUE_AVG_K_PCT } from "@/lib/constants";
@@ -51,6 +51,8 @@ function PitcherReportCard({ pi, onSelectPlayer }) {
           <Pill label="H" value={pi.h} />
           <Pill label="ER" value={pi.er} />
           <Pill label="ERA (start)" value={pi.era} tone={parseFloat(pi.era)<3 ? "green":"amber"} />
+          <Pill label="K/9 (start)" value={pitcherK9(pi).toFixed(1)} tone={pitcherK9(pi)>=10 ? "green" : pitcherK9(pi)<=7 ? "amber" : "slate"} />
+          <Pill label="WHIP (start)" value={pitcherWhip(pi).toFixed(2)} tone={pitcherWhip(pi)<=1.10 ? "green" : pitcherWhip(pi)>=1.40 ? "amber" : "slate"} />
           <Pill label="Pitches" value={pi.pitches} />
           <Pill label="Status" value={injury ? injury.status : "No report"} tone={injury ? injury.tone : "slate"} />
           <Pill label="Confidence" value={confidence.label} tone={confidence.tone} />
@@ -202,29 +204,84 @@ function PitcherReportCard({ pi, onSelectPlayer }) {
   );
 }
 
+// Sort keys use only fields every PITCHERS entry always has (last-start line, plus
+// the K/9 and WHIP derived from it) or the deterministic mock arsenal grade -- never
+// season stats, since those are missing for some pitchers (e.g. Gasser) and a sort
+// that silently drops or misorders someone on missing data would be worse than no
+// sort at all.
+const PITCHER_SORT_OPTIONS = [
+  { key: "none", label: "Sort: Grouped by Game" },
+  { key: "era-asc", label: "ERA: Best to Worst" },
+  { key: "k-desc", label: "Strikeouts: Most to Fewest" },
+  { key: "k9-desc", label: "K/9: Highest to Lowest" },
+  { key: "whip-asc", label: "WHIP: Best to Worst" },
+  { key: "bb-asc", label: "Walks: Fewest to Most" },
+  { key: "ip-desc", label: "Innings Pitched: Most to Fewest" },
+  { key: "grade-asc", label: "Arsenal Grade: Best to Worst" },
+];
+
+function sortPitchers(pitchers, sortKey) {
+  const sorted = [...pitchers];
+  switch (sortKey) {
+    case "era-asc": return sorted.sort((a, b) => parseFloat(a.era) - parseFloat(b.era));
+    case "k-desc": return sorted.sort((a, b) => b.k - a.k);
+    case "k9-desc": return sorted.sort((a, b) => pitcherK9(b) - pitcherK9(a));
+    case "whip-asc": return sorted.sort((a, b) => pitcherWhip(a) - pitcherWhip(b));
+    case "bb-asc": return sorted.sort((a, b) => a.bb - b.bb);
+    case "ip-desc": return sorted.sort((a, b) => b.ip - a.ip);
+    case "grade-asc": return sorted.sort((a, b) =>
+      arsenalGrade(mockPitcherArsenal(a.name)).localeCompare(arsenalGrade(mockPitcherArsenal(b.name))));
+    default: return pitchers;
+  }
+}
+
 export function PitcherReportTab({ onSelectPlayer }) {
   const { games, game, setGame, filtered } = useGameFilter(getPitcherLogs());
+  const [sortBy, setSortBy] = useState("none");
 
   // Groups starters by game so both sides of a matchup sit side by side. Some games
   // only have one tracked starter (no real last-start line for the other side yet) --
-  // that shows as a single card rather than inventing a second one.
+  // that shows as a single card rather than inventing a second one. Grouping only
+  // applies when no sort is active -- picking a stat to sort by flattens into one
+  // ranked list instead, since "side by side by game" and "ranked by stat" are two
+  // different views of the same data, not something to reconcile into one layout.
   const gameOrder = [...new Set(filtered.map(pi => pi.game))];
   const grouped = gameOrder.map(g => ({ game: g, pitchers: filtered.filter(pi => pi.game === g) }));
+  const sortedFlat = sortPitchers(filtered, sortBy);
 
   return (
     <div>
-      <SectionIntro emoji="🧢" label="Pitcher Report" note="Full last-start line, real season stats where confirmed, and a mock arsenal/command breakdown for projected starters. Starters are grouped by game, side by side." />
-      <GameFilter games={games} value={game} onChange={setGame} />
-      <div className="space-y-6">
-        {grouped.map(({ game: g, pitchers }) => (
-          <div key={g}>
-            <div className="font-body text-[10px] text-slate-500 uppercase tracking-wider mb-2">{g}</div>
-            <div className="grid sm:grid-cols-2 gap-4">
-              {pitchers.map((pi, i) => <PitcherReportCard key={i} pi={pi} onSelectPlayer={onSelectPlayer} />)}
-            </div>
-          </div>
-        ))}
+      <SectionIntro emoji="🧢" label="Pitcher Report" note="Full last-start line, real season stats where confirmed, and a mock arsenal/command breakdown for projected starters. Starters are grouped by game, side by side -- or sort by a stat to see them ranked." />
+      <div className="flex flex-wrap items-center gap-3">
+        <GameFilter games={games} value={game} onChange={setGame} />
+        <select
+          value={sortBy}
+          onChange={(e) => setSortBy(e.target.value)}
+          className="font-body text-[12px] border border-slate-500/25 text-slate-200 rounded-lg px-3 py-1.5 mb-5 focus:outline-none focus:border-emerald-400/50"
+          style={{ colorScheme: "dark", backgroundColor: "#000000", color: "#EDE6D3" }}
+        >
+          {PITCHER_SORT_OPTIONS.map(o => (
+            <option key={o.key} value={o.key} style={{ backgroundColor: "#000000", color: "#EDE6D3" }}>{o.label}</option>
+          ))}
+        </select>
       </div>
+
+      {sortBy === "none" ? (
+        <div className="space-y-6">
+          {grouped.map(({ game: g, pitchers }) => (
+            <div key={g}>
+              <div className="font-body text-[10px] text-slate-500 uppercase tracking-wider mb-2">{g}</div>
+              <div className="grid sm:grid-cols-2 gap-4">
+                {pitchers.map((pi, i) => <PitcherReportCard key={i} pi={pi} onSelectPlayer={onSelectPlayer} />)}
+              </div>
+            </div>
+          ))}
+        </div>
+      ) : (
+        <div className="grid sm:grid-cols-2 gap-4">
+          {sortedFlat.map((pi, i) => <PitcherReportCard key={i} pi={pi} onSelectPlayer={onSelectPlayer} />)}
+        </div>
+      )}
     </div>
   );
 }
