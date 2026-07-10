@@ -2,6 +2,10 @@
 import { useState } from "react";
 import { Sidebar } from "./Sidebar";
 import { LiveHeartbeat } from "./LiveHeartbeat";
+import { useLiveResource } from "@/lib/hooks";
+import { fetchStandingsClient } from "@/lib/apiFetchers";
+import { setLiveData } from "@/lib/liveStore";
+import { TTL } from "@/lib/ttl";
 import { GamesTodayTab } from "./GamesTodayTab";
 import { HrTab } from "./HrTab";
 import { HitsTab, RbiTab, TbTab, HrrbiTab } from "./GenericStatTab";
@@ -19,6 +23,15 @@ export default function DiamondLedger() {
   const [section, setSection] = useState("games");
   const [collapsed, setCollapsed] = useState(true);
   const [showTrackRecord, setShowTrackRecord] = useState(false);
+
+  // Hydrates lib/liveStore.js from /api/standings (real MLB Stats API data, TTL-cached
+  // server-side). Updating the store synchronously during render -- rather than in a
+  // useEffect -- means every getStandings/getTeam/getSlate call in this render pass
+  // (including in children rendered below) already sees the fresh data, instead of
+  // lagging one tick behind. Safe here because it's an idempotent overwrite of a plain
+  // module variable, not a state update that could trigger a render loop.
+  const { data: liveStandings } = useLiveResource("standings-hydrate", fetchStandingsClient, { intervalMs: TTL.standings });
+  if (liveStandings) setLiveData(liveStandings);
 
   const TABS = {
     games: <GamesTodayTab setSection={setSection} />, hits: <HitsTab />, hr: <HrTab />, rbi: <RbiTab />, tb: <TbTab />,
