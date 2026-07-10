@@ -3,7 +3,7 @@ import { useState } from "react";
 import { Lock } from "lucide-react";
 import { Avatar, TeamBadge, Pill, SectionIntro, FormBars } from "./shared";
 import { getSlate, getTeam, getStarter, getParkNote } from "@/lib/dataAccess";
-import { projectGame, simulateGame, minutesUntilFirstPitch, pct } from "@/lib/projections";
+import { projectGame, simulateGame, minutesUntilFirstPitch, formatGameTime, pct } from "@/lib/projections";
 import { platoonRead } from "@/lib/projections";
 import { CATEGORIES } from "@/data";
 import { LOCK_WINDOW_MINUTES } from "@/lib/constants";
@@ -53,7 +53,7 @@ export function GamesTodayTab({ setSection }) {
           const projHomeNum = 3.9*(0.4+homeWinProb), projAwayNum = 3.9*(0.4+(1-homeWinProb));
           const projHome = projHomeNum.toFixed(1), projAway = projAwayNum.toFixed(1);
           const isOpen = expanded === i;
-          const locked = minutesUntilFirstPitch(g.time) <= LOCK_WINDOW_MINUTES;
+          const locked = minutesUntilFirstPitch(g) <= LOCK_WINDOW_MINUTES;
           const sim = isOpen ? simulateGame(projAwayNum, projHomeNum, `${g.away}@${g.home}`) : null;
           return (
             <div key={i} style={{ background: "#111A2E" }}
@@ -66,7 +66,7 @@ export function GamesTodayTab({ setSection }) {
                   </div>
                   <div>
                     <div className="font-display text-base text-slate-50">{g.away} @ {g.home}</div>
-                    <div className="font-body text-[12px] text-slate-400">{away.w}-{away.l} vs {home.w}-{home.l} &middot; {g.time}</div>
+                    <div className="font-body text-[12px] text-slate-400">{away.w}-{away.l} vs {home.w}-{home.l} &middot; {formatGameTime(g)}</div>
                   </div>
                 </div>
                 {locked ? (
