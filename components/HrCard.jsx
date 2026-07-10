@@ -12,7 +12,11 @@ import { mockMatchupHistory, mockPitcherArsenal, mockBatterVsPitch, mockZoneProf
 // open from false to true, once -- it never forces the card shut, so a manual
 // collapse afterward isn't fought on the next render.
 export function HrCard({ p, isFavorite, onToggleFavorite, forceOpen, rootRef }) {
-  const [open, setOpen] = useState(false);
+  // Seeded directly from forceOpen (not set via an effect after mount) so the target
+  // card renders already-expanded on its very first paint, instead of flashing
+  // collapsed-then-open a tick later -- no window for a scroll-into-view to measure
+  // the wrong (collapsed) height.
+  const [open, setOpen] = useState(!!forceOpen);
   useEffect(() => { if (forceOpen) setOpen(true); }, [forceOpen]);
   const [tab, setTab] = useState("stats");
   const [statsYear, setStatsYear] = useState(2026);
