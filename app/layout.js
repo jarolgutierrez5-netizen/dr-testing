@@ -14,7 +14,7 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "Diamond Ledger — MLB Projections",
+  title: "Diamond Report — MLB Projections",
   description: "MLB prop projections dashboard",
 };
 

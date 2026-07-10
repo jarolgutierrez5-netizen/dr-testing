@@ -7,7 +7,7 @@ export function Sidebar({ sport, setSport, collapsed, setCollapsed, showTrackRec
   return (
     <div style={{ background: "#0D1526" }} className={`shrink-0 border-r border-slate-500/15 flex flex-col transition-all duration-200 ${collapsed ? "w-16" : "w-56"}`}>
       <div className={`flex items-center h-16 border-b border-slate-500/15 px-4 ${collapsed ? "justify-center" : "justify-between"}`}>
-        {!collapsed && <span className="font-display font-bold text-sm text-slate-50 tracking-wide">LEDGER</span>}
+        {!collapsed && <span className="font-display font-bold text-sm text-slate-50 tracking-wide">DIAMOND REPORT</span>}
         <button onClick={()=>setCollapsed(!collapsed)} className="text-slate-500 hover:text-emerald-300 transition-colors">
           {collapsed ? <ChevronsRight size={18} /> : <ChevronsLeft size={18} />}
         </button>

@@ -54,7 +54,7 @@ export default function DiamondLedger() {
         <div className="border-b border-slate-500/15">
           <div className="max-w-7xl mx-auto px-6 py-8">
             <div className="flex items-center justify-between font-body text-[11px] tracking-[0.2em] text-slate-500 mb-4">
-              <span>DIAMOND LEDGER &middot; PROP PROJECTIONS</span>
+              <span>DIAMOND REPORT &middot; PROP PROJECTIONS</span>
               <span className="flex items-center gap-4">
                 <LiveHeartbeat />
                 <span>SAMPLE SLATE: LAD vs COL</span>
