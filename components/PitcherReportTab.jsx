@@ -1,10 +1,10 @@
 "use client";
 import { useState, useMemo } from "react";
-import { Avatar, Pill, SectionIntro, GameFilter, ZoneGrid } from "./shared";
+import { Avatar, Pill, LabelBadge, SectionIntro, GameFilter, ZoneGrid } from "./shared";
 import { getPitcherLogs, getPitcherSeasonStats, getInjuryStatus, getWeather, pitcherDataConfidence } from "@/lib/dataAccess";
 import { wxPill, pitcherK9, pitcherWhip } from "@/lib/projections";
-import { mockPitcherArsenal, mockPitcherZoneAttack, mockLineup, mockTeamKRate } from "@/lib/mockGenerators";
-import { arsenalGrade, pitchOutcomeLabel, metricColorClass, batterPlatoonRead, METRIC_FORMAT, zoneHeatTone } from "@/lib/classification";
+import { mockPitcherArsenal, mockPitcherZoneAttack, mockLineup, mockTeamKRate, mockPitcherHr9 } from "@/lib/mockGenerators";
+import { arsenalGrade, pitchOutcomeLabel, metricColorClass, batterPlatoonRead, METRIC_FORMAT, zoneHeatTone, classifyPitcherHr9, PITCHER_HR9_LABELS } from "@/lib/classification";
 import { LEAGUE_AVG_K_PCT } from "@/lib/constants";
 import { useGameFilter } from "@/lib/hooks";
 
@@ -14,6 +14,11 @@ function PitcherReportCard({ pi, onSelectPlayer }) {
   const seasonStats = getPitcherSeasonStats(pi.name);
   const confidence = pitcherDataConfidence(pi.name);
   const injury = getInjuryStatus(pi.name); // no pitcher injury feed yet -- always "No report" for now, honestly
+  // MOCK DATA -- no home-runs-allowed field exists anywhere in the pitcher data, so
+  // unlike K/9 and WHIP (real, derived from the last-start line) this can't be a real
+  // stat. Deterministically correlated with the pitcher's real ERA instead.
+  const hr9 = mockPitcherHr9(pi.name, parseFloat(pi.era));
+  const hr9Label = classifyPitcherHr9(hr9);
 
   // Deterministic given (pitcher, opponent) -- memoized so switching Season/Arsenal/
   // Command/Lineup tabs doesn't regenerate all four every time.
@@ -53,6 +58,8 @@ function PitcherReportCard({ pi, onSelectPlayer }) {
           <Pill label="ERA (start)" value={pi.era} tone={parseFloat(pi.era)<3 ? "green":"amber"} />
           <Pill label="K/9 (start)" value={pitcherK9(pi).toFixed(1)} tone={pitcherK9(pi)>=10 ? "green" : pitcherK9(pi)<=7 ? "amber" : "slate"} />
           <Pill label="WHIP (start)" value={pitcherWhip(pi).toFixed(2)} tone={pitcherWhip(pi)<=1.10 ? "green" : pitcherWhip(pi)>=1.40 ? "amber" : "slate"} />
+          <Pill label="HR/9 (mock)" value={hr9.toFixed(2)} tone={hr9Label.tone} />
+          <LabelBadge text={hr9Label.text} tone={hr9Label.tone} />
           <Pill label="Pitches" value={pi.pitches} />
           <Pill label="Status" value={injury ? injury.status : "No report"} tone={injury ? injury.tone : "slate"} />
           <Pill label="Confidence" value={confidence.label} tone={confidence.tone} />
@@ -218,6 +225,7 @@ const PITCHER_SORT_OPTIONS = [
   { key: "bb-asc", label: "Walks: Fewest to Most" },
   { key: "ip-desc", label: "Innings Pitched: Most to Fewest" },
   { key: "grade-asc", label: "Arsenal Grade: Best to Worst" },
+  { key: "hr9-asc", label: "HR/9 (mock): Lowest to Highest" },
 ];
 
 function sortPitchers(pitchers, sortKey) {
@@ -231,6 +239,8 @@ function sortPitchers(pitchers, sortKey) {
     case "ip-desc": return sorted.sort((a, b) => b.ip - a.ip);
     case "grade-asc": return sorted.sort((a, b) =>
       arsenalGrade(mockPitcherArsenal(a.name)).localeCompare(arsenalGrade(mockPitcherArsenal(b.name))));
+    case "hr9-asc": return sorted.sort((a, b) =>
+      mockPitcherHr9(a.name, parseFloat(a.era)) - mockPitcherHr9(b.name, parseFloat(b.era)));
     default: return pitchers;
   }
 }
@@ -238,6 +248,21 @@ function sortPitchers(pitchers, sortKey) {
 export function PitcherReportTab({ onSelectPlayer }) {
   const { games, game, setGame, filtered } = useGameFilter(getPitcherLogs());
   const [sortBy, setSortBy] = useState("none");
+  const [activeHr9Labels, setActiveHr9Labels] = useState(new Set());
+
+  const toggleHr9Label = (key) => {
+    setActiveHr9Labels(prev => {
+      const next = new Set(prev);
+      next.has(key) ? next.delete(key) : next.add(key);
+      return next;
+    });
+  };
+
+  // HR/9 tier filter (mock -- see classifyPitcherHr9) narrows the visible set;
+  // separate from sortBy, which only reorders it.
+  const hr9Filtered = activeHr9Labels.size === 0
+    ? filtered
+    : filtered.filter(pi => activeHr9Labels.has(classifyPitcherHr9(mockPitcherHr9(pi.name, parseFloat(pi.era))).key));
 
   // Groups starters by game so both sides of a matchup sit side by side. Some games
   // only have one tracked starter (no real last-start line for the other side yet) --
@@ -245,9 +270,9 @@ export function PitcherReportTab({ onSelectPlayer }) {
   // applies when no sort is active -- picking a stat to sort by flattens into one
   // ranked list instead, since "side by side by game" and "ranked by stat" are two
   // different views of the same data, not something to reconcile into one layout.
-  const gameOrder = [...new Set(filtered.map(pi => pi.game))];
-  const grouped = gameOrder.map(g => ({ game: g, pitchers: filtered.filter(pi => pi.game === g) }));
-  const sortedFlat = sortPitchers(filtered, sortBy);
+  const gameOrder = [...new Set(hr9Filtered.map(pi => pi.game))];
+  const grouped = gameOrder.map(g => ({ game: g, pitchers: hr9Filtered.filter(pi => pi.game === g) }));
+  const sortedFlat = sortPitchers(hr9Filtered, sortBy);
 
   return (
     <div>
@@ -264,6 +289,23 @@ export function PitcherReportTab({ onSelectPlayer }) {
             <option key={o.key} value={o.key} style={{ backgroundColor: "#000000", color: "#EDE6D3" }}>{o.label}</option>
           ))}
         </select>
+      </div>
+
+      <div className="flex flex-wrap items-center gap-2 mb-5">
+        <span className="font-body text-[10px] text-slate-500 uppercase tracking-wider mr-1">HR/9 (mock):</span>
+        {PITCHER_HR9_LABELS.map(l => (
+          <button key={l.key} onClick={() => toggleHr9Label(l.key)}
+            className={`font-body text-[11px] px-3 py-1.5 rounded-full border transition-colors ${
+              activeHr9Labels.has(l.key) ? "border-emerald-400/50 bg-emerald-400/10 text-emerald-300" : "border-slate-500/25 text-slate-400 hover:border-slate-400/40"
+            }`}>
+            {l.text}
+          </button>
+        ))}
+        {activeHr9Labels.size > 0 && (
+          <button onClick={() => setActiveHr9Labels(new Set())} className="font-body text-[11px] px-3 py-1.5 text-slate-500 hover:text-slate-300">
+            Clear
+          </button>
+        )}
       </div>
 
       {sortBy === "none" ? (
