@@ -14,8 +14,8 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "Diamond Report — MLB Projections",
-  description: "MLB prop projections dashboard",
+  title: "HR Model — Home Run Projections",
+  description: "Poisson-based home run probability model",
 };
 
 export default function RootLayout({ children }) {
