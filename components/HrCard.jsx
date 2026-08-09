@@ -13,7 +13,7 @@ export function HrCard({ batter, projection }) {
           <Avatar name={batter.name} hue={recentHr > 0 ? 25 : 200} />
           <div>
             <div className="font-display text-lg text-slate-50 leading-tight">{batter.name}</div>
-            <div className="font-body text-[13px] text-slate-400">{batter.team} · {batter.pos}</div>
+            <div className="font-body text-[13px] text-slate-400">{batter.team} · {batter.pos} · Bats {batter.battingOrder}th</div>
           </div>
         </div>
         <div className="text-right shrink-0">
