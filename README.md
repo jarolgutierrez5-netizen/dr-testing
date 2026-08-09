@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# HR Model
 
-## Getting Started
+A minimal [Next.js](https://nextjs.org) app around a single feature: projecting a
+batter's probability of hitting a home run in his next game.
 
-First, run the development server:
+## The model
+
+`lib/hrModel.js` treats a game's HR count as Poisson-distributed, so
+`P(HR >= 1) = 1 - e^-lambda`. The expected value `lambda` blends two signals:
+
+- **Recent form** — HR rate per at-bat over the last few games, scaled to an
+  expected at-bat count for a full game.
+- **Season pace** — HR total divided by games played this season.
+
+Recent form reacts fast but is noisy over a handful of games; season pace is
+stable but slow to reflect a real hot/cold shift. Blending both (weighted
+60% season / 40% recent) keeps a short heater from overwhelming a full
+season of evidence, and vice versa. A batter who already homered recently is
+labeled "On Fire" outright — that's the strongest signal available and skips
+straight to the top of the model's read.
+
+Batter data lives in `data/batters.js` (mock data for now — `recentGames`
+and `seasonHr`/`seasonGames` per player).
+
+## Getting started
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Open [http://localhost:3000](http://localhost:3000) to see the projections,
+sorted by HR probability.
