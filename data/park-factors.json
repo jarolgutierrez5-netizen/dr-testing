@@ -1,0 +1,156 @@
+{
+  "generatedAt": "2026-08-10T14:55:06.735Z",
+  "season": 2026,
+  "teams": {
+    "108": {
+      "name": "Angel Stadium",
+      "hrIndex": 73,
+      "wobaIndex": 92
+    },
+    "109": {
+      "name": "Chase Field",
+      "hrIndex": 94,
+      "wobaIndex": 100
+    },
+    "110": {
+      "name": "Oriole Park at Camden Yards",
+      "hrIndex": 106,
+      "wobaIndex": 101
+    },
+    "111": {
+      "name": "Fenway Park",
+      "hrIndex": 80,
+      "wobaIndex": 101
+    },
+    "112": {
+      "name": "Wrigley Field",
+      "hrIndex": 113,
+      "wobaIndex": 101
+    },
+    "113": {
+      "name": "Great American Ball Park",
+      "hrIndex": 114,
+      "wobaIndex": 99
+    },
+    "114": {
+      "name": "Progressive Field",
+      "hrIndex": 87,
+      "wobaIndex": 101
+    },
+    "115": {
+      "name": "Coors Field",
+      "hrIndex": 112,
+      "wobaIndex": 109
+    },
+    "116": {
+      "name": "Comerica Park",
+      "hrIndex": 92,
+      "wobaIndex": 97
+    },
+    "117": {
+      "name": "Daikin Park",
+      "hrIndex": 116,
+      "wobaIndex": 99
+    },
+    "118": {
+      "name": "Kauffman Stadium",
+      "hrIndex": 100,
+      "wobaIndex": 105
+    },
+    "119": {
+      "name": "UNIQLO Field at Dodger Stadium",
+      "hrIndex": 114,
+      "wobaIndex": 97
+    },
+    "120": {
+      "name": "Nationals Park",
+      "hrIndex": 128,
+      "wobaIndex": 108
+    },
+    "121": {
+      "name": "Citi Field",
+      "hrIndex": 89,
+      "wobaIndex": 97
+    },
+    "133": {
+      "name": "Sutter Health Park",
+      "hrIndex": 125,
+      "wobaIndex": 113
+    },
+    "134": {
+      "name": "PNC Park",
+      "hrIndex": 93,
+      "wobaIndex": 104
+    },
+    "135": {
+      "name": "Petco Park",
+      "hrIndex": 86,
+      "wobaIndex": 95
+    },
+    "136": {
+      "name": "T-Mobile Park",
+      "hrIndex": 108,
+      "wobaIndex": 94
+    },
+    "137": {
+      "name": "Oracle Park",
+      "hrIndex": 74,
+      "wobaIndex": 95
+    },
+    "138": {
+      "name": "Busch Stadium",
+      "hrIndex": 67,
+      "wobaIndex": 96
+    },
+    "139": {
+      "name": "Tropicana Field",
+      "hrIndex": 115,
+      "wobaIndex": 99
+    },
+    "140": {
+      "name": "Globe Life Field",
+      "hrIndex": 102,
+      "wobaIndex": 97
+    },
+    "141": {
+      "name": "Rogers Centre",
+      "hrIndex": 102,
+      "wobaIndex": 99
+    },
+    "142": {
+      "name": "Target Field",
+      "hrIndex": 85,
+      "wobaIndex": 98
+    },
+    "143": {
+      "name": "Citizens Bank Park",
+      "hrIndex": 110,
+      "wobaIndex": 103
+    },
+    "144": {
+      "name": "Truist Park",
+      "hrIndex": 103,
+      "wobaIndex": 100
+    },
+    "145": {
+      "name": "Rate Field",
+      "hrIndex": 93,
+      "wobaIndex": 97
+    },
+    "146": {
+      "name": "loanDepot park",
+      "hrIndex": 76,
+      "wobaIndex": 96
+    },
+    "147": {
+      "name": "Yankee Stadium",
+      "hrIndex": 126,
+      "wobaIndex": 102
+    },
+    "158": {
+      "name": "American Family Field",
+      "hrIndex": 97,
+      "wobaIndex": 97
+    }
+  }
+}

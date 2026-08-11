@@ -1,0 +1,23 @@
+{
+  "updatedAt": "2026-08-10T12:05:51.764Z",
+  "events": [
+    {
+      "id": "401873271",
+      "date": "2026-08-07T00:00Z",
+      "name": "Carolina Panthers at Arizona Cardinals",
+      "shortName": "CAR VS ARI",
+      "status": "STATUS_FINAL",
+      "completed": true,
+      "home": {
+        "teamId": "22",
+        "abbreviation": "ARI",
+        "score": "30"
+      },
+      "away": {
+        "teamId": "29",
+        "abbreviation": "CAR",
+        "score": "33"
+      }
+    }
+  ]
+}

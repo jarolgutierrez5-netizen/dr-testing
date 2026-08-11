@@ -1,0 +1,74 @@
+name: Generate Season Projections (World Series & MVP odds)
+
+on:
+  # --- schedule trigger disabled on import into this repo (no secrets configured
+  # yet for the external syncs) -- uncomment to re-enable automatic runs. Still
+  # runnable manually via workflow_dispatch below in the meantime. ---
+  # schedule:
+  #   # 12:11 UTC = ~7am CDT — before both the Statcast sync (13:04 UTC) and the tracker
+  #   # update (14:07 UTC), so News Central has same-day-fresh standings/leaders-based
+  #   # odds. Standings and season leaders move slowly (once a day is plenty — unlike
+  #   # lineups or live scores), so a single daily run is sufficient. Offset off the top
+  #   # of the hour on purpose — see the comment in update-tracker.yml for why.
+  #   - cron: '11 12 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: generate-projections
+  cancel-in-progress: false
+
+jobs:
+  generate-projections:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Run season projections generator
+        run: node scripts/generate-season-projections.mjs
+
+      - name: Commit and push if changed
+        run: |
+          # Stage first, then diff the index against HEAD — git diff --quiet alone
+          # misses a brand-new untracked file, which is exactly what this file is on
+          # the very first run.
+          git add data/season-projections.json
+          if git diff --cached --quiet; then
+            echo "No changes to season-projections.json — nothing to commit."
+            exit 0
+          fi
+          git config user.name "diamond-report-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git commit -m "Update season projections: World Series and MVP odds"
+
+          # This runs at 12:11 UTC, ~2 hours before update-tracker.yml's own 14:07 UTC
+          # morning pass, but every scheduled workflow in this repo pushes to the same
+          # main and this one's concurrency group only serializes it against itself --
+          # see update-tracker.yml's own push step (run 31262562751, 2026-08-08) for a
+          # confirmed live instance of this exact race on a sibling workflow. Same
+          # retry+rebase loop as that fix and sync-statcast.yml's original one; -X theirs
+          # is safe here since season-projections.json is unique to this workflow, so a
+          # rebase onto a newer main is a no-op replay, never a real conflict.
+          for attempt in 1 2 3 4 5; do
+            if git push; then
+              exit 0
+            fi
+            echo "Push rejected (attempt $attempt/5) — main moved during this run. Fetching and rebasing..."
+            git fetch origin main
+            if ! git rebase -X theirs origin/main; then
+              echo "::error::Rebase onto origin/main failed even preferring our own side — aborting. This run's data was NOT pushed."
+              git rebase --abort
+              exit 1
+            fi
+            sleep 5
+          done
+          echo "::error::Push still rejected after 5 attempts."
+          exit 1

@@ -1,0 +1,354 @@
+{
+  "date": "2026-08-10",
+  "generatedAt": "2026-08-10T21:01:33.434Z",
+  "players": [
+    {
+      "playerId": 691740,
+      "name": "Daniel Susac",
+      "type": "batter",
+      "trendLabel": "Hot Streak",
+      "trendMetric": "HR pace vs season rate (last 10 games)",
+      "trendPct": 200,
+      "trendPctCapped": true,
+      "visual": {
+        "type": "spray",
+        "label": "Susac Home Runs",
+        "dots": [
+          {
+            "xFt": -247.5,
+            "yFt": 331,
+            "distance": 406
+          },
+          {
+            "xFt": -37.4,
+            "yFt": 412,
+            "distance": 411
+          },
+          {
+            "xFt": -142.3,
+            "yFt": 352.6,
+            "distance": 379
+          },
+          {
+            "xFt": -180.6,
+            "yFt": 348.2,
+            "distance": 0
+          },
+          {
+            "xFt": 115.3,
+            "yFt": 409.9,
+            "distance": 422
+          }
+        ]
+      }
+    },
+    {
+      "playerId": 665487,
+      "name": "Fernando Tatis Jr.",
+      "type": "batter",
+      "trendLabel": "Hot Streak",
+      "trendMetric": "HR pace vs season rate (last 10 games)",
+      "trendPct": 200,
+      "trendPctCapped": true,
+      "visual": {
+        "type": "spray",
+        "label": "Jr. Home Runs",
+        "dots": [
+          {
+            "xFt": -235.5,
+            "yFt": 355.2,
+            "distance": 421
+          },
+          {
+            "xFt": -270.9,
+            "yFt": 300.9,
+            "distance": 400
+          },
+          {
+            "xFt": -99.5,
+            "yFt": 459.2,
+            "distance": 465
+          },
+          {
+            "xFt": -147.2,
+            "yFt": 432.8,
+            "distance": 474
+          },
+          {
+            "xFt": -224.5,
+            "yFt": 337,
+            "distance": 401
+          },
+          {
+            "xFt": -188.8,
+            "yFt": 369.5,
+            "distance": 411
+          },
+          {
+            "xFt": 156.1,
+            "yFt": 338.2,
+            "distance": 370
+          },
+          {
+            "xFt": -227.3,
+            "yFt": 365,
+            "distance": 425
+          },
+          {
+            "xFt": 55.8,
+            "yFt": 428.1,
+            "distance": 410
+          },
+          {
+            "xFt": -190.3,
+            "yFt": 300.2,
+            "distance": 360
+          },
+          {
+            "xFt": -238.1,
+            "yFt": 390,
+            "distance": 451
+          }
+        ]
+      }
+    },
+    {
+      "playerId": 807712,
+      "name": "Luke Keaschall",
+      "type": "batter",
+      "trendLabel": "Hot Streak",
+      "trendMetric": "HR pace vs season rate (last 10 games)",
+      "trendPct": 200,
+      "trendPctCapped": true,
+      "visual": {
+        "type": "spray",
+        "label": "Keaschall Home Runs",
+        "dots": [
+          {
+            "xFt": 177.4,
+            "yFt": 332.2,
+            "distance": 373
+          },
+          {
+            "xFt": -188,
+            "yFt": 338.8,
+            "distance": 385
+          },
+          {
+            "xFt": 173.1,
+            "yFt": 328.7,
+            "distance": 368
+          },
+          {
+            "xFt": -189.9,
+            "yFt": 323.1,
+            "distance": 373
+          },
+          {
+            "xFt": -274.9,
+            "yFt": 256.3,
+            "distance": 371
+          },
+          {
+            "xFt": -220.6,
+            "yFt": 296.8,
+            "distance": 367
+          },
+          {
+            "xFt": -256.1,
+            "yFt": 278.3,
+            "distance": 374
+          },
+          {
+            "xFt": -206.3,
+            "yFt": 322.3,
+            "distance": 380
+          },
+          {
+            "xFt": -199.2,
+            "yFt": 345.4,
+            "distance": 395
+          }
+        ]
+      }
+    },
+    {
+      "playerId": 682052,
+      "name": "Jacob Lopez",
+      "type": "pitcher",
+      "trendLabel": "Trending Up",
+      "trendMetric": "Whiff rate vs season rate (last 3 starts)",
+      "trendPct": 7,
+      "visual": {
+        "type": "whiff",
+        "label": "Lopez Whiffs",
+        "dots": [
+          {
+            "plateX": -0.29,
+            "plateZ": 1.91,
+            "pitchName": "Slider"
+          },
+          {
+            "plateX": 0.8,
+            "plateZ": 3.62,
+            "pitchName": "Cutter"
+          },
+          {
+            "plateX": 0.79,
+            "plateZ": 2.37,
+            "pitchName": "4-Seam Fastball"
+          },
+          {
+            "plateX": -0.18,
+            "plateZ": 3.71,
+            "pitchName": "Cutter"
+          },
+          {
+            "plateX": -0.78,
+            "plateZ": 1.85,
+            "pitchName": "Slider"
+          },
+          {
+            "plateX": 0.42,
+            "plateZ": 3.33,
+            "pitchName": "Cutter"
+          },
+          {
+            "plateX": 0.03,
+            "plateZ": 1.82,
+            "pitchName": "Changeup"
+          },
+          {
+            "plateX": -0.61,
+            "plateZ": 1.97,
+            "pitchName": "Slider"
+          },
+          {
+            "plateX": -0.66,
+            "plateZ": 2.55,
+            "pitchName": "Cutter"
+          },
+          {
+            "plateX": 0.84,
+            "plateZ": 2.92,
+            "pitchName": "Cutter"
+          },
+          {
+            "plateX": 0.77,
+            "plateZ": 2.47,
+            "pitchName": "Cutter"
+          },
+          {
+            "plateX": -1.47,
+            "plateZ": 1.98,
+            "pitchName": "Slider"
+          },
+          {
+            "plateX": 0.41,
+            "plateZ": 3.11,
+            "pitchName": "4-Seam Fastball"
+          },
+          {
+            "plateX": 0.33,
+            "plateZ": 2.71,
+            "pitchName": "4-Seam Fastball"
+          },
+          {
+            "plateX": 0.84,
+            "plateZ": 3.23,
+            "pitchName": "4-Seam Fastball"
+          }
+        ]
+      }
+    },
+    {
+      "playerId": 702070,
+      "name": "Noah Cameron",
+      "type": "pitcher",
+      "trendLabel": "Trending Up",
+      "trendMetric": "Whiff rate vs season rate (last 3 starts)",
+      "trendPct": 5,
+      "visual": {
+        "type": "whiff",
+        "label": "Cameron Whiffs",
+        "dots": [
+          {
+            "plateX": -0.73,
+            "plateZ": 0.54,
+            "pitchName": "Slider"
+          },
+          {
+            "plateX": 0.52,
+            "plateZ": 2.43,
+            "pitchName": "4-Seam Fastball"
+          },
+          {
+            "plateX": 0.64,
+            "plateZ": 1.87,
+            "pitchName": "Changeup"
+          },
+          {
+            "plateX": -0.77,
+            "plateZ": 1.6,
+            "pitchName": "Curveball"
+          },
+          {
+            "plateX": -0.94,
+            "plateZ": 1.75,
+            "pitchName": "Slider"
+          },
+          {
+            "plateX": -0.65,
+            "plateZ": 1.94,
+            "pitchName": "Slider"
+          },
+          {
+            "plateX": -0.92,
+            "plateZ": 1.4,
+            "pitchName": "Slider"
+          },
+          {
+            "plateX": -0.9,
+            "plateZ": 1.91,
+            "pitchName": "Curveball"
+          },
+          {
+            "plateX": -0.86,
+            "plateZ": 1.11,
+            "pitchName": "Slider"
+          },
+          {
+            "plateX": 0.21,
+            "plateZ": 1.8,
+            "pitchName": "Changeup"
+          },
+          {
+            "plateX": -0.82,
+            "plateZ": 3.39,
+            "pitchName": "Cutter"
+          },
+          {
+            "plateX": 0.93,
+            "plateZ": 2.48,
+            "pitchName": "Changeup"
+          },
+          {
+            "plateX": 0.05,
+            "plateZ": 3.82,
+            "pitchName": "4-Seam Fastball"
+          },
+          {
+            "plateX": -0.3,
+            "plateZ": 1.03,
+            "pitchName": "Curveball"
+          },
+          {
+            "plateX": -0.66,
+            "plateZ": 3.29,
+            "pitchName": "Slider"
+          }
+        ]
+      }
+    }
+  ]
+}
