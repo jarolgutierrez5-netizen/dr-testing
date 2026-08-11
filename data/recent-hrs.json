@@ -1,0 +1,3196 @@
+{
+  "generatedAt": "2026-08-10T15:38:20.209Z",
+  "windowStart": "2026-07-17",
+  "windowEnd": "2026-08-10",
+  "players": {
+    "502671": [],
+    "514888": [
+      {
+        "date": "2026-08-05",
+        "distance": 401,
+        "exitVelo": 107,
+        "launchAngle": 30,
+        "event": "home_run",
+        "description": "Jose Altuve homers (13) on a fly ball to left field.",
+        "matchup": "TOR @ HOU",
+        "videoUrl": "https://sporty-clips.mlb.com/UHY2OVdfWGw0TUFRPT1fQmdCVkFBSURWVllBQ1ZWUkFnQUhCd1pVQUZrRlZnTUFVd01OVXdCWFVsSmRVUXRm.mp4"
+      }
+    ],
+    "518692": [],
+    "521692": [
+      {
+        "date": "2026-08-01",
+        "distance": 425,
+        "exitVelo": 104.2,
+        "launchAngle": 33,
+        "event": "home_run",
+        "description": "Salvador Perez homers (16) on a fly ball to center field.",
+        "matchup": "KC @ COL",
+        "videoUrl": "https://sporty-clips.mlb.com/TDY1a05fWGw0TUFRPT1fQndVQ1UxQUNVUW9BQzFRQUFBQUhBdzlVQUZrQUJ3QUFWMUVBQXdNQUNGRlVCZ1FI.mp4"
+      }
+    ],
+    "542303": [],
+    "543760": [
+      {
+        "date": "2026-08-07",
+        "distance": 399,
+        "exitVelo": 101.1,
+        "launchAngle": 27,
+        "event": "home_run",
+        "description": "Marcus Semien homers (14) on a fly ball to left center field. Carson Benge scores. Jared Young scores.",
+        "matchup": "NYM @ PIT",
+        "videoUrl": "https://sporty-clips.mlb.com/WERaYmpfWGw0TUFRPT1fQVFoWFZBRlFWbGNBWEZJQlhnQUhWRlZlQUZrRFVGTUFWMVFHVVFVQ0FnTlZCZ3NE.mp4"
+      },
+      {
+        "date": "2026-08-06",
+        "distance": 392,
+        "exitVelo": 96.3,
+        "launchAngle": 34,
+        "event": "home_run",
+        "description": "Marcus Semien homers (13) on a fly ball to left center field.",
+        "matchup": "NYM @ CLE",
+        "videoUrl": "https://sporty-clips.mlb.com/M3k2Z3ZfWGw0TUFRPT1fRHdCVUIxTlNWd1VBRGxVQkJ3QUhCVmRSQUZoVFVnUUFWbElBVWd0UVV3WUJDRk1D.mp4"
+      }
+    ],
+    "543807": [
+      {
+        "date": "2026-07-28",
+        "distance": 437,
+        "exitVelo": 105.8,
+        "launchAngle": 26,
+        "event": "home_run",
+        "description": "George Springer homers (12) on a fly ball to center field. Nathan Lukes scores. Kazuma Okamoto scores.",
+        "matchup": "TOR @ WSH",
+        "videoUrl": "https://sporty-clips.mlb.com/QndEV3JfWGw0TUFRPT1fRHdkWVUxRldYd1VBQ0ZvTFZRQUhDQVpUQUZnREFnSUFBZ0VDQ1ZVR1VBRlRVMWNF.mp4"
+      }
+    ],
+    "545121": [],
+    "545361": [
+      {
+        "date": "2026-08-07",
+        "distance": 400,
+        "exitVelo": 105.1,
+        "launchAngle": 25,
+        "event": "home_run",
+        "description": "Mike Trout homers (19) on a fly ball to right center field.",
+        "matchup": "LAA @ MIA",
+        "videoUrl": "https://sporty-clips.mlb.com/RDFkOHFfWGw0TUFRPT1fQkZVREIxWUFVMUVBV2xVQUJRQUhWQTlVQUFBTlVWUUFCZ0ZXVkZVQUNGRUVWZ3Rl.mp4"
+      }
+    ],
+    "547180": [
+      {
+        "date": "2026-08-08",
+        "distance": 399,
+        "exitVelo": 106.7,
+        "launchAngle": 23,
+        "event": "home_run",
+        "description": "Bryce Harper homers (25) on a fly ball to right center field.",
+        "matchup": "TOR @ PHI",
+        "videoUrl": "https://sporty-clips.mlb.com/TDY1OXhfWGw0TUFRPT1fRGdSV1VWUUVVQUlBWEZNQ1VBQUhDVmRUQUZoWFZnVUFDbFZRVVFZSFZRdFJVVkJX.mp4"
+      },
+      {
+        "date": "2026-08-03",
+        "distance": 433,
+        "exitVelo": 112.6,
+        "launchAngle": 22,
+        "event": "home_run",
+        "description": "Bryce Harper homers (24) on a fly ball to center field. Justin Crawford scores.",
+        "matchup": "WSH @ PHI",
+        "videoUrl": "https://sporty-clips.mlb.com/QXc3UlFfWGw0TUFRPT1fQVZKVlZWMENWUVFBQUFOUlZnQUhWQVZXQUZoWFZsUUFVMWRVVWxKUkJRb0VDQVVI.mp4"
+      },
+      {
+        "date": "2026-08-02",
+        "distance": 419,
+        "exitVelo": 100.9,
+        "launchAngle": 27,
+        "event": "home_run",
+        "description": "Bryce Harper homers (23) on a fly ball to right center field.",
+        "matchup": "PHI @ BAL",
+        "videoUrl": "https://sporty-clips.mlb.com/NHl6MkJfWGw0TUFRPT1fVndRSEFsMEJYbEVBQVZaVVZnQUhBdzlXQUFBREJsQUFCRmNOQXdzRkNWQlZWZ0Zl.mp4"
+      }
+    ],
+    "553993": [
+      {
+        "date": "2026-08-08",
+        "distance": 415,
+        "exitVelo": 105.4,
+        "launchAngle": 22,
+        "event": "home_run",
+        "description": "Eugenio Suárez homers (16) on a fly ball to left center field. Sal Stewart scores.",
+        "matchup": "CIN @ WSH",
+        "videoUrl": "https://sporty-clips.mlb.com/M3k3MURfWGw0TUFRPT1fVWdCWlZRY0dCd1VBQ2x0UVZRQUhBQUlDQUZoV0FRTUFCRkFGQ1FFR1VsQUhBRkZm.mp4"
+      },
+      {
+        "date": "2026-08-07",
+        "distance": 422,
+        "exitVelo": 104.1,
+        "launchAngle": 25,
+        "event": "home_run",
+        "description": "Eugenio Suárez homers (15) on a fly ball to left center field.",
+        "matchup": "CIN @ WSH",
+        "videoUrl": "https://sporty-clips.mlb.com/TUFETDFfWGw0TUFRPT1fQjFOVlZWMERVd0FBV2dRREJ3QUhVRmRlQUZnRlVGRUFCMUZRQVFJQ0NRWlJDRmNF.mp4"
+      }
+    ],
+    "571448": [
+      {
+        "date": "2026-08-07",
+        "distance": 370,
+        "exitVelo": 95.8,
+        "launchAngle": 28,
+        "event": "home_run",
+        "description": "Nolan Arenado homers (17) on a fly ball to left field.",
+        "matchup": "LAD @ AZ",
+        "videoUrl": "https://sporty-clips.mlb.com/NHl6T09fWGw0TUFRPT1fRGdZRFZnY05CMVlBQzFaWFZRQUhVZ1pRQUFOV1cxQUFDZ0JYQVFCVEFnSlJDQWRW.mp4"
+      },
+      {
+        "date": "2026-08-04",
+        "distance": 400,
+        "exitVelo": 102,
+        "launchAngle": 29,
+        "event": "home_run",
+        "description": "Nolan Arenado homers (16) on a fly ball to left center field. Jorge Barrosa scores.",
+        "matchup": "SD @ AZ",
+        "videoUrl": "https://sporty-clips.mlb.com/OTdWT0FfWGw0TUFRPT1fQkFZQ1hGTU1WZ01BV1ZBQUFBQUhDRk5RQUFNQVVWZ0FCbEVGQ0FNQkJGY0dVd29G.mp4"
+      },
+      {
+        "date": "2026-08-01",
+        "distance": 388,
+        "exitVelo": 104.7,
+        "launchAngle": 31,
+        "event": "home_run",
+        "description": "Nolan Arenado homers (15) on a fly ball to left field.",
+        "matchup": "AZ @ CLE",
+        "videoUrl": "https://sporty-clips.mlb.com/WERaQWpfV0ZRVkV3dEdEUT09X1V3TUNBZ1VCVkFBQVhsWUZWQUFIQ0FaZkFGaFJWRmNBVkZRRENRUUJDQUZRQXdNRQ&#x3D;&#x3D;.mp4"
+      }
+    ],
+    "571970": [
+      {
+        "date": "2026-08-05",
+        "distance": 413,
+        "exitVelo": 106.3,
+        "launchAngle": 43,
+        "event": "home_run",
+        "description": "Max Muncy homers (22) on a fly ball to right center field. Kyle Tucker scores. Mookie Betts scores.",
+        "matchup": "LAD @ CHC",
+        "videoUrl": "https://sporty-clips.mlb.com/WU9WamdfWGw0TUFRPT1fVkZVRFVBVUFVUVFBREFRR1V3QUhDUWRUQUZsV1YxZ0FBMUVIQlZkWFVnVUdBQUFE.mp4"
+      }
+    ],
+    "572233": [
+      {
+        "date": "2026-07-31",
+        "distance": 428,
+        "exitVelo": 110.1,
+        "launchAngle": 23,
+        "event": "home_run",
+        "description": "Christian Walker homers (22) on a fly ball to left center field.",
+        "matchup": "TEX @ HOU",
+        "videoUrl": "https://sporty-clips.mlb.com/bmJ3YXZfV0ZRVkV3dEdEUT09X0JBY0hWd0ZTVlFNQVdWQlFBQUFIQVFKU0FBTlRBRkFBVUZ3Q0JWWlhBQU1HQXdGZQ&#x3D;&#x3D;.mp4"
+      }
+    ],
+    "573262": [
+      {
+        "date": "2026-08-02",
+        "distance": 403,
+        "exitVelo": 102.4,
+        "launchAngle": 24,
+        "event": "home_run",
+        "description": "Mike Yastrzemski homers (8) on a fly ball to right center field.",
+        "matchup": "WSH @ ATL",
+        "videoUrl": "https://sporty-clips.mlb.com/QndMbGRfWGw0TUFRPT1fQUFRQ0FGQlJCQUFBV3dBQlZ3QUhVRmRlQUFBSEJRUUFDZ1lBQUFJTUFRSlJWQXBR.mp4"
+      },
+      {
+        "date": "2026-07-30",
+        "distance": 413,
+        "exitVelo": 104.7,
+        "launchAngle": 29,
+        "event": "home_run",
+        "description": "Mike Yastrzemski homers (7) on a fly ball to right field. Dominic Smith scores.",
+        "matchup": "WSH @ ATL",
+        "videoUrl": "https://sporty-clips.mlb.com/TkE2TTVfV0ZRVkV3dEdEUT09X1UxZFlWd1ZXQjFRQVcxSUFVd0FIVlZRSEFGZ01VVkFBQTFCV0FnTU1VZ1FFQjFRRg&#x3D;&#x3D;.mp4"
+      }
+    ],
+    "575929": [
+      {
+        "date": "2026-07-30",
+        "distance": 414,
+        "exitVelo": 104.8,
+        "launchAngle": 33,
+        "event": "home_run",
+        "description": "Willson Contreras homers (23) on a fly ball to center field.",
+        "matchup": "BOS @ ATH",
+        "videoUrl": "https://sporty-clips.mlb.com/ZzZsOGJfWGw0TUFRPT1fQXdCVVhGMEVCQU1BWEZjSFV3QUhBdzRBQUFCWFYxZ0FWRllHVmdCVEIxWUhBZ2ND.mp4"
+      }
+    ],
+    "592450": [],
+    "592518": [],
+    "592626": [
+      {
+        "date": "2026-08-07",
+        "distance": 414,
+        "exitVelo": 109.6,
+        "launchAngle": 30,
+        "event": "home_run",
+        "description": "Joc Pederson homers (21) on a fly ball to right field. Elias Díaz scores.",
+        "matchup": "BAL @ TEX",
+        "videoUrl": "https://sporty-clips.mlb.com/MnI0bndfV0ZRVkV3dEdEUT09X0JBaFVVMUVIVmxBQUFRRlhWUUFIVkFkVkFGa01BbGdBQXdjTlZWRU1VQWRkQmxNSA&#x3D;&#x3D;.mp4"
+      },
+      {
+        "date": "2026-07-31",
+        "distance": 399,
+        "exitVelo": 105.3,
+        "launchAngle": 23,
+        "event": "home_run",
+        "description": "Joc Pederson homers (20) on a fly ball to right center field.",
+        "matchup": "TEX @ HOU",
+        "videoUrl": "https://sporty-clips.mlb.com/bmJ3YXZfV0ZRVkV3dEdEUT09X0RsUUFWbElDVlFzQURnTUtBZ0FIQlFOUkFBTURXbEFBVUZVTUJGVUVBd05YQlFKUQ&#x3D;&#x3D;.mp4"
+      }
+    ],
+    "592663": [
+      {
+        "date": "2026-07-31",
+        "distance": 396,
+        "exitVelo": 104.5,
+        "launchAngle": 31,
+        "event": "home_run",
+        "description": "J.T. Realmuto homers (8) on a fly ball to left field.",
+        "matchup": "PHI @ BAL",
+        "videoUrl": "https://sporty-clips.mlb.com/SzRYMkJfWGw0TUFRPT1fQWdNSFhRZFhBMU1BQzFjRkJBQUhCd2NFQUFCUUFGVUFVQUFBQ1FjQ1UxWmNVVkVI.mp4"
+      }
+    ],
+    "592885": [],
+    "593428": [],
+    "596019": [
+      {
+        "date": "2026-08-06",
+        "distance": 383,
+        "exitVelo": 97.3,
+        "launchAngle": 34,
+        "event": "home_run",
+        "description": "Francisco Lindor homers (10) on a fly ball to right field. Jared Young scores. Luis Torrens scores.",
+        "matchup": "NYM @ CLE",
+        "videoUrl": "https://sporty-clips.mlb.com/M3k2Z3ZfWGw0TUFRPT1fVWdGV0FGWUJBQW9BRDFJRkJBQUhCVkJVQUFBREJsWUFVMVVNVkZkWENBSlZDRlJT.mp4"
+      },
+      {
+        "date": "2026-07-31",
+        "distance": 392,
+        "exitVelo": 103.5,
+        "launchAngle": 30,
+        "event": "home_run",
+        "description": "Francisco Lindor homers (9) on a fly ball to right field.",
+        "matchup": "MIA @ NYM",
+        "videoUrl": "https://sporty-clips.mlb.com/WERablhfWGw0TUFRPT1fQlZOWlZWd05Cd1lBQ1ZwVFVnQUhBQVJWQUFNRFZGVUFCbElHVVZJSFZRTlhCUUlF.mp4"
+      }
+    ],
+    "605137": [
+      {
+        "date": "2026-08-07",
+        "distance": 406,
+        "exitVelo": 103.6,
+        "launchAngle": 29,
+        "event": "home_run",
+        "description": "Josh Bell homers (15) on a fly ball to left center field. Ryan Jeffers scores.",
+        "matchup": "MIN @ MIL",
+        "videoUrl": "https://sporty-clips.mlb.com/TkFOUjVfWGw0TUFRPT1fQUFrREJsVUJWUU1BQ1Z0UlZBQUhBVkJVQUZnRVVsSUFBZ0ZSVkFRRFYxQlNWUUJS.mp4"
+      },
+      {
+        "date": "2026-08-04",
+        "distance": 417,
+        "exitVelo": 108.9,
+        "launchAngle": 31,
+        "event": "home_run",
+        "description": "Josh Bell homers (14) on a fly ball to center field.",
+        "matchup": "MIN @ KC",
+        "videoUrl": "https://sporty-clips.mlb.com/bGJ3d25fWGw0TUFRPT1fQXdsVVVRQUZWRmNBRGdFTFh3QUhCMUpUQUZrQ0FGZ0FWMUpXVVZGUkFsWmRCUUpW.mp4"
+      }
+    ],
+    "605141": [],
+    "605170": [],
+    "606192": [
+      {
+        "date": "2026-08-03",
+        "distance": 443,
+        "exitVelo": 111.2,
+        "launchAngle": 33,
+        "event": "home_run",
+        "description": "Teoscar Hernández homers (11) on a fly ball to left center field.",
+        "matchup": "LAD @ CHC",
+        "videoUrl": "https://sporty-clips.mlb.com/QndSV0JfWGw0TUFRPT1fQndRRUIxUUFVZ0lBWFZWUVhnQUhCRklGQUZnTkFGRUFWRk1DQUZZTkNBSlJCQWRW.mp4"
+      },
+      {
+        "date": "2026-08-01",
+        "distance": 374,
+        "exitVelo": 100.9,
+        "launchAngle": 27,
+        "event": "home_run",
+        "description": "Teoscar Hernández homers (10) on a fly ball to right field. Freddie Freeman scores.",
+        "matchup": "BOS @ LAD",
+        "videoUrl": "https://sporty-clips.mlb.com/bmJ3enlfWGw0TUFRPT1fRGdVQ1VBRUZYZ01BV3dSVUJRQUhVRmRlQUZnSFZsQUFWMVpRVWdZTUJ3VUdCUVpT.mp4"
+      },
+      {
+        "date": "2026-07-30",
+        "distance": 412,
+        "exitVelo": 102.8,
+        "launchAngle": 28,
+        "event": "home_run",
+        "description": "Teoscar Hernández homers (9) on a fly ball to center field.",
+        "matchup": "SEA @ LAD",
+        "videoUrl": "https://sporty-clips.mlb.com/eUx3UkRfWGw0TUFRPT1fRGdSU1YxQUZYbFlBWGxCVUJRQUhWQUJTQUFNQ1VRUUFCd2NBVVFZRFV3TlNCbEZV.mp4"
+      }
+    ],
+    "606466": [
+      {
+        "date": "2026-08-09",
+        "distance": 385,
+        "exitVelo": 103.7,
+        "launchAngle": 24,
+        "event": "home_run",
+        "description": "Ketel Marte homers (20) on a fly ball to left field. Gabriel Moreno scores.",
+        "matchup": "LAD @ AZ",
+        "videoUrl": "https://sporty-clips.mlb.com/TkE2bGRfWGw0TUFRPT1fVUZBQVVnZFZBQUFBQVFNSFZ3QUhBVk1FQUZrQUFRUUFCbEZSVWxGV0JGSlFCbFFF.mp4"
+      }
+    ],
+    "607043": [
+      {
+        "date": "2026-08-09",
+        "distance": 434,
+        "exitVelo": 107.1,
+        "launchAngle": 25,
+        "event": "home_run",
+        "description": "Brandon Nimmo homers (13) on a fly ball to center field. Wyatt Langford scores. Ezequiel Duran scores.",
+        "matchup": "BAL @ TEX",
+        "videoUrl": "https://sporty-clips.mlb.com/cU93WmtfWGw0TUFRPT1fVUZSV1VsSUVWbEVBQ3dFQVZnQUhCbFFEQUFBSFVGY0FDMVFHVVFSUkNGZFNCMUJY.mp4"
+      },
+      {
+        "date": "2026-08-05",
+        "distance": 350,
+        "exitVelo": 94,
+        "launchAngle": 29,
+        "event": "home_run",
+        "description": "Brandon Nimmo homers (12) on a fly ball to left field.",
+        "matchup": "SF @ TEX",
+        "videoUrl": "https://sporty-clips.mlb.com/N3l6UTJfWGw0TUFRPT1fQjFKVUJ3SlNVZ1FBV1FFRlZ3QUhCVlFEQUZrQkFRVUFWMUpRQ1FZQ0J3SUdVUXBY.mp4"
+      },
+      {
+        "date": "2026-08-02",
+        "distance": 414,
+        "exitVelo": 103.2,
+        "launchAngle": 27,
+        "event": "home_run",
+        "description": "Brandon Nimmo homers (11) on a fly ball to right field.",
+        "matchup": "TEX @ HOU",
+        "videoUrl": "https://sporty-clips.mlb.com/MnI0OVBfWGw0TUFRPT1fRHdnRlhWTUFVUVVBWEZZRFVnQUhCUUpRQUFOUVZWUUFCd05XVWdCV0NRWURCd2RS.mp4"
+      }
+    ],
+    "607208": [
+      {
+        "date": "2026-08-08",
+        "distance": 391,
+        "exitVelo": 99,
+        "launchAngle": 26,
+        "event": "home_run",
+        "description": "Trea Turner homers (17) on a fly ball to left center field.",
+        "matchup": "TOR @ PHI",
+        "videoUrl": "https://sporty-clips.mlb.com/TDY1OXhfWGw0TUFRPT1fVUFKU1VGd0NYZ0FBQzFjR0JBQUhBd1pRQUFBTUFRTUFBbFlIQmdCUlVsQlFBMU5V.mp4"
+      },
+      {
+        "date": "2026-07-31",
+        "distance": 393,
+        "exitVelo": 103.9,
+        "launchAngle": 38,
+        "event": "home_run",
+        "description": "Trea Turner homers (16) on a fly ball to left center field.",
+        "matchup": "PHI @ BAL",
+        "videoUrl": "https://sporty-clips.mlb.com/SzRYMkJfWGw0TUFRPT1fQkFCUlZnQlFCd1lBVzFaVFZRQUhCRkJUQUZrQlV3VUFWbE1IQ1ZCVUFRRlVWZ05W.mp4"
+      }
+    ],
+    "608070": [],
+    "608324": [
+      {
+        "date": "2026-08-06",
+        "distance": 368,
+        "exitVelo": 99.7,
+        "launchAngle": 25,
+        "event": "home_run",
+        "description": "Alex Bregman homers (12) on a fly ball to left field. Pete Crow-Armstrong scores.",
+        "matchup": "TOR @ CHC",
+        "videoUrl": "https://sporty-clips.mlb.com/bmJ3S0RfWGw0TUFRPT1fVjFOVEFnSlJWd1VBQ1FOVUFBQUhBdzlSQUZrQ1UxQUFCRlJXQWxjQ0JRcFNDUUZl.mp4"
+      }
+    ],
+    "608348": [
+      {
+        "date": "2026-08-03",
+        "distance": 394,
+        "exitVelo": 104.6,
+        "launchAngle": 34,
+        "event": "home_run",
+        "description": "Carson Kelly homers (7) on a fly ball to left field. Alex Bregman scores.",
+        "matchup": "LAD @ CHC",
+        "videoUrl": "https://sporty-clips.mlb.com/QndSV0JfWGw0TUFRPT1fVjFOVFZGQlJVRkFBQ2xJSEJ3QUhCVlJVQUZrRFZ3QUFBbHdHQUZjRVYxWlRBZ0ZX.mp4"
+      }
+    ],
+    "608369": [
+      {
+        "date": "2026-08-08",
+        "distance": 418,
+        "exitVelo": 107.7,
+        "launchAngle": 23,
+        "event": "home_run",
+        "description": "Corey Seager homers (11) on a fly ball to right center field. Alejandro Osuna scores. Wyatt Langford scores.",
+        "matchup": "BAL @ TEX",
+        "videoUrl": "https://sporty-clips.mlb.com/bmJ3ZXlfV0ZRVkV3dEdEUT09X1VnQlpVRklCVndFQUQxUUVYZ0FIQVFJRUFGaFVWZ0lBVUZZR0JGSUdBbFlIQ0ZkZQ&#x3D;&#x3D;.mp4"
+      }
+    ],
+    "609280": [],
+    "621020": [
+      {
+        "date": "2026-08-04",
+        "distance": 401,
+        "exitVelo": 102.8,
+        "launchAngle": 34,
+        "event": "home_run",
+        "description": "Dansby Swanson homers (17) on a fly ball to left center field.",
+        "matchup": "LAD @ CHC",
+        "videoUrl": "https://sporty-clips.mlb.com/M3k2MTFfWGw0TUFRPT1fQlZRRlhGY0NVRllBQ2xJS0JBQUhCd0lFQUFNQlVsTUFBZ0VFQWxCWFVBdFdCZ0pX.mp4"
+      }
+    ],
+    "621439": [],
+    "621493": [],
+    "621566": [
+      {
+        "date": "2026-08-09",
+        "distance": 393,
+        "exitVelo": 110.7,
+        "launchAngle": 19,
+        "event": "home_run",
+        "description": "Matt Olson homers (34) on a line drive to right center field.",
+        "matchup": "ATL @ NYY",
+        "videoUrl": "https://sporty-clips.mlb.com/YkJMbEJfWGw0TUFRPT1fQWdoVVhGSldBZ1VBQ2xCWEF3QUhDQWRmQUFNQ0FGZ0FCbE1GVkFSVVVnVldDVk5m.mp4"
+      },
+      {
+        "date": "2026-08-07",
+        "distance": 407,
+        "exitVelo": 109.8,
+        "launchAngle": 19,
+        "event": "home_run",
+        "description": "Matt Olson homers (33) on a line drive to center field.",
+        "matchup": "ATL @ NYY",
+        "videoUrl": "https://sporty-clips.mlb.com/V0FXR3pfWGw0TUFRPT1fVjFNQUIxQldWVmNBV1FOWEFBQUhBUVFIQUFNSEIxUUFCMTBFQjFVRkFRSmRWVlpX.mp4"
+      },
+      {
+        "date": "2026-08-06",
+        "distance": 422,
+        "exitVelo": 105.7,
+        "launchAngle": 34,
+        "event": "home_run",
+        "description": "Matt Olson homers (32) on a fly ball to center field.",
+        "matchup": "MIA @ ATL",
+        "videoUrl": "https://sporty-clips.mlb.com/TzBLTTlfWGw0TUFRPT1fQTFBSFZWeFhBZ01BRFZBRVZnQUhVZzlSQUFBQVZBSUFBQUFCVTFkVUExVmRVUU5l.mp4"
+      },
+      {
+        "date": "2026-08-02",
+        "distance": 401,
+        "exitVelo": 99.7,
+        "launchAngle": 29,
+        "event": "home_run",
+        "description": "Matt Olson homers (31) on a fly ball to right field.",
+        "matchup": "WSH @ ATL",
+        "videoUrl": "https://sporty-clips.mlb.com/QndMbGRfWGw0TUFRPT1fVWdGUVhBZFhCQWNBQ1ZVR1Z3QUhCUTRIQUZoUVZnY0FWMXdBQkZBQUJRdFZDQVFD.mp4"
+      },
+      {
+        "date": "2026-08-01",
+        "distance": 372,
+        "exitVelo": 106.2,
+        "launchAngle": 25,
+        "event": "home_run",
+        "description": "Matt Olson homers (30) on a fly ball to right field.",
+        "matchup": "WSH @ ATL",
+        "videoUrl": "https://sporty-clips.mlb.com/WU8yd0RfWGw0TUFRPT1fVWdGVUFGRUNVQXNBQVZjTFVBQUhBQVFFQUZsV1cxRUFVQVlHQmdvTlZBb0RCbE1D.mp4"
+      },
+      {
+        "date": "2026-07-31",
+        "distance": 396,
+        "exitVelo": 107.2,
+        "launchAngle": 22,
+        "event": "home_run",
+        "description": "Matt Olson homers (29) on a fly ball to right field.",
+        "matchup": "WSH @ ATL",
+        "videoUrl": "https://sporty-clips.mlb.com/NXliUkJfWGw0TUFRPT1fRHdGU0JRZFdVVkVBQ1FSVUJ3QUhCRlVDQUZoVVZsVUFCMUVIVlFaUkJGVlFBUXBY.mp4"
+      }
+    ],
+    "624413": [
+      {
+        "date": "2026-08-09",
+        "distance": 393,
+        "exitVelo": 103.7,
+        "launchAngle": 29,
+        "event": "home_run",
+        "description": "Pete Alonso homers (24) on a fly ball to left field. Gunnar Henderson scores.",
+        "matchup": "BAL @ TEX",
+        "videoUrl": "https://sporty-clips.mlb.com/cU93WmtfWGw0TUFRPT1fVkFVRlZBQlhWMVlBREZGUkFnQUhCVk5XQUZrQlVsQUFCbDBNQ1ZjQkFncFdCbFFB.mp4"
+      },
+      {
+        "date": "2026-08-09",
+        "distance": 404,
+        "exitVelo": 100.5,
+        "launchAngle": 29,
+        "event": "home_run",
+        "description": "Pete Alonso homers (25) on a fly ball to left center field. Gunnar Henderson scores.",
+        "matchup": "BAL @ TEX",
+        "videoUrl": "https://sporty-clips.mlb.com/cU93WmtfWGw0TUFRPT1fQjFKWEFWVURCd3NBV2dBSFhnQUhVQVZRQUFNTlV3UUFBRmNIQkFZTkJnVlhDQUVG.mp4"
+      },
+      {
+        "date": "2026-07-31",
+        "distance": 394,
+        "exitVelo": 109.3,
+        "launchAngle": 24,
+        "event": "home_run",
+        "description": "Pete Alonso homers (23) on a fly ball to right center field. Dylan Beavers scores.",
+        "matchup": "PHI @ BAL",
+        "videoUrl": "https://sporty-clips.mlb.com/SzRYMkJfWGw0TUFRPT1fQlZOVlhWUlFYbEFBQUFkUkFBQUhBVkpSQUFOWEIxRUFWZ1lHVkFVRlZ3Y0VBMUZY.mp4"
+      }
+    ],
+    "624585": [
+      {
+        "date": "2026-07-26",
+        "distance": 419,
+        "exitVelo": 105.6,
+        "launchAngle": 27,
+        "event": "home_run",
+        "description": "Jorge Soler homers (12) on a fly ball to center field.",
+        "matchup": "LAA @ SF",
+        "videoUrl": "https://sporty-clips.mlb.com/TkFOdzJfWGw0TUFRPT1fQmdoVUFWVUNVbE1BWGdZTEJ3QUhBUUJRQUFBQUJsZ0FVMXdIVlZaV1Z3Y0JDUVZR.mp4"
+      }
+    ],
+    "630105": [],
+    "641343": [
+      {
+        "date": "2026-08-09",
+        "distance": 384,
+        "exitVelo": 103.8,
+        "launchAngle": 26,
+        "event": "home_run",
+        "description": "Jake Bauers homers (21) on a fly ball to left center field.",
+        "matchup": "MIN @ MIL",
+        "videoUrl": "https://sporty-clips.mlb.com/NHlLZUJfWGw0TUFRPT1fVUZWVlVsTUVBd2NBWEFjR0FBQUhCZ0ZTQUZnTld3VUFBRmNFQWdZQ0JWZFVDUXBV.mp4"
+      },
+      {
+        "date": "2026-08-01",
+        "distance": 401,
+        "exitVelo": 107.6,
+        "launchAngle": 25,
+        "event": "home_run",
+        "description": "Jake Bauers homers (20) on a fly ball to right center field.",
+        "matchup": "MIL @ LAA",
+        "videoUrl": "https://sporty-clips.mlb.com/MTZOMTRfWGw0TUFRPT1fVUZKVUFsSUNCUXNBV3dGV1ZnQUhWVklBQUFOV1VWZ0FWRkVNQUZaUkFsVUFWQVZY.mp4"
+      },
+      {
+        "date": "2026-07-31",
+        "distance": 424,
+        "exitVelo": 109.8,
+        "launchAngle": 33,
+        "event": "home_run",
+        "description": "Jake Bauers homers (19) on a fly ball to right field. Jackson Chourio scores. William Contreras scores.",
+        "matchup": "MIL @ LAA",
+        "videoUrl": "https://sporty-clips.mlb.com/TUFYMzlfWGw0TUFRPT1fVWxWUVZRQUhVMUFBQVFZQVZBQUhWRlJmQUZrQ1VBTUFBRk1BVWdVREFRQlRCZ1FE.mp4"
+      }
+    ],
+    "641355": [],
+    "641487": [],
+    "641680": [],
+    "641857": [
+      {
+        "date": "2026-08-03",
+        "distance": 410,
+        "exitVelo": 103.6,
+        "launchAngle": 34,
+        "event": "home_run",
+        "description": "Ryan McMahon homers (10) on a fly ball to center field.",
+        "matchup": "STL @ NYY",
+        "videoUrl": "https://sporty-clips.mlb.com/bmJ3RERfWGw0TUFRPT1fQUFBRFVWVURYd0VBQ3djR1VBQUhCd0pXQUFNTkFsQUFVMVJRVXdSUUJGSlRBUU5T.mp4"
+      }
+    ],
+    "642086": [
+      {
+        "date": "2026-08-01",
+        "distance": 403,
+        "exitVelo": 104.8,
+        "launchAngle": 27,
+        "event": "home_run",
+        "description": "Dominic Smith homers (8) on a fly ball to right field.",
+        "matchup": "WSH @ ATL",
+        "videoUrl": "https://sporty-clips.mlb.com/WU8yd0RfWGw0TUFRPT1fVXdNQ0FsVUhCQUVBV1FBRUF3QUhVZ1VFQUZsWFZBQUFCUUVOVmdFQkJRWUdCZ0FG.mp4"
+      }
+    ],
+    "642715": [
+      {
+        "date": "2026-08-07",
+        "distance": 367,
+        "exitVelo": 106.5,
+        "launchAngle": 43,
+        "event": "home_run",
+        "description": "Willy Adames homers (19) on a fly ball to left field.",
+        "matchup": "DET @ SF",
+        "videoUrl": "https://sporty-clips.mlb.com/QndSdllfWGw0TUFRPT1fQVZSUkFRWU5YZ1FBREZjTEJ3QUhWRlZmQUZsVFZnVUFWbFlGQ0FJRVVnSURCZ0VI.mp4"
+      }
+    ],
+    "643217": [
+      {
+        "date": "2026-08-02",
+        "distance": 378,
+        "exitVelo": 97.4,
+        "launchAngle": 36,
+        "event": "home_run",
+        "description": "Andrew Benintendi homers (12) on a fly ball to right center field.",
+        "matchup": "CWS @ TB",
+        "videoUrl": "https://sporty-clips.mlb.com/dnZ3NjRfWGw0TUFRPT1fRGdrSEFnQUhVQWNBQzFZRVVRQUhVd1JVQUZoUVdnUUFCd1lGQUFZQ1UxRURCUUJS.mp4"
+      },
+      {
+        "date": "2026-07-31",
+        "distance": 405,
+        "exitVelo": 104.2,
+        "launchAngle": 36,
+        "event": "home_run",
+        "description": "Andrew Benintendi homers (11) on a fly ball to right field.",
+        "matchup": "CWS @ TB",
+        "videoUrl": "https://sporty-clips.mlb.com/M3k2OVZfWGw0TUFRPT1fQlFVRUFsWlNWUVlBQ2dZRVV3QUhCVlZXQUFOUlVGWUFCbFlEQlFSVVZ3dGRWUXBT.mp4"
+      }
+    ],
+    "643289": [],
+    "643446": [],
+    "645277": [
+      {
+        "date": "2026-08-04",
+        "distance": 397,
+        "exitVelo": 100.1,
+        "launchAngle": 32,
+        "event": "home_run",
+        "description": "Ozzie Albies homers (19) on a fly ball to right field.",
+        "matchup": "MIA @ ATL",
+        "videoUrl": "https://sporty-clips.mlb.com/MTZLT1ZfWGw0TUFRPT1fRDFWWFhBQUhYbFlBV1FNRFZBQUhCZzREQUZnQ1VGa0FCZ1FGQkZCUkNWY0VVZ3RY.mp4"
+      }
+    ],
+    "646240": [
+      {
+        "date": "2026-08-07",
+        "distance": 401,
+        "exitVelo": 100,
+        "launchAngle": 29,
+        "event": "home_run",
+        "description": "Rafael Devers homers (24) on a fly ball to center field. Jung Hoo Lee scores.",
+        "matchup": "DET @ SF",
+        "videoUrl": "https://sporty-clips.mlb.com/QndSdllfWGw0TUFRPT1fQmxRQVVBQlNCQUVBQ1ZKVFZRQUhWd0ZVQUFNQkFWZ0FDbFpRQmxZRkJ3TUVWUUVF.mp4"
+      },
+      {
+        "date": "2026-08-02",
+        "distance": 359,
+        "exitVelo": 97.4,
+        "launchAngle": 29,
+        "event": "home_run",
+        "description": "Rafael Devers homers (23) on a fly ball to left field.",
+        "matchup": "SF @ SD",
+        "videoUrl": "https://sporty-clips.mlb.com/TDY1eE5fWGw0TUFRPT1fQkZkUlhRRlNVZ1FBV3dNQ1V3QUhBRkpWQUZrREFWVUFCUWNIQTFKWFZWQUhCRmRV.mp4"
+      }
+    ],
+    "647304": [
+      {
+        "date": "2026-08-08",
+        "distance": 434,
+        "exitVelo": 106.8,
+        "launchAngle": 27,
+        "event": "home_run",
+        "description": "Josh Naylor homers (10) on a fly ball to right center field.",
+        "matchup": "TB @ SEA",
+        "videoUrl": "https://sporty-clips.mlb.com/WU9WcmVfWGw0TUFRPT1fQXdWWlhGVldCUUFBWGxZQ1ZRQUhVd1FBQUFCWEFnTUFVRk5VVmxZRUFnRmNBZ2Rl.mp4"
+      },
+      {
+        "date": "2026-08-08",
+        "distance": 367,
+        "exitVelo": 93.9,
+        "launchAngle": 25,
+        "event": "home_run",
+        "description": "Josh Naylor homers (9) on a fly ball to right center field.",
+        "matchup": "TB @ SEA",
+        "videoUrl": "https://sporty-clips.mlb.com/WU9WcmVfWGw0TUFRPT1fQkFSVFZGVUVYbGNBWFZOWEF3QUhBVlJTQUFOUVcxTUFDZ0FCVTFZTkIxZFdVMUVG.mp4"
+      }
+    ],
+    "650333": [
+      {
+        "date": "2026-08-05",
+        "distance": 385,
+        "exitVelo": 101.2,
+        "launchAngle": 32,
+        "event": "home_run",
+        "description": "Luis Arraez homers (5) on a fly ball to right field.",
+        "matchup": "WSH @ PHI",
+        "videoUrl": "https://sporty-clips.mlb.com/OHliVlBfWGw0TUFRPT1fQkFGU0FWY01WMUFBV1ZvRlZBQUhVd0JWQUZoVFVGUUFDMVlFQWxKWFZGSUFBRlJl.mp4"
+      }
+    ],
+    "650402": [
+      {
+        "date": "2026-08-04",
+        "distance": 370,
+        "exitVelo": 98.8,
+        "launchAngle": 36,
+        "event": "home_run",
+        "description": "Gleyber Torres homers (7) on a fly ball to left center field. Zach McKinstry scores.",
+        "matchup": "DET @ SEA",
+        "videoUrl": "https://sporty-clips.mlb.com/NnlNTzJfWGw0TUFRPT1fQlZVRUIxTUZBZ0lBQUZkVEFnQUhWQVpRQUZrTVcxa0FCRlpXQkFKVEJWWmRVUVVB.mp4"
+      },
+      {
+        "date": "2026-08-01",
+        "distance": 396,
+        "exitVelo": 100.3,
+        "launchAngle": 31,
+        "event": "home_run",
+        "description": "Gleyber Torres homers (6) on a fly ball to right center field. Kevin McGonigle scores.",
+        "matchup": "DET @ ATH",
+        "videoUrl": "https://sporty-clips.mlb.com/ckRsOFZfWGw0TUFRPT1fQlFOWFZRSlNVd0lBVzFRRVVRQUhWRkFGQUZoWFYxQUFBQUVDQ0ZaVFVnb0VCd0FG.mp4"
+      }
+    ],
+    "650489": [
+      {
+        "date": "2026-08-04",
+        "distance": 392,
+        "exitVelo": 107.1,
+        "launchAngle": 24,
+        "event": "home_run",
+        "description": "Willi Castro homers (13) on a fly ball to right field. Kyle Karros scores.",
+        "matchup": "TB @ COL",
+        "videoUrl": "https://sporty-clips.mlb.com/eUx3NlJfWGw0TUFRPT1fVUFjSFUxVlZWbEVBRFZVQUF3QUhBVk5VQUFOUlZBVUFCd01IQXdOWEIxWUhBRlFI.mp4"
+      },
+      {
+        "date": "2026-08-01",
+        "distance": 422,
+        "exitVelo": 102.7,
+        "launchAngle": 37,
+        "event": "home_run",
+        "description": "Willi Castro homers (12) on a fly ball to center field.",
+        "matchup": "KC @ COL",
+        "videoUrl": "https://sporty-clips.mlb.com/TDY1a05fWGw0TUFRPT1fQVZkVFhGeFZWbEVBQ1ZBRUJRQUhBMUpmQUFCUVVWUUFDbEFDVkFwUUJsVUJBbFFE.mp4"
+      },
+      {
+        "date": "2026-07-28",
+        "distance": 395,
+        "exitVelo": 107.7,
+        "launchAngle": 25,
+        "event": "home_run",
+        "description": "Willi Castro homers (11) on a fly ball to right center field.",
+        "matchup": "COL @ SD",
+        "videoUrl": "https://sporty-clips.mlb.com/QXc3enhfWGw0TUFRPT1fQUZBRlYxQUZYd0VBWGxNRlh3QUhBVlJlQUFNQVYxZ0FCd05YVlZBRVYxVlRBRkFD.mp4"
+      },
+      {
+        "date": "2026-07-26",
+        "distance": 391,
+        "exitVelo": 108.1,
+        "launchAngle": 37,
+        "event": "home_run",
+        "description": "Willi Castro homers (10) on a fly ball to right center field.",
+        "matchup": "COL @ MIL",
+        "videoUrl": "https://sporty-clips.mlb.com/TUFYRzFfWGw0TUFRPT1fQUZKVkFsVUdYMVlBRGdZRUFBQUhWMUpXQUZoWFVGVUFWRkFHQVZCVFZGWlZVZ1VE.mp4"
+      }
+    ],
+    "650490": [
+      {
+        "date": "2026-07-29",
+        "distance": 372,
+        "exitVelo": 99.1,
+        "launchAngle": 31,
+        "event": "home_run",
+        "description": "Yandy Díaz homers (15) on a fly ball to right field.",
+        "matchup": "TEX @ TB",
+        "videoUrl": "https://sporty-clips.mlb.com/QndSbFFfWGw0TUFRPT1fVXdrSFhBSUVBd29BWGxRSEFBQUhDUThIQUZnRFd3Y0FVMVJSVlZFRkNGVUVDRk5X.mp4"
+      }
+    ],
+    "650859": [],
+    "655316": [],
+    "656305": [],
+    "656555": [
+      {
+        "date": "2026-08-08",
+        "distance": 392,
+        "exitVelo": 106.1,
+        "launchAngle": 27,
+        "event": "home_run",
+        "description": "Rhys Hoskins homers (13) on a fly ball to left field. Angel Martínez scores.",
+        "matchup": "CLE @ CWS",
+        "videoUrl": "https://sporty-clips.mlb.com/eUx3eU5fV0ZRVkV3dEdEUT09X0FGUlRCZ0FOQUFZQUFWc0VBd0FIVkFCVkFBQlJVRmNBVmdjRlZGWUNCMWNHVXdOUw&#x3D;&#x3D;.mp4"
+      },
+      {
+        "date": "2026-08-01",
+        "distance": 424,
+        "exitVelo": 105,
+        "launchAngle": 33,
+        "event": "home_run",
+        "description": "Rhys Hoskins homers (12) on a fly ball to center field. Chase DeLauter scores.",
+        "matchup": "AZ @ CLE",
+        "videoUrl": "https://sporty-clips.mlb.com/WERaQWpfV0ZRVkV3dEdEUT09X0QxVURCVlFOVlFzQUFWVUFVQUFIVWxOU0FGZ0dCd1VBVjFaUkJBSlFWd0JVQVFvRA&#x3D;&#x3D;.mp4"
+      }
+    ],
+    "656716": [],
+    "656775": [
+      {
+        "date": "2026-07-30",
+        "distance": 338,
+        "exitVelo": 95.2,
+        "launchAngle": 33,
+        "event": "home_run",
+        "description": "Cedric Mullins homers (13) on a fly ball to left field.",
+        "matchup": "TEX @ TB",
+        "videoUrl": "https://sporty-clips.mlb.com/WU9WdzdfWGw0TUFRPT1fVWxRSFhWeFJVZ1lBV2xSVVVBQUhBMUFFQUFBSFZsY0FVMVFHQXdzQUFBSURCZ1Zl.mp4"
+      }
+    ],
+    "656811": [
+      {
+        "date": "2026-07-26",
+        "distance": 406,
+        "exitVelo": 101.4,
+        "launchAngle": 28,
+        "event": "home_run",
+        "description": "Ryan O'Hearn hits a grand slam (17) to center field. Brandon Lowe scores. Bryan Reynolds scores. Esmerlyn Valdez scores.",
+        "matchup": "CHC @ PIT",
+        "videoUrl": "https://sporty-clips.mlb.com/OTdQcVFfWGw0TUFRPT1fQWxSVkIxQU1CUW9BRFZVRVVBQUhVRk5TQUZrSFVWY0FBRllHQUZaV0JBSldCUW9I.mp4"
+      }
+    ],
+    "656941": [
+      {
+        "date": "2026-08-09",
+        "distance": 448,
+        "exitVelo": 107.7,
+        "launchAngle": 28,
+        "event": "home_run",
+        "description": "Kyle Schwarber homers (35) on a fly ball to right field.",
+        "matchup": "TOR @ PHI",
+        "videoUrl": "https://sporty-clips.mlb.com/ZFh2OFhfWGw0TUFRPT1fVTFJRUIxSUdWRllBQ1ZGV0F3QUhDQVFGQUFNRUJsTUFCRkZSQmdaVFVBQlFBd1pl.mp4"
+      },
+      {
+        "date": "2026-08-09",
+        "distance": 378,
+        "exitVelo": 101.9,
+        "launchAngle": 32,
+        "event": "home_run",
+        "description": "Kyle Schwarber homers (34) on a fly ball to left center field. Alec Bohm scores. Justin Crawford scores.",
+        "matchup": "TOR @ PHI",
+        "videoUrl": "https://sporty-clips.mlb.com/ZFh2OFhfWGw0TUFRPT1fVUZVQVZnRUZWZ1lBQVZVS1ZnQUhDVlZVQUFBRVVGZ0FVQUJVVkFRREFRQURBQU1F.mp4"
+      }
+    ],
+    "657041": [
+      {
+        "date": "2026-07-26",
+        "distance": 349,
+        "exitVelo": 98.3,
+        "launchAngle": 24,
+        "event": "home_run",
+        "description": "Lane Thomas homers (10) on a fly ball to right field.",
+        "matchup": "KC @ DET",
+        "videoUrl": "https://sporty-clips.mlb.com/WU9WS2VfWGw0TUFRPT1fVkFGU1ZWVUNVd0lBQ2dCWFVRQUhVQWRUQUFOV0FGWUFBd1JRQVZFRFZGSUhVUUpW.mp4"
+      }
+    ],
+    "657757": [
+      {
+        "date": "2026-08-09",
+        "distance": 393,
+        "exitVelo": 103.7,
+        "launchAngle": 24,
+        "event": "home_run",
+        "description": "Gavin Sheets homers (15) on a line drive to right field.",
+        "matchup": "HOU @ SD",
+        "videoUrl": "https://sporty-clips.mlb.com/ZU53WFpfV0ZRVkV3dEdEUT09X0JRQlhVVmRRVWxjQVd3Y0ZBQUFIQVZOVUFBTUZXMVVBVVZGWEFGY0hVd1pTVTFBQQ&#x3D;&#x3D;.mp4"
+      }
+    ],
+    "660271": [
+      {
+        "date": "2026-08-05",
+        "distance": 367,
+        "exitVelo": 100.6,
+        "launchAngle": 23,
+        "event": "home_run",
+        "description": "Shohei Ohtani homers (26) on a line drive to left center field. Miguel Rojas scores.",
+        "matchup": "LAD @ CHC",
+        "videoUrl": "https://sporty-clips.mlb.com/WU9WamdfWGw0TUFRPT1fVUZRRlVBVUZVZ0FBQ0ZJQUF3QUhDRkFDQUFNRVZGTUFDbFJVQXdZQUJBVlFCMUFG.mp4"
+      },
+      {
+        "date": "2026-08-05",
+        "distance": 376,
+        "exitVelo": 110.2,
+        "launchAngle": 20,
+        "event": "home_run",
+        "description": "Shohei Ohtani homers (25) on a line drive to right center field.",
+        "matchup": "LAD @ CHC",
+        "videoUrl": "https://sporty-clips.mlb.com/WU9WamdfWGw0TUFRPT1fRGdKUVZ3RlZYMUVBV2xaWEJRQUhWQUpTQUZnSEJRY0FCUUJUQ0FRREFnRlhBRk1I.mp4"
+      },
+      {
+        "date": "2026-07-31",
+        "distance": 386,
+        "exitVelo": 112.1,
+        "launchAngle": 24,
+        "event": "home_run",
+        "description": "Shohei Ohtani homers (24) on a fly ball to right field. Eliezer Alfonzo scores.",
+        "matchup": "BOS @ LAD",
+        "videoUrl": "https://sporty-clips.mlb.com/N3l6dzJfWGw0TUFRPT1fQUFGVUFsd0VVZ01BREZwUVVnQUhBdzhFQUZoUkJnVUFCd0VHQVFFR1ZRTlJCVlJS.mp4"
+      }
+    ],
+    "660670": [
+      {
+        "date": "2026-08-08",
+        "distance": 383,
+        "exitVelo": 109,
+        "launchAngle": 23,
+        "event": "home_run",
+        "description": "Ronald Acuña Jr. homers (12) on a fly ball to left center field.",
+        "matchup": "ATL @ NYY",
+        "videoUrl": "https://sporty-clips.mlb.com/UHY2d3hfWGw0TUFRPT1fQkFJRFZRVUZBQUVBV2xkUkJBQUhDQUFIQUZsUUFsa0FBbFFBQ0ZBRkJsRlhDQVlG.mp4"
+      },
+      {
+        "date": "2026-08-06",
+        "distance": 390,
+        "exitVelo": 103.8,
+        "launchAngle": 35,
+        "event": "home_run",
+        "description": "Ronald Acuña Jr. homers (10) on a fly ball to left center field. Drake Baldwin scores.",
+        "matchup": "MIA @ ATL",
+        "videoUrl": "https://sporty-clips.mlb.com/TzBLTTlfWGw0TUFRPT1fVkFCV1ZsTlFWRmNBV2xFRkFnQUhBVk1BQUZrRlZRTUFCQU1CQndzREJGSmNBZ1VF.mp4"
+      },
+      {
+        "date": "2026-08-06",
+        "distance": 337,
+        "exitVelo": 97.3,
+        "launchAngle": 38,
+        "event": "home_run",
+        "description": "Ronald Acuña Jr. homers (11) on a fly ball to right field.",
+        "matchup": "MIA @ ATL",
+        "videoUrl": "https://sporty-clips.mlb.com/TzBLTTlfWGw0TUFRPT1fVWdGWUFWVUhWZ01BRGxZQ0FBQUhBQWRYQUFOVEJnY0FCRnhXQjFVQkNGWlJWVkZm.mp4"
+      },
+      {
+        "date": "2026-08-01",
+        "distance": 419,
+        "exitVelo": 103.9,
+        "launchAngle": 33,
+        "event": "home_run",
+        "description": "Ronald Acuña Jr. homers (9) on a fly ball to center field.",
+        "matchup": "WSH @ ATL",
+        "videoUrl": "https://sporty-clips.mlb.com/WU8yd0RfWGw0TUFRPT1fVXdKWUFWY0NVUU1BWEZKUkJ3QUhVRkJSQUZrQVVGTUFVMWRVQkFRSEJWVUFBQVJm.mp4"
+      },
+      {
+        "date": "2026-07-30",
+        "distance": 421,
+        "exitVelo": 104.9,
+        "launchAngle": 29,
+        "event": "home_run",
+        "description": "Ronald Acuña Jr. homers (8) on a fly ball to center field.",
+        "matchup": "WSH @ ATL",
+        "videoUrl": "https://sporty-clips.mlb.com/TkE2TTVfV0ZRVkV3dEdEUT09X0JsUUhBVnhWQWdvQVcxWlJWd0FIQVFFRkFGa01WRkVBVUYwQ1ZBUURCQWRjQkFOWA&#x3D;&#x3D;.mp4"
+      }
+    ],
+    "660688": [],
+    "660821": [
+      {
+        "date": "2026-08-05",
+        "distance": 398,
+        "exitVelo": 102,
+        "launchAngle": 32,
+        "event": "home_run",
+        "description": "Jesús Sánchez homers (8) on a fly ball to right field. Kazuma Okamoto scores.",
+        "matchup": "TOR @ HOU",
+        "videoUrl": "https://sporty-clips.mlb.com/UHY2OVdfWGw0TUFRPT1fVWdSU0JsMVZWVmNBRHdZSEFnQUhWVlJTQUZsWFZRTUFBRjFVQkFZQVZBWlJDVmNG.mp4"
+      }
+    ],
+    "661388": [
+      {
+        "date": "2026-08-05",
+        "distance": 400,
+        "exitVelo": 103,
+        "launchAngle": 28,
+        "event": "home_run",
+        "description": "William Contreras homers (11) on a fly ball to left center field.",
+        "matchup": "PIT @ MIL",
+        "videoUrl": "https://sporty-clips.mlb.com/SzRCUkJfV0ZRVkV3dEdEUT09X0FBTUVVZ2RTVndvQVdWQlVVQUFIVXdKUUFGZ0dWQVVBQTFOVFVRVlVVZ0lIVlFGWA&#x3D;&#x3D;.mp4"
+      }
+    ],
+    "662139": [
+      {
+        "date": "2026-08-09",
+        "distance": 395,
+        "exitVelo": 103.3,
+        "launchAngle": 27,
+        "event": "home_run",
+        "description": "Daulton Varsho homers (8) on a fly ball to right center field. Taylor Trammell scores.",
+        "matchup": "HOU @ SD",
+        "videoUrl": "https://sporty-clips.mlb.com/ZU53WFpfV0ZRVkV3dEdEUT09X1YxQlNCZ1ZYQjFZQUMxRUxVZ0FIQWc5ZkFBQUFVMUFBQUFGUUFGWlJBUUpTVTFaVw&#x3D;&#x3D;.mp4"
+      }
+    ],
+    "663538": [
+      {
+        "date": "2026-08-04",
+        "distance": 381,
+        "exitVelo": 99.2,
+        "launchAngle": 26,
+        "event": "home_run",
+        "description": "Nico Hoerner homers (7) on a fly ball to left center field.",
+        "matchup": "LAD @ CHC",
+        "videoUrl": "https://sporty-clips.mlb.com/M3k2MTFfWGw0TUFRPT1fQmdaUkFsRU5VMVlBQVZCVUJ3QUhWRlVGQUZrREJ3UUFCVkpVVmdaUkJsVlZDRmRR.mp4"
+      },
+      {
+        "date": "2026-08-01",
+        "distance": 372,
+        "exitVelo": 98.5,
+        "launchAngle": 29,
+        "event": "home_run",
+        "description": "Nico Hoerner homers (6) on a fly ball to left field.",
+        "matchup": "NYY @ CHC",
+        "videoUrl": "https://sporty-clips.mlb.com/WERaOFhfV0ZRVkV3dEdEUT09X1UxVlRWQUpSVWdBQVcxdFdVUUFIQ0E1ZkFBQUVVRmtBQUZ3Q1ZGSlVBd2RUVXd0UQ&#x3D;&#x3D;.mp4"
+      }
+    ],
+    "663586": [
+      {
+        "date": "2026-08-07",
+        "distance": 384,
+        "exitVelo": 107.5,
+        "launchAngle": 41,
+        "event": "home_run",
+        "description": "Austin Riley homers (14) on a fly ball to left field.",
+        "matchup": "ATL @ NYY",
+        "videoUrl": "https://sporty-clips.mlb.com/V0FXR3pfWGw0TUFRPT1fQUZkWkFWSlJWd1FBWEFFR1ZBQUhCQVJmQUZrTVVWWUFCZ2RYQUFkUkFGWlFVbE5R.mp4"
+      },
+      {
+        "date": "2026-08-04",
+        "distance": 433,
+        "exitVelo": 106.7,
+        "launchAngle": 30,
+        "event": "home_run",
+        "description": "Austin Riley homers (13) on a fly ball to left center field. Lane Thomas scores.",
+        "matchup": "MIA @ ATL",
+        "videoUrl": "https://sporty-clips.mlb.com/MTZLT1ZfWGw0TUFRPT1fQWxBQVZGUUVWd0VBRGxJRlV3QUhBUVJYQUZnRlcxa0FWMUFDQWxVQkExWlhCQVlG.mp4"
+      }
+    ],
+    "663616": [
+      {
+        "date": "2026-08-02",
+        "distance": 395,
+        "exitVelo": 109.3,
+        "launchAngle": 22,
+        "event": "home_run",
+        "description": "Trevor Larnach homers (10) on a fly ball to right field. Ryan Kreidler scores.",
+        "matchup": "MIN @ SEA",
+        "videoUrl": "https://sporty-clips.mlb.com/NHlLV3FfWGw0TUFRPT1fQTFRQ1VsSURVMVlBRGdFRUJBQUhCQVJTQUFBRUFRSUFVRmNFQWxFRkJBQUJDQXRR.mp4"
+      },
+      {
+        "date": "2026-08-01",
+        "distance": 379,
+        "exitVelo": 102,
+        "launchAngle": 34,
+        "event": "home_run",
+        "description": "Trevor Larnach homers (9) on a fly ball to right center field.",
+        "matchup": "MIN @ SEA",
+        "videoUrl": "https://sporty-clips.mlb.com/SzRCcjJfWGw0TUFRPT1fQUZKVVZGMEVBd0VBWFZjQVVBQUhDRk5lQUZoV1VnY0FVVjBCQlFSUVV3SlRVVmRm.mp4"
+      }
+    ],
+    "663656": [
+      {
+        "date": "2026-08-08",
+        "distance": 366,
+        "exitVelo": 98.2,
+        "launchAngle": 32,
+        "event": "home_run",
+        "description": "Kyle Tucker homers (11) on a fly ball to right field.",
+        "matchup": "LAD @ AZ",
+        "videoUrl": "https://sporty-clips.mlb.com/WERxZDJfWGw0TUFRPT1fVTFCVUJWVUdVUW9BRHdZQVVBQUhCUVVFQUZrQ1ZsQUFWMVlDQndBTkNRWlJWUXBl.mp4"
+      },
+      {
+        "date": "2026-08-04",
+        "distance": 376,
+        "exitVelo": 98.7,
+        "launchAngle": 35,
+        "event": "home_run",
+        "description": "Kyle Tucker homers (10) on a fly ball to left center field.",
+        "matchup": "LAD @ CHC",
+        "videoUrl": "https://sporty-clips.mlb.com/M3k2MTFfWGw0TUFRPT1fVkFWUlVsTlNYMUVBQVFCVUF3QUhCd1ZWQUFBRlVWWUFBMUVDVkZFTkJnWUVBd3RX.mp4"
+      }
+    ],
+    "663728": [
+      {
+        "date": "2026-08-02",
+        "distance": 418,
+        "exitVelo": 106.9,
+        "launchAngle": 29,
+        "event": "home_run",
+        "description": "Cal Raleigh homers (12) on a fly ball to left center field. Dominic Canzone scores. Julio Rodríguez scores.",
+        "matchup": "MIN @ SEA",
+        "videoUrl": "https://sporty-clips.mlb.com/NHlLV3FfWGw0TUFRPT1fQlFoVlVGSUNWQUFBV1ZBR1Z3QUhBZ0FDQUFCWFZRUUFDd1lEQUFNRlVGY0VDRlpl.mp4"
+      }
+    ],
+    "663743": [
+      {
+        "date": "2026-07-21",
+        "distance": 378,
+        "exitVelo": 100,
+        "launchAngle": 33,
+        "event": "home_run",
+        "description": "Nick Fortes homers (4) on a fly ball to left center field. Chandler Simpson scores. Ben Williamson scores.",
+        "matchup": "TB @ TOR",
+        "videoUrl": "https://sporty-clips.mlb.com/dnZveWFfWGw0TUFRPT1fRGdFQ0FRVUNVRllBQ0ZkVFVnQUhWRmRSQUZrR0FsZ0FVVmNGVmdwUVZ3WlRDUU1B.mp4"
+      }
+    ],
+    "663757": [
+      {
+        "date": "2026-08-09",
+        "distance": 392,
+        "exitVelo": 106.2,
+        "launchAngle": 30,
+        "event": "home_run",
+        "description": "Trent Grisham homers (13) on a fly ball to right center field.",
+        "matchup": "ATL @ NYY",
+        "videoUrl": "https://sporty-clips.mlb.com/YkJMbEJfWGw0TUFRPT1fVWxJREFRVlNVMWNBQ2dGUkJRQUhBQUVIQUZrR0JWQUFWMU1FQndvTVV3QUdWUVVG.mp4"
+      },
+      {
+        "date": "2026-08-03",
+        "distance": 355,
+        "exitVelo": 90.9,
+        "launchAngle": 30,
+        "event": "home_run",
+        "description": "Trent Grisham homers (12) on a fly ball to right field.",
+        "matchup": "STL @ NYY",
+        "videoUrl": "https://sporty-clips.mlb.com/bmJ3RERfWGw0TUFRPT1fVlZkU1UxZFFBQVlBWEFCUkF3QUhWUThBQUZoWFZsY0FVUVpRVVFBRENRTUFVUU5U.mp4"
+      }
+    ],
+    "663837": [],
+    "663886": [
+      {
+        "date": "2026-08-06",
+        "distance": 406,
+        "exitVelo": 103.7,
+        "launchAngle": 29,
+        "event": "home_run",
+        "description": "Tyler Stephenson homers (10) on a fly ball to center field.",
+        "matchup": "ATH @ CIN",
+        "videoUrl": "https://sporty-clips.mlb.com/a0R2UURfWGw0TUFRPT1fQlFSWVUxUlZWbFFBQ0ZwUVh3QUhDVlJmQUZoVVUxa0FVVlVFVWdRQkJ3UlNCQUpY.mp4"
+      },
+      {
+        "date": "2026-08-02",
+        "distance": 352,
+        "exitVelo": 101.4,
+        "launchAngle": 31,
+        "event": "home_run",
+        "description": "Tyler Stephenson homers (9) on a fly ball to right field.",
+        "matchup": "PIT @ CIN",
+        "videoUrl": "https://sporty-clips.mlb.com/UUFLWlFfWGw0TUFRPT1fRDFKVEJsMVJBd29BQ0ZOV1VRQUhBZzlUQUFNTkJsSUFVVklBQkF0UUFBVURCRkVG.mp4"
+      }
+    ],
+    "663968": [
+      {
+        "date": "2026-08-09",
+        "distance": 420,
+        "exitVelo": 104.6,
+        "launchAngle": 25,
+        "event": "home_run",
+        "description": "Jake Mangum homers (4) on a fly ball to center field.",
+        "matchup": "NYM @ PIT",
+        "videoUrl": "https://sporty-clips.mlb.com/M3k2S3ZfWGw0TUFRPT1fRGdSVlhWTUNWMWNBV2xFS0JRQUhCQTlRQUZoWFcxRUFWRlVGQ1ZJRUJBTmRVd1VE.mp4"
+      },
+      {
+        "date": "2026-07-31",
+        "distance": 336,
+        "exitVelo": 100.1,
+        "launchAngle": 22,
+        "event": "home_run",
+        "description": "Jake Mangum homers (3) on a line drive to right field.",
+        "matchup": "PIT @ CIN",
+        "videoUrl": "https://sporty-clips.mlb.com/d2V3UThfWGw0TUFRPT1fVjFSUkJnZFdWUWNBWEZNQkJBQUhWMUJWQUFNTlVRTUFVd1lCVmxBTkFnQUdBRkJW.mp4"
+      }
+    ],
+    "663993": [
+      {
+        "date": "2026-08-06",
+        "distance": 413,
+        "exitVelo": 111.7,
+        "launchAngle": 21,
+        "event": "home_run",
+        "description": "Nathaniel Lowe homers (13) on a line drive to right field. Chase DeLauter scores. José Ramírez scores.",
+        "matchup": "NYM @ CLE",
+        "videoUrl": "https://sporty-clips.mlb.com/M3k2Z3ZfWGw0TUFRPT1fVjFkUkJsSlJBRlFBV1ZJTEJRQUhBUThDQUZrTVVWQUFCVkVNVlFvRkFBVURCZ0Zl.mp4"
+      }
+    ],
+    "664023": [
+      {
+        "date": "2026-08-09",
+        "distance": 401,
+        "exitVelo": 100.3,
+        "launchAngle": 35,
+        "event": "home_run",
+        "description": "Ian Happ homers (20) on a fly ball to right field. Alex Bregman scores.",
+        "matchup": "CHC @ KC",
+        "videoUrl": "https://sporty-clips.mlb.com/b0d3dzNfWGw0TUFRPT1fQmdsU1ZGSlZVRkFBWGdFRkFnQUhBQU5XQUZoUkFGSUFBZ1pSQmxVQVZBWmRBQXNB.mp4"
+      },
+      {
+        "date": "2026-08-08",
+        "distance": 381,
+        "exitVelo": 98.2,
+        "launchAngle": 33,
+        "event": "home_run",
+        "description": "Ian Happ homers (19) on a fly ball to right center field.",
+        "matchup": "CHC @ KC",
+        "videoUrl": "https://sporty-clips.mlb.com/YVlkZEFfWGw0TUFRPT1fQndOWFhGME1BRmNBREFOVUF3QUhVZzhBQUZrQkJsRUFCZ2NCQlZkUUFRY0RVZ0VG.mp4"
+      }
+    ],
+    "664034": [],
+    "664040": [
+      {
+        "date": "2026-08-08",
+        "distance": 380,
+        "exitVelo": 98.9,
+        "launchAngle": 38,
+        "event": "home_run",
+        "description": "Brandon Lowe homers (25) on a fly ball to right field.",
+        "matchup": "NYM @ PIT",
+        "videoUrl": "https://sporty-clips.mlb.com/NXk5TTNfWGw0TUFRPT1fVkFsVlZGMEFWbGNBWEZJQUJBQUhWVlJRQUZoVFZGVUFWRlZXQmdFRkJnZGNBZ1pU.mp4"
+      },
+      {
+        "date": "2026-08-06",
+        "distance": 384,
+        "exitVelo": 103.3,
+        "launchAngle": 24,
+        "event": "home_run",
+        "description": "Brandon Lowe homers (24) on a fly ball to left center field.",
+        "matchup": "PIT @ MIL",
+        "videoUrl": "https://sporty-clips.mlb.com/OTdQZVZfWGw0TUFRPT1fVkZOU0J3VU1VbEFBV1FGV1ZnQUhCUVZYQUZoVEFRUUFBbE5XQUZZRUNWRUhWQVFD.mp4"
+      }
+    ],
+    "664761": [],
+    "664770": [
+      {
+        "date": "2026-08-08",
+        "distance": 395,
+        "exitVelo": 100.6,
+        "launchAngle": 24,
+        "event": "home_run",
+        "description": "Nathan Lukes homers (6) on a fly ball to right center field. Brandon Valenzuela scores.",
+        "matchup": "TOR @ PHI",
+        "videoUrl": "https://sporty-clips.mlb.com/TDY1OXhfWGw0TUFRPT1fQWdBQVYxZFNCVkFBRHdRRFV3QUhCbFVEQUZnSFVGSUFBZ1JYQXdSWEJRb0JVZ0VF.mp4"
+      }
+    ],
+    "664983": [
+      {
+        "date": "2026-08-08",
+        "distance": 417,
+        "exitVelo": 105.3,
+        "launchAngle": 29,
+        "event": "home_run",
+        "description": "Jake McCarthy homers (13) on a fly ball to center field. Ezequiel Tovar scores.",
+        "matchup": "COL @ STL",
+        "videoUrl": "https://sporty-clips.mlb.com/eUx3TlBfWGw0TUFRPT1fQWxJREFGQlFYZ0lBQ1FNR1ZnQUhCZ1VGQUFNRlZnTUFWMUpRQmxVRFV3RUFWRlpX.mp4"
+      },
+      {
+        "date": "2026-08-08",
+        "distance": 420,
+        "exitVelo": 104,
+        "launchAngle": 29,
+        "event": "home_run",
+        "description": "Jake McCarthy homers (12) on a fly ball to right center field.",
+        "matchup": "COL @ STL",
+        "videoUrl": "https://sporty-clips.mlb.com/eUx3TlBfWGw0TUFRPT1fVUZSWlZBSUNWQW9BQ1ZKWEJ3QUhVMU5mQUZoV1ZnVUFWQWRXQTFBR0FRc0hWUU1E.mp4"
+      },
+      {
+        "date": "2026-08-02",
+        "distance": 387,
+        "exitVelo": 97.5,
+        "launchAngle": 27,
+        "event": "home_run",
+        "description": "Jake McCarthy homers (11) on a fly ball to right field. Edouard Julien scores. Brett Sullivan scores.",
+        "matchup": "KC @ COL",
+        "videoUrl": "https://sporty-clips.mlb.com/Uk85Qk5fWGw0TUFRPT1fRGdRRUJnY0ZVVmNBQ0ZVREFBQUhCQU5SQUFOUlcxVUFCQWRYVVFCV1VsRlhBZ3NB.mp4"
+      }
+    ],
+    "665019": [
+      {
+        "date": "2026-08-09",
+        "distance": 401,
+        "exitVelo": 105.3,
+        "launchAngle": 24,
+        "event": "home_run",
+        "description": "Kody Clemens homers (20) on a fly ball to right center field. Josh Bell scores.",
+        "matchup": "MIN @ MIL",
+        "videoUrl": "https://sporty-clips.mlb.com/NHlLZUJfWGw0TUFRPT1fQTFOVFVsY0VBMUVBQ3djQlV3QUhDRk5WQUZrQlVWQUFCd01CVmdwUkIxZFRBd1pm.mp4"
+      },
+      {
+        "date": "2026-07-30",
+        "distance": 407,
+        "exitVelo": 104.7,
+        "launchAngle": 27,
+        "event": "home_run",
+        "description": "Kody Clemens hits a grand slam (19) to right center field. Ryan Jeffers scores. Royce Lewis scores. Alan Roden scores.",
+        "matchup": "KC @ MIN",
+        "videoUrl": "https://sporty-clips.mlb.com/ZzZ3QVFfWGw0TUFRPT1fQWxkVlVRWUZBRkFBQVZJR1ZRQUhVRmRTQUZoVEJsVUFDMWRXQWxFRVZ3UUJVbE5V.mp4"
+      }
+    ],
+    "665161": [
+      {
+        "date": "2026-08-02",
+        "distance": 364,
+        "exitVelo": 106.2,
+        "launchAngle": 20,
+        "event": "home_run",
+        "description": "Jeremy Peña homers (13) on a line drive to left field. Cam Smith scores.",
+        "matchup": "TEX @ HOU",
+        "videoUrl": "https://sporty-clips.mlb.com/MnI0OVBfWGw0TUFRPT1fQVFkU1Z3SUFYd2NBQzFvRlZBQUhBVkplQUFNRUFsSUFVRnhUQVFVSEFnWmNWUVJW.mp4"
+      },
+      {
+        "date": "2026-07-29",
+        "distance": 401,
+        "exitVelo": 104.9,
+        "launchAngle": 22,
+        "event": "home_run",
+        "description": "Jeremy Peña homers (12) on a line drive to center field.",
+        "matchup": "HOU @ LAA",
+        "videoUrl": "https://sporty-clips.mlb.com/WU9WYjdfWGw0TUFRPT1fVndCUUFRVUVVVlFBWEFSV1hnQUhBUU1EQUZrSFZsQUFCd2RSVTFGUUJGWURVUU1I.mp4"
+      }
+    ],
+    "665487": [
+      {
+        "date": "2026-08-09",
+        "distance": 421,
+        "exitVelo": 110.6,
+        "launchAngle": 32,
+        "event": "home_run",
+        "description": "Fernando Tatis Jr. homers (11) on a fly ball to left field. Luis Rengifo scores. Freddy Fermin scores.",
+        "matchup": "HOU @ SD",
+        "videoUrl": "https://sporty-clips.mlb.com/ZU53WFpfV0ZRVkV3dEdEUT09X1UxUlRWRmNNVTFNQUR3UUxWd0FIQmdVQUFGa0VBZ0FBVmxJREJRRUNBd1VEVTFBQw&#x3D;&#x3D;.mp4"
+      },
+      {
+        "date": "2026-08-07",
+        "distance": 400,
+        "exitVelo": 107,
+        "launchAngle": 28,
+        "event": "home_run",
+        "description": "Fernando Tatis Jr. homers (10) on a fly ball to left field.",
+        "matchup": "HOU @ SD",
+        "videoUrl": "https://sporty-clips.mlb.com/N3l6QTBfWGw0TUFRPT1fVndaV1UxSUhWRkFBWFZZSFZ3QUhBdzRBQUZrQlV3QUFWd1pSQVFRREJBb0dDVk1F.mp4"
+      },
+      {
+        "date": "2026-08-05",
+        "distance": 465,
+        "exitVelo": 114.7,
+        "launchAngle": 24,
+        "event": "home_run",
+        "description": "Fernando Tatis Jr. homers (9) on a fly ball to center field.",
+        "matchup": "SD @ AZ",
+        "videoUrl": "https://sporty-clips.mlb.com/NnlQTzRfWGw0TUFRPT1fQjFWWVZGWUdBZ29BQ1ZGWEJBQUhDQVZTQUZsVVcxWUFBQUFEQ0ZZQlYxWlJCVlFB.mp4"
+      }
+    ],
+    "665489": [
+      {
+        "date": "2026-08-08",
+        "distance": 408,
+        "exitVelo": 103.8,
+        "launchAngle": 22,
+        "event": "home_run",
+        "description": "Vladimir Guerrero Jr. homers (7) on a line drive to left field.",
+        "matchup": "TOR @ PHI",
+        "videoUrl": "https://sporty-clips.mlb.com/TDY1OXhfWGw0TUFRPT1fQjFkWkJsVURVVk1BVzFWUlVRQUhDRkJRQUZnSFZWWUFBMVpYQTFBTUNRWUJWZ2Rm.mp4"
+      }
+    ],
+    "665742": [],
+    "665750": [
+      {
+        "date": "2026-08-05",
+        "distance": 361,
+        "exitVelo": 100.5,
+        "launchAngle": 22,
+        "event": "home_run",
+        "description": "Leody Taveras homers (6) on a line drive to right center field. Gunnar Henderson scores.",
+        "matchup": "LAA @ BAL",
+        "videoUrl": "https://sporty-clips.mlb.com/TkE2MDVfWGw0TUFRPT1fVUFGVVhRRlZWUVFBV1ZJRFVRQUhCVklGQUFOVVd3SUFWZ01DQUZCUlVsQlNWZ1pY.mp4"
+      }
+    ],
+    "665833": [],
+    "665862": [
+      {
+        "date": "2026-08-04",
+        "distance": 397,
+        "exitVelo": 103.2,
+        "launchAngle": 38,
+        "event": "home_run",
+        "description": "Jazz Chisholm Jr. homers (17) on a fly ball to right center field.",
+        "matchup": "STL @ NYY",
+        "videoUrl": "https://sporty-clips.mlb.com/VndQajZfWGw0TUFRPT1fQWdGU1UxUU1YZ0lBREFCVUF3QUhVMU5VQUFBSFUxTUFVRlVOVkFBR1ZBWURDQXRW.mp4"
+      }
+    ],
+    "665926": [
+      {
+        "date": "2026-08-07",
+        "distance": 346,
+        "exitVelo": 104.5,
+        "launchAngle": 42,
+        "event": "home_run",
+        "description": "Andrés Giménez homers (8) on a fly ball to right field.",
+        "matchup": "TOR @ PHI",
+        "videoUrl": "https://sporty-clips.mlb.com/ckR3cTFfWGw0TUFRPT1fVXdsWEFsZFhWQW9BV1FSUVh3QUhVQUJXQUZrREFsZ0FWbDBEQWxjRUFsSlFCQVlF.mp4"
+      }
+    ],
+    "666018": [
+      {
+        "date": "2026-08-07",
+        "distance": 373,
+        "exitVelo": 107,
+        "launchAngle": 23,
+        "event": "home_run",
+        "description": "Jonathan Aranda homers (15) on a fly ball to right field.",
+        "matchup": "TB @ SEA",
+        "videoUrl": "https://sporty-clips.mlb.com/QndSWFlfV0ZRVkV3dEdEUT09X1Z3WlVVRkVHVkFzQVhWTUFVQUFIVUFaUkFBQURXbElBVjFVQVUxY0JBVlVCQ1FwZg&#x3D;&#x3D;.mp4"
+      }
+    ],
+    "666126": [],
+    "666152": [],
+    "666160": [
+      {
+        "date": "2026-08-04",
+        "distance": 380,
+        "exitVelo": 96.5,
+        "launchAngle": 37,
+        "event": "home_run",
+        "description": "Mickey Moniak homers (19) on a fly ball to right field. Ezequiel Tovar scores. Jake McCarthy scores.",
+        "matchup": "TB @ COL",
+        "videoUrl": "https://sporty-clips.mlb.com/eUx3NlJfWGw0TUFRPT1fRGdGVEFsME5VVkVBWGxRSEJBQUhVMUJTQUZoUlZWWUFBd0ZUQkZZR0JBcFhBMVlF.mp4"
+      },
+      {
+        "date": "2026-08-03",
+        "distance": 447,
+        "exitVelo": 104.3,
+        "launchAngle": 30,
+        "event": "home_run",
+        "description": "Mickey Moniak homers (18) on a fly ball to right center field.",
+        "matchup": "TB @ COL",
+        "videoUrl": "https://sporty-clips.mlb.com/ZU53N1pfWGw0TUFRPT1fVWxSVUJnQURBbEVBQ3dkUVZ3QUhWUTVYQUZrRkFnTUFWRjFRQjFKVEFRTUVWQUFI.mp4"
+      }
+    ],
+    "666176": [],
+    "666182": [
+      {
+        "date": "2026-08-04",
+        "distance": 422,
+        "exitVelo": 107.5,
+        "launchAngle": 30,
+        "event": "home_run",
+        "description": "Bo Bichette homers (11) on a fly ball to left center field.",
+        "matchup": "NYM @ CLE",
+        "videoUrl": "https://sporty-clips.mlb.com/QndSSzVfWGw0TUFRPT1fVkFSVFVGTlNYZ1lBRDFvQ0JRQUhBQUJYQUZrQlVWSUFBMUVCQWxkWEJ3cGRCbFJU.mp4"
+      }
+    ],
+    "666397": [],
+    "666969": [],
+    "668227": [
+      {
+        "date": "2026-08-01",
+        "distance": 350,
+        "exitVelo": 99.2,
+        "launchAngle": 38,
+        "event": "home_run",
+        "description": "Randy Arozarena homers (14) on a fly ball to left field.",
+        "matchup": "MIN @ SEA",
+        "videoUrl": "https://sporty-clips.mlb.com/SzRCcjJfWGw0TUFRPT1fVTFSVVVGRUdWUUVBRFZZRFZ3QUhCZ1ZYQUZsUUFsQUFWMXdFVVZZREJ3SmRVMU1G.mp4"
+      }
+    ],
+    "668709": [
+      {
+        "date": "2026-08-06",
+        "distance": 406,
+        "exitVelo": 105.3,
+        "launchAngle": 34,
+        "event": "home_run",
+        "description": "JJ Bleday homers (20) on a fly ball to right center field.",
+        "matchup": "ATH @ CIN",
+        "videoUrl": "https://sporty-clips.mlb.com/a0R2UURfWGw0TUFRPT1fQWxSVVVsVldVbE1BQ0ZkVEJBQUhCd1FEQUZrRVZGQUFCVkpUQlFZQlZRc0VBZ0JR.mp4"
+      },
+      {
+        "date": "2026-07-31",
+        "distance": 386,
+        "exitVelo": 105.7,
+        "launchAngle": 37,
+        "event": "home_run",
+        "description": "JJ Bleday homers (19) on a fly ball to right field.",
+        "matchup": "PIT @ CIN",
+        "videoUrl": "https://sporty-clips.mlb.com/d2V3UThfWGw0TUFRPT1fQVFOUkJsUldBbFlBREFOV1h3QUhBMU5YQUZsUldsVUFBd1lFQjFJQ1ZBQmNWbGNG.mp4"
+      }
+    ],
+    "668715": [
+      {
+        "date": "2026-07-17",
+        "distance": 404,
+        "exitVelo": 103.5,
+        "launchAngle": 25,
+        "event": "home_run",
+        "description": "Spencer Steer homers (15) on a fly ball to left field. JJ Bleday scores.",
+        "matchup": "CIN @ COL",
+        "videoUrl": "https://sporty-clips.mlb.com/MDRYa3hfWGw0TUFRPT1fQndOU1hWVlhWUVlBWFFFTFV3QUhVZ05WQUZnRlVWTUFBd2NNQmdFQVVBdFFCbEZS.mp4"
+      },
+      {
+        "date": "2026-07-17",
+        "distance": 421,
+        "exitVelo": 102.4,
+        "launchAngle": 26,
+        "event": "home_run",
+        "description": "Spencer Steer hits an inside-the-park home run (16) on a fly ball to right-center field.",
+        "matchup": "CIN @ COL",
+        "videoUrl": "https://sporty-clips.mlb.com/MDRYa3hfWGw0TUFRPT1fQmdWWEFBWUVCQWNBV3dRRVVnQUhWMWNGQUZrSFVWUUFVMUVBVXdFR1Z3dFFVd0lE.mp4"
+      }
+    ],
+    "668804": [],
+    "668885": [],
+    "668901": [],
+    "668904": [
+      {
+        "date": "2026-08-06",
+        "distance": 421,
+        "exitVelo": 104.2,
+        "launchAngle": 32,
+        "event": "home_run",
+        "description": "Royce Lewis homers (13) on a fly ball to left field.",
+        "matchup": "MIN @ KC",
+        "videoUrl": "https://sporty-clips.mlb.com/RDFkZHZfV0ZRVkV3dEdEUT09X0JRTldCMUZTQWxRQURRTlRWZ0FIQkZKVkFBQUNVQVFBVkZ3QkF3QUZCd0JYVkFOUQ&#x3D;&#x3D;.mp4"
+      },
+      {
+        "date": "2026-08-02",
+        "distance": 402,
+        "exitVelo": 103,
+        "launchAngle": 27,
+        "event": "home_run",
+        "description": "Royce Lewis homers (12) on a fly ball to center field. Josh Bell scores. Kody Clemens scores.",
+        "matchup": "MIN @ SEA",
+        "videoUrl": "https://sporty-clips.mlb.com/NHlLV3FfWGw0TUFRPT1fQmxOWEJWUUhBMUVBQ0FFR1h3QUhWQVJUQUZrRFVnUUFCd01BQUFBQVV3VlFBd0lD.mp4"
+      },
+      {
+        "date": "2026-07-31",
+        "distance": 419,
+        "exitVelo": 107.3,
+        "launchAngle": 31,
+        "event": "home_run",
+        "description": "Royce Lewis homers (11) on a fly ball to left center field.",
+        "matchup": "MIN @ SEA",
+        "videoUrl": "https://sporty-clips.mlb.com/TUFYd1lfWGw0TUFRPT1fVUFRREIxTlFVUW9BRDFvQVZRQUhWQVlBQUZrQ0FBUUFCQVpYQlFRQ0FRQlNCbFpU.mp4"
+      }
+    ],
+    "668930": [
+      {
+        "date": "2026-07-31",
+        "distance": 398,
+        "exitVelo": 102,
+        "launchAngle": 35,
+        "event": "home_run",
+        "description": "Brice Turang homers (16) on a fly ball to center field. Cooper Pratt scores.",
+        "matchup": "MIL @ LAA",
+        "videoUrl": "https://sporty-clips.mlb.com/TUFYMzlfWGw0TUFRPT1fQXdkUkJsQURVd0lBV2dBR0JBQUhCUWRlQUZsV1VsTUFWd0JYQXdRTVUxSlZBd0FF.mp4"
+      }
+    ],
+    "668939": [],
+    "669003": [],
+    "669016": [],
+    "669065": [
+      {
+        "date": "2026-07-31",
+        "distance": 417,
+        "exitVelo": 106.5,
+        "launchAngle": 37,
+        "event": "home_run",
+        "description": "Kyle Stowers homers (16) on a fly ball to center field.",
+        "matchup": "MIA @ NYM",
+        "videoUrl": "https://sporty-clips.mlb.com/WERablhfWGw0TUFRPT1fVTFCVUFWSlZCUU1BRGxzRlZBQUhCQTlXQUZoVUJsWUFWd2RVVVZFQUNWVUhDRlJW.mp4"
+      },
+      {
+        "date": "2026-07-30",
+        "distance": 368,
+        "exitVelo": 112.8,
+        "launchAngle": 24,
+        "event": "home_run",
+        "description": "Kyle Stowers homers (15) on a fly ball to right field.",
+        "matchup": "MIA @ NYM",
+        "videoUrl": "https://sporty-clips.mlb.com/NHlLNzZfWGw0TUFRPT1fVXdVRlYxRUhWd2NBQzFkUlZBQUhVd1FDQUFOUVVRY0FBVklGQ1FaWEJ3WUhCd1FB.mp4"
+      }
+    ],
+    "669127": [
+      {
+        "date": "2026-07-21",
+        "distance": 444,
+        "exitVelo": 110.7,
+        "launchAngle": 25,
+        "event": "home_run",
+        "description": "Shea Langeliers homers (23) on a fly ball to left center field.",
+        "matchup": "ATH @ AZ",
+        "videoUrl": "https://sporty-clips.mlb.com/ek1sMzZfWGw0TUFRPT1fQlZkV0JsUUVVMU1BWEZ0UVVnQUhCUVlIQUFCV1VsWUFCVlJXVTFCVEFBSmRVUXBU.mp4"
+      },
+      {
+        "date": "2026-07-17",
+        "distance": 399,
+        "exitVelo": 107.6,
+        "launchAngle": 24,
+        "event": "home_run",
+        "description": "Shea Langeliers homers (22) on a line drive to left field.",
+        "matchup": "WSH @ ATH",
+        "videoUrl": "https://sporty-clips.mlb.com/a0RsOUtfWGw0TUFRPT1fQjFWV0JWUlhBZ1lBQzFJQ1Z3QUhCZ2RUQUFCUVdnTUFCMVFDQVZVRkF3cGRWVkFG.mp4"
+      }
+    ],
+    "669224": [
+      {
+        "date": "2026-08-03",
+        "distance": 394,
+        "exitVelo": 104.3,
+        "launchAngle": 28,
+        "event": "home_run",
+        "description": "Austin Wells homers (8) on a fly ball to right center field. Ryan McMahon scores.",
+        "matchup": "STL @ NYY",
+        "videoUrl": "https://sporty-clips.mlb.com/bmJ3RERfWGw0TUFRPT1fQndBRlVsRldVQU1BQ2x0V1VRQUhCQUVDQUFCV1dsa0FVVkJXQndkUUNGSURDUUVG.mp4"
+      }
+    ],
+    "669364": [],
+    "669394": [],
+    "669477": [
+      {
+        "date": "2026-07-24",
+        "distance": 412,
+        "exitVelo": 105.9,
+        "launchAngle": 27,
+        "event": "home_run",
+        "description": "Casey Schmitt homers (21) on a fly ball to left field. Bryce Eldridge scores. Rafael Devers scores.",
+        "matchup": "LAA @ SF",
+        "videoUrl": "https://sporty-clips.mlb.com/NnlNeTJfWGw0TUFRPT1fRGdCUlZseFZCQWNBQUZBR0FBQUhBd0ZUQUZoWFd3QUFCZ0JUQjFJRVUxRlRBMUJm.mp4"
+      },
+      {
+        "date": "2026-07-22",
+        "distance": 376,
+        "exitVelo": 99.1,
+        "launchAngle": 26,
+        "event": "home_run",
+        "description": "Casey Schmitt homers (20) on a fly ball to left field.",
+        "matchup": "SF @ KC",
+        "videoUrl": "https://sporty-clips.mlb.com/UUFLS2RfWGw0TUFRPT1fQUZSV1YxTlFVUUVBREFaVFh3QUhVZ1ZRQUFCV1ZWRUFDMUFCVmxVQ1ZBTURDQWNB.mp4"
+      }
+    ],
+    "669707": [],
+    "670042": [
+      {
+        "date": "2026-07-19",
+        "distance": 386,
+        "exitVelo": 103.2,
+        "launchAngle": 30,
+        "event": "home_run",
+        "description": "Luke Raley homers (15) on a fly ball to right center field.",
+        "matchup": "SF @ SEA",
+        "videoUrl": "https://sporty-clips.mlb.com/YkJMRDlfWGw0TUFRPT1fQkFVREJWTlJBMUFBQ2xRS1h3QUhBUVpTQUZnRFVBSUFCZ0JSVmxkWFZ3VldBQVlF.mp4"
+      }
+    ],
+    "670541": [],
+    "670623": [
+      {
+        "date": "2026-07-31",
+        "distance": 395,
+        "exitVelo": 101.2,
+        "launchAngle": 35,
+        "event": "home_run",
+        "description": "Isaac Paredes homers (15) on a fly ball to left field.",
+        "matchup": "TEX @ HOU",
+        "videoUrl": "https://sporty-clips.mlb.com/bmJ3YXZfV0ZRVkV3dEdEUT09X0RnVUZWVkVEQWdjQVcxSlJVZ0FIQVZBSEFBQlhVRk1BVVZBRlV3SUJVRlZSQ0FGVQ&#x3D;&#x3D;.mp4"
+      }
+    ],
+    "670764": [],
+    "671056": [
+      {
+        "date": "2026-08-07",
+        "distance": 379,
+        "exitVelo": 97,
+        "launchAngle": 28,
+        "event": "home_run",
+        "description": "Iván Herrera homers (13) on a fly ball to left field.",
+        "matchup": "COL @ STL",
+        "videoUrl": "https://sporty-clips.mlb.com/ZU53OGJfWGw0TUFRPT1fVWdCWkFRSUJBd1lBWEZzTFVRQUhCQWRUQUFNQUFRTUFVQUFFVVFCVUFBSmNVd1lD.mp4"
+      }
+    ],
+    "671218": [],
+    "671277": [
+      {
+        "date": "2026-08-03",
+        "distance": 424,
+        "exitVelo": 109,
+        "launchAngle": 19,
+        "event": "home_run",
+        "description": "Luis García Jr. homers (24) on a line drive to right center field. Trent Grisham scores.",
+        "matchup": "STL @ NYY",
+        "videoUrl": "https://sporty-clips.mlb.com/bmJ3RERfWGw0TUFRPT1fQUFKV0FsUlFBRk1BV1Z0UkFBQUhDRlZYQUFCUlYxa0FBZ2RXVkZjR0JnTmNVZ1FB.mp4"
+      },
+      {
+        "date": "2026-07-30",
+        "distance": 455,
+        "exitVelo": 111.1,
+        "launchAngle": 34,
+        "event": "home_run",
+        "description": "Luis García Jr. homers (23) on a fly ball to right field.",
+        "matchup": "WSH @ ATL",
+        "videoUrl": "https://sporty-clips.mlb.com/TkE2TTVfV0ZRVkV3dEdEUT09X1ZWZFpBQUFNVUZjQVhRQlRWd0FIQjFKZUFBTUhCMVVBQzFjQVZGZFVBd1VFQ0FZRA&#x3D;&#x3D;.mp4"
+      },
+      {
+        "date": "2026-07-28",
+        "distance": 375,
+        "exitVelo": 98.5,
+        "launchAngle": 28,
+        "event": "home_run",
+        "description": "Luis García Jr. homers (22) on a fly ball to right field. Jacob Young scores.",
+        "matchup": "TOR @ WSH",
+        "videoUrl": "https://sporty-clips.mlb.com/QndEV3JfWGw0TUFRPT1fQlZCU1VRY0FBbE1BRGdRQUJ3QUhCRk5XQUFOUUFRUUFBZ1FHQ1FNSEJGQUdCQUJV.mp4"
+      }
+    ],
+    "671289": [],
+    "671732": [
+      {
+        "date": "2026-08-05",
+        "distance": 415,
+        "exitVelo": 107.9,
+        "launchAngle": 30,
+        "event": "home_run",
+        "description": "Lawrence Butler homers (7) on a fly ball to right center field.",
+        "matchup": "ATH @ CIN",
+        "videoUrl": "https://sporty-clips.mlb.com/akR3UTFfWGw0TUFRPT1fRGxBSFhGMEZYd0VBREZWVVhnQUhCZ0JlQUZsV0FGZ0FCUVlOQlZFQkJsVlNDQXRW.mp4"
+      }
+    ],
+    "671739": [
+      {
+        "date": "2026-07-31",
+        "distance": 421,
+        "exitVelo": 112.8,
+        "launchAngle": 19,
+        "event": "home_run",
+        "description": "Michael Harris II homers (20) on a line drive to right field. Matt Olson scores. Ozzie Albies scores.",
+        "matchup": "WSH @ ATL",
+        "videoUrl": "https://sporty-clips.mlb.com/NXliUkJfWGw0TUFRPT1fVWdVSFVWd01YbEFBV1ZwUVVBQUhCZ1pTQUZnSFdsTUFVQVFCVWdzR0NRSlJCZ1VF.mp4"
+      }
+    ],
+    "671976": [],
+    "672515": [
+      {
+        "date": "2026-07-29",
+        "distance": 407,
+        "exitVelo": 101.6,
+        "launchAngle": 34,
+        "event": "home_run",
+        "description": "Gabriel Moreno homers (8) on a fly ball to center field. Corbin Carroll scores.",
+        "matchup": "AZ @ PIT",
+        "videoUrl": "https://sporty-clips.mlb.com/NHlLOWpfWGw0TUFRPT1fVlFRRFYxQUFWUVFBV1FBTFV3QUhWdzllQUZoWFV3VUFVVlFHQWxFSEFRVlRCUUlG.mp4"
+      }
+    ],
+    "672580": [],
+    "672640": [],
+    "672695": [
+      {
+        "date": "2026-08-01",
+        "distance": 391,
+        "exitVelo": 102.4,
+        "launchAngle": 27,
+        "event": "home_run",
+        "description": "Geraldo Perdomo homers (9) on a fly ball to right field.",
+        "matchup": "AZ @ CLE",
+        "videoUrl": "https://sporty-clips.mlb.com/WERaQWpfV0ZRVkV3dEdEUT09X1VBSURBQWRSVlZBQUN3WUdBd0FIVjFNRkFBQlFVMWtBVmdSUVZsY0hCUWRSQVFRRg&#x3D;&#x3D;.mp4"
+      }
+    ],
+    "672724": [],
+    "672960": [],
+    "673548": [
+      {
+        "date": "2026-08-03",
+        "distance": 367,
+        "exitVelo": 106.6,
+        "launchAngle": 20,
+        "event": "home_run",
+        "description": "Seiya Suzuki homers (19) on a line drive to left center field. Pete Crow-Armstrong scores.",
+        "matchup": "LAD @ CHC",
+        "videoUrl": "https://sporty-clips.mlb.com/QndSV0JfWGw0TUFRPT1fVkFjRVYxTUJVMUFBWFZNSEJ3QUhCRlVFQUZoUlVBVUFVUU1HVmxBSEJnc0FBQUJX.mp4"
+      }
+    ],
+    "673962": [],
+    "676391": [
+      {
+        "date": "2026-08-05",
+        "distance": 391,
+        "exitVelo": 102.4,
+        "launchAngle": 32,
+        "event": "home_run",
+        "description": "Ernie Clement homers (9) on a fly ball to left field. Luis Urías scores.",
+        "matchup": "TOR @ HOU",
+        "videoUrl": "https://sporty-clips.mlb.com/UHY2OVdfWGw0TUFRPT1fVWdGWkFBZFNBd1lBQ1Z0UUFnQUhVQVlFQUFNRkFRSUFBd1lEQndwVFV3RUFVVkJR.mp4"
+      }
+    ],
+    "676475": [
+      {
+        "date": "2026-08-09",
+        "distance": 441,
+        "exitVelo": 110.3,
+        "launchAngle": 28,
+        "event": "home_run",
+        "description": "Alec Burleson homers (19) on a fly ball to right center field.",
+        "matchup": "COL @ STL",
+        "videoUrl": "https://sporty-clips.mlb.com/bmJ3TXZfWGw0TUFRPT1fRGdjSFVGUlZVQVFBVzFVR1h3QUhCbGRWQUZoWFdsZ0FWbEFIQlFVRkFRdFNBUU5X.mp4"
+      },
+      {
+        "date": "2026-08-03",
+        "distance": 418,
+        "exitVelo": 109.1,
+        "launchAngle": 29,
+        "event": "home_run",
+        "description": "Alec Burleson homers (18) on a fly ball to right field. JJ Wetherholt scores.",
+        "matchup": "STL @ NYY",
+        "videoUrl": "https://sporty-clips.mlb.com/bmJ3RERfWGw0TUFRPT1fVTFOUVZnVUhVQVlBQVZSWEJ3QUhDVk5mQUFCVVVRSUFWMTBNQjFBTkNWSUFCbFpV.mp4"
+      },
+      {
+        "date": "2026-08-03",
+        "distance": 365,
+        "exitVelo": 108.3,
+        "launchAngle": 22,
+        "event": "home_run",
+        "description": "Alec Burleson homers (17) on a fly ball to right field. Jordan Walker scores.",
+        "matchup": "STL @ NYY",
+        "videoUrl": "https://sporty-clips.mlb.com/bmJ3RERfWGw0TUFRPT1fVWdBRFV3SUhBMVlBWGxBR0J3QUhWVkFGQUZnRlZRSUFCbFVBQmxZRlZGVUFCd3Rm.mp4"
+      },
+      {
+        "date": "2026-08-03",
+        "distance": 350,
+        "exitVelo": 103.6,
+        "launchAngle": 22,
+        "event": "home_run",
+        "description": "Alec Burleson homers (16) on a line drive to right field. JJ Wetherholt scores.",
+        "matchup": "STL @ NYY",
+        "videoUrl": "https://sporty-clips.mlb.com/bmJ3RERfWGw0TUFRPT1fVkZBQ0JnVUhBMUFBWEFOVFhnQUhVZ1FIQUZnR1ZRTUFBd1FIVTFFRVVGY0VBVk5R.mp4"
+      }
+    ],
+    "676609": [
+      {
+        "date": "2026-08-03",
+        "distance": 400,
+        "exitVelo": 104.1,
+        "launchAngle": 27,
+        "event": "home_run",
+        "description": "José Caballero homers (12) on a fly ball to left field.",
+        "matchup": "STL @ NYY",
+        "videoUrl": "https://sporty-clips.mlb.com/bmJ3RERfWGw0TUFRPT1fRGdjQ1UxUldCVlFBRGxWUlh3QUhCUWRVQUZsUVUxY0FWRk1BQkFkVVZWRlRBVkZm.mp4"
+      },
+      {
+        "date": "2026-08-02",
+        "distance": 408,
+        "exitVelo": 106.6,
+        "launchAngle": 26,
+        "event": "home_run",
+        "description": "José Caballero homers (11) on a fly ball to center field. Ryan McMahon scores.",
+        "matchup": "NYY @ CHC",
+        "videoUrl": "https://sporty-clips.mlb.com/NXk5REtfWGw0TUFRPT1fQVFGV0FGUlNWRllBWFFNQUF3QUhBVk5TQUZsVUJnTUFBMVVFQXdSVFZGWlhWQUFI.mp4"
+      }
+    ],
+    "677587": [],
+    "677594": [
+      {
+        "date": "2026-08-07",
+        "distance": 396,
+        "exitVelo": 105.1,
+        "launchAngle": 24,
+        "event": "home_run",
+        "description": "Julio Rodríguez homers (18) on a fly ball to left field.",
+        "matchup": "TB @ SEA",
+        "videoUrl": "https://sporty-clips.mlb.com/QndSWFlfV0ZRVkV3dEdEUT09X0FsQlpCZ1VHVlZjQVhnWlhBd0FIQWxRRUFGa0hWQUFBQ2xZTUJGZFhWVlpXVlZkUw&#x3D;&#x3D;.mp4"
+      },
+      {
+        "date": "2026-08-05",
+        "distance": 366,
+        "exitVelo": 103.3,
+        "launchAngle": 24,
+        "event": "home_run",
+        "description": "Julio Rodríguez homers (17) on a fly ball to right field. Randy Arozarena scores. Dominic Canzone scores.",
+        "matchup": "DET @ SEA",
+        "videoUrl": "https://sporty-clips.mlb.com/TkFOZDJfWGw0TUFRPT1fQndCUlZRQU1BQWNBV2xRR1ZnQUhDQVZTQUZnQldnUUFBUWNHQTFGUUF3WUhCd2ND.mp4"
+      }
+    ],
+    "677649": [
+      {
+        "date": "2026-08-03",
+        "distance": 406,
+        "exitVelo": 110.2,
+        "launchAngle": 22,
+        "event": "home_run",
+        "description": "Ezequiel Duran homers (13) on a fly ball to left field.",
+        "matchup": "SF @ TEX",
+        "videoUrl": "https://sporty-clips.mlb.com/Uk85UE1fV0ZRVkV3dEdEUT09X0FnWlpYRlVNQkFNQUFGVUdCQUFIVWxWU0FGZ0hBbEVBQ2wwQkFWVURCd1ZYVVZaUQ&#x3D;&#x3D;.mp4"
+      }
+    ],
+    "677800": [
+      {
+        "date": "2026-08-05",
+        "distance": 390,
+        "exitVelo": 109.3,
+        "launchAngle": 22,
+        "event": "home_run",
+        "description": "Wilyer Abreu homers (20) on a fly ball to right center field.",
+        "matchup": "CWS @ BOS",
+        "videoUrl": "https://sporty-clips.mlb.com/ckR3YnlfWGw0TUFRPT1fRGdjRVZWVUJBQVFBRFZzRlV3QUhDVmNEQUFOUUFBQUFWMUFEQUFwUUJBQmRCQUJW.mp4"
+      },
+      {
+        "date": "2026-08-04",
+        "distance": 430,
+        "exitVelo": 106.8,
+        "launchAngle": 27,
+        "event": "home_run",
+        "description": "Wilyer Abreu homers (18) on a fly ball to center field.",
+        "matchup": "CWS @ BOS",
+        "videoUrl": "https://sporty-clips.mlb.com/QXc3M3ZfWGw0TUFRPT1fVUFCVEFGMVZVMVFBQ0ZkVUJ3QUhWRlFBQUZoV0JRUUFCUU5SQkFRQ0FWSlVCMVFD.mp4"
+      },
+      {
+        "date": "2026-08-04",
+        "distance": 419,
+        "exitVelo": 105,
+        "launchAngle": 31,
+        "event": "home_run",
+        "description": "Wilyer Abreu homers (19) on a fly ball to center field.",
+        "matchup": "CWS @ BOS",
+        "videoUrl": "https://sporty-clips.mlb.com/QXc3M3ZfWGw0TUFRPT1fQUZJRVYxME5YbEVBWFFkVEJ3QUhBVkFFQUZnRld3UUFWMXdDQVFjQkJ3QlNVVk5Y.mp4"
+      },
+      {
+        "date": "2026-08-02",
+        "distance": 431,
+        "exitVelo": 109.1,
+        "launchAngle": 24,
+        "event": "home_run",
+        "description": "Wilyer Abreu homers (17) on a fly ball to right center field.",
+        "matchup": "BOS @ LAD",
+        "videoUrl": "https://sporty-clips.mlb.com/MnI0THdfV0ZRVkV3dEdEUT09X0RnTlhCUVlDQlZBQUFBQUxWUUFIQTFJREFGa01CMVVBVTFKWEJ3SUFWQU1BVkFaUg&#x3D;&#x3D;.mp4"
+      },
+      {
+        "date": "2026-07-30",
+        "distance": 422,
+        "exitVelo": 102.6,
+        "launchAngle": 26,
+        "event": "home_run",
+        "description": "Wilyer Abreu homers (16) on a fly ball to center field.",
+        "matchup": "BOS @ ATH",
+        "videoUrl": "https://sporty-clips.mlb.com/ZzZsOGJfWGw0TUFRPT1fQWxNQUFBWUdWd01BQUFBR0JRQUhCbFFIQUFBTUFsUUFCVlVGQ0ZBR0JWSUVVZ05W.mp4"
+      }
+    ],
+    "677951": [],
+    "678246": [
+      {
+        "date": "2026-08-02",
+        "distance": 413,
+        "exitVelo": 104.9,
+        "launchAngle": 24,
+        "event": "home_run",
+        "description": "Miguel Vargas homers (24) on a fly ball to left center field. Luisangel Acuña scores.",
+        "matchup": "CWS @ TB",
+        "videoUrl": "https://sporty-clips.mlb.com/dnZ3NjRfWGw0TUFRPT1fVWxJSFhBVU5CQW9BVzFNQ0FnQUhBd0JTQUFBQ1VWSUFDbE1NQ1ZkUUJWSmNVMUZV.mp4"
+      },
+      {
+        "date": "2026-07-31",
+        "distance": 433,
+        "exitVelo": 107.8,
+        "launchAngle": 26,
+        "event": "home_run",
+        "description": "Miguel Vargas homers (23) on a fly ball to left field.",
+        "matchup": "CWS @ TB",
+        "videoUrl": "https://sporty-clips.mlb.com/M3k2OVZfWGw0TUFRPT1fQkFZSEIxTUNCQU1BQ0ZWV0FBQUhBQTRFQUZsV0FRSUFBZ2NCQmxZRlZ3cFZWQXRY.mp4"
+      }
+    ],
+    "678391": [],
+    "678554": [],
+    "678662": [
+      {
+        "date": "2026-08-03",
+        "distance": 398,
+        "exitVelo": 104.1,
+        "launchAngle": 26,
+        "event": "home_run",
+        "description": "Ezequiel Tovar homers (9) on a fly ball to left center field.",
+        "matchup": "TB @ COL",
+        "videoUrl": "https://sporty-clips.mlb.com/ZU53N1pfWGw0TUFRPT1fRHdOVFhBQU5Cd2NBRHdFTFVnQUhDVlFEQUZoWFVWRUFDbE5SVmxkUlZRTlJCMU5T.mp4"
+      }
+    ],
+    "678882": [
+      {
+        "date": "2026-08-02",
+        "distance": 388,
+        "exitVelo": 104,
+        "launchAngle": 23,
+        "event": "home_run",
+        "description": "Ceddanne Rafaela homers (15) on a fly ball to left center field.",
+        "matchup": "BOS @ LAD",
+        "videoUrl": "https://sporty-clips.mlb.com/MnI0THdfV0ZRVkV3dEdEUT09X1VBQUhWVlJXQWxRQVdRWlVVQUFIQ0E0RkFGZ0FVVklBVjFKVVZWZFVWUUFBQlFCUg&#x3D;&#x3D;.mp4"
+      },
+      {
+        "date": "2026-08-01",
+        "distance": 402,
+        "exitVelo": 100.5,
+        "launchAngle": 34,
+        "event": "home_run",
+        "description": "Ceddanne Rafaela homers (14) on a fly ball to left center field.",
+        "matchup": "BOS @ LAD",
+        "videoUrl": "https://sporty-clips.mlb.com/bmJ3enlfWGw0TUFRPT1fQmdjREJsY0hYZ3NBWGdCUlh3QUhBVkFIQUFNQ1VWWUFBRmNHQlFkV1VsVlVVd0VG.mp4"
+      },
+      {
+        "date": "2026-08-01",
+        "distance": 389,
+        "exitVelo": 100.4,
+        "launchAngle": 25,
+        "event": "home_run",
+        "description": "Ceddanne Rafaela homers (13) on a fly ball to left center field.",
+        "matchup": "BOS @ LAD",
+        "videoUrl": "https://sporty-clips.mlb.com/bmJ3enlfWGw0TUFRPT1fVXdSUlZWUUNCRmNBQUZvR1VRQUhWUVJRQUFNRUJsQUFWd01FQkFBSFZBTUVBbE5U.mp4"
+      },
+      {
+        "date": "2026-07-31",
+        "distance": 405,
+        "exitVelo": 106,
+        "launchAngle": 30,
+        "event": "home_run",
+        "description": "Ceddanne Rafaela homers (12) on a fly ball to left field. Nick Sogard scores.",
+        "matchup": "BOS @ LAD",
+        "videoUrl": "https://sporty-clips.mlb.com/N3l6dzJfWGw0TUFRPT1fQWdFRlZ3Y0RVQW9BWFFFRUJBQUhCZzlWQUZnRVZBSUFDMUlGQ1ZCVEExQlVVUXRU.mp4"
+      }
+    ],
+    "679529": [
+      {
+        "date": "2026-07-29",
+        "distance": 391,
+        "exitVelo": 101.9,
+        "launchAngle": 28,
+        "event": "home_run",
+        "description": "Spencer Torkelson homers (20) on a fly ball to left field. Eduardo Valencia scores.",
+        "matchup": "BAL @ DET",
+        "videoUrl": "https://sporty-clips.mlb.com/d2V3NE5fWGw0TUFRPT1fQUZSWFZWRldBMVlBWFZZQ0JBQUhWd2NDQUZnRFZsQUFWQUVIVXdVR1V3dFRWbEJl.mp4"
+      }
+    ],
+    "679845": [],
+    "680574": [
+      {
+        "date": "2026-08-07",
+        "distance": 420,
+        "exitVelo": 105.5,
+        "launchAngle": 27,
+        "event": "home_run",
+        "description": "Matt McLain homers (10) on a fly ball to left field.",
+        "matchup": "CIN @ WSH",
+        "videoUrl": "https://sporty-clips.mlb.com/TUFETDFfWGw0TUFRPT1fVUZJRFVsMVFVQUVBRGxFS1VBQUhWVkJXQUZrRUJsUUFWMVlGVVZaUkFRc0FDVkZl.mp4"
+      },
+      {
+        "date": "2026-08-05",
+        "distance": 378,
+        "exitVelo": 98.2,
+        "launchAngle": 29,
+        "event": "home_run",
+        "description": "Matt McLain homers (9) on a fly ball to right center field.",
+        "matchup": "ATH @ CIN",
+        "videoUrl": "https://sporty-clips.mlb.com/akR3UTFfWGw0TUFRPT1fVWdKVFhGUUhVQVFBV3dkUVZ3QUhCQU5XQUFBQldnUUFCbEVOVXdkVEJGVlhWZ05Y.mp4"
+      }
+    ],
+    "680700": [
+      {
+        "date": "2026-08-03",
+        "distance": 416,
+        "exitVelo": 99.8,
+        "launchAngle": 31,
+        "event": "home_run",
+        "description": "Richie Palacios homers (5) on a fly ball to right field. Cedric Mullins scores.",
+        "matchup": "TB @ COL",
+        "videoUrl": "https://sporty-clips.mlb.com/ZU53N1pfWGw0TUFRPT1fQUFVQVZ3QURBRkFBQUZOUlV3QUhCd2RVQUZsUUFGUUFWQWNBVkFCV1ZGVURVVmRT.mp4"
+      }
+    ],
+    "680757": [
+      {
+        "date": "2026-08-07",
+        "distance": 362,
+        "exitVelo": 96,
+        "launchAngle": 30,
+        "event": "home_run",
+        "description": "Steven Kwan homers (2) on a fly ball to right field.",
+        "matchup": "CLE @ CWS",
+        "videoUrl": "https://sporty-clips.mlb.com/N3l6YTZfWGw0TUFRPT1fQmxJSFZRWldVRllBRFZRQVZRQUhWQTVmQUFBQVVGSUFCVlpUVXdzRUFWY0dDUUlI.mp4"
+      }
+    ],
+    "680776": [
+      {
+        "date": "2026-08-07",
+        "distance": 376,
+        "exitVelo": 102,
+        "launchAngle": 28,
+        "event": "home_run",
+        "description": "Jarren Duran homers (16) on a fly ball to left center field. Andruw Monasterio scores.",
+        "matchup": "ATH @ BOS",
+        "videoUrl": "https://sporty-clips.mlb.com/eHl3ZHpfWGw0TUFRPT1fVTFWVVZBSUVVVmNBVzFvR1Z3QUhCRkpYQUFBSFVBVUFCQUJYQkFzQ1YxWUdBZ1JV.mp4"
+      },
+      {
+        "date": "2026-08-04",
+        "distance": 414,
+        "exitVelo": 109,
+        "launchAngle": 25,
+        "event": "home_run",
+        "description": "Jarren Duran homers (15) on a fly ball to right center field.",
+        "matchup": "CWS @ BOS",
+        "videoUrl": "https://sporty-clips.mlb.com/QXc3M3ZfWGw0TUFRPT1fVjFOUVhGWlhWbGNBQzFJTFVBQUhWUVpWQUFNQVZGQUFVd2NIQUFNTlZ3TUFCUU5S.mp4"
+      },
+      {
+        "date": "2026-08-02",
+        "distance": 420,
+        "exitVelo": 106.2,
+        "launchAngle": 33,
+        "event": "home_run",
+        "description": "Jarren Duran homers (14) on a fly ball to center field.",
+        "matchup": "BOS @ LAD",
+        "videoUrl": "https://sporty-clips.mlb.com/MnI0THdfV0ZRVkV3dEdEUT09X0FRVlJYRlJWWHdjQUFGY0ZWZ0FIQ1E1UkFBTUVVUVVBQlZkVFZBY0JDQVJjQndKWA&#x3D;&#x3D;.mp4"
+      }
+    ],
+    "681082": [],
+    "681198": [],
+    "681297": [
+      {
+        "date": "2026-08-09",
+        "distance": 441,
+        "exitVelo": 108.9,
+        "launchAngle": 23,
+        "event": "home_run",
+        "description": "Colton Cowser homers (9) on a fly ball to center field.",
+        "matchup": "BAL @ TEX",
+        "videoUrl": "https://sporty-clips.mlb.com/cU93WmtfWGw0TUFRPT1fRHdoVEFGQUVWUUlBQ0ZZS1h3QUhBd2NBQUFCWFZWZ0FVRjBEVXd0VUJRSlFVVk5U.mp4"
+      }
+    ],
+    "681351": [],
+    "681481": [],
+    "681624": [
+      {
+        "date": "2026-08-07",
+        "distance": 425,
+        "exitVelo": 108.1,
+        "launchAngle": 35,
+        "event": "home_run",
+        "description": "Andy Pages homers (19) on a fly ball to left center field.",
+        "matchup": "LAD @ AZ",
+        "videoUrl": "https://sporty-clips.mlb.com/NHl6T09fWGw0TUFRPT1fQUFaVkFRQlhCMWNBQ2xBQ1hnQUhDVkJYQUZsVEFWVUFBQWNIQVFJSFZGSldCUVlE.mp4"
+      }
+    ],
+    "681715": [
+      {
+        "date": "2026-07-29",
+        "distance": 416,
+        "exitVelo": 104.3,
+        "launchAngle": 32,
+        "event": "home_run",
+        "description": "Heriberto Hernández homers (16) on a fly ball to left center field. Brian Navarreto scores.",
+        "matchup": "PHI @ MIA",
+        "videoUrl": "https://sporty-clips.mlb.com/a0R2YktfWGw0TUFRPT1fQVZJRlUxUldCUUFBQUFBRVVBQUhBRk5YQUFNTVdsWUFCQUFEQXdOVUFnSlRBd0FB.mp4"
+      }
+    ],
+    "682177": [],
+    "682626": [
+      {
+        "date": "2026-08-09",
+        "distance": 393,
+        "exitVelo": 101.7,
+        "launchAngle": 32,
+        "event": "home_run",
+        "description": "Francisco Alvarez homers (13) on a fly ball to left center field.",
+        "matchup": "NYM @ PIT",
+        "videoUrl": "https://sporty-clips.mlb.com/M3k2S3ZfWGw0TUFRPT1fVXdKVkIxMVdWZ0VBWFFaVUFnQUhVMWNIQUZsUUFGWUFDZ1FFVXdJR0J3Y0hCQUVB.mp4"
+      }
+    ],
+    "682657": [
+      {
+        "date": "2026-08-07",
+        "distance": 422,
+        "exitVelo": 106.4,
+        "launchAngle": 32,
+        "event": "home_run",
+        "description": "Angel Martínez hits a grand slam (12) to right center field. Chase DeLauter scores. José Ramírez scores. Jo Adell scores.",
+        "matchup": "CLE @ CWS",
+        "videoUrl": "https://sporty-clips.mlb.com/N3l6YTZfWGw0TUFRPT1fQkZWVVUxQlNVd1VBWEFFRFZBQUhCZ2RWQUFBQVZsTUFDd2NCQmdBRkJnVURBRmNB.mp4"
+      }
+    ],
+    "682829": [
+      {
+        "date": "2026-08-07",
+        "distance": 379,
+        "exitVelo": 101.6,
+        "launchAngle": 37,
+        "event": "home_run",
+        "description": "Elly De La Cruz homers (20) on a fly ball to left field.",
+        "matchup": "CIN @ WSH",
+        "videoUrl": "https://sporty-clips.mlb.com/TUFETDFfWGw0TUFRPT1fQndGU0JWRU5Vd0VBRDFGUlZ3QUhCQWNIQUFOV0JnTUFWQUFDQndOWEJ3RlJWbFJm.mp4"
+      },
+      {
+        "date": "2026-08-06",
+        "distance": 381,
+        "exitVelo": 104.2,
+        "launchAngle": 36,
+        "event": "home_run",
+        "description": "Elly De La Cruz homers (19) on a fly ball to left center field.",
+        "matchup": "ATH @ CIN",
+        "videoUrl": "https://sporty-clips.mlb.com/a0R2UURfWGw0TUFRPT1fVjFkVFZsMVdBd1lBQ0FRRVZRQUhWUUJRQUFNRlcxQUFDbGNIQXdVTUNGSldDQUZY.mp4"
+      }
+    ],
+    "682928": [
+      {
+        "date": "2026-07-31",
+        "distance": 393,
+        "exitVelo": 102,
+        "launchAngle": 38,
+        "event": "home_run",
+        "description": "CJ Abrams homers (28) on a fly ball to right field.",
+        "matchup": "WSH @ ATL",
+        "videoUrl": "https://sporty-clips.mlb.com/NXliUkJfWGw0TUFRPT1fRGxkVVZnVlFVRmNBWEZNQVhnQUhCMUlDQUFOUVVsSUFCRk1NQndFRkJGQmRCUVpV.mp4"
+      }
+    ],
+    "682985": [
+      {
+        "date": "2026-08-04",
+        "distance": 403,
+        "exitVelo": 104.9,
+        "launchAngle": 37,
+        "event": "home_run",
+        "description": "Riley Greene homers (16) on a fly ball to center field.",
+        "matchup": "DET @ SEA",
+        "videoUrl": "https://sporty-clips.mlb.com/NnlNTzJfWGw0TUFRPT1fRGdjRFVRVUZBQUFBVzFGUVZRQUhBZ0FIQUFCUkFBVUFCd0JVQmxGWEFWWUFVbGNG.mp4"
+      }
+    ],
+    "682998": [
+      {
+        "date": "2026-08-01",
+        "distance": 403,
+        "exitVelo": 101.6,
+        "launchAngle": 26,
+        "event": "home_run",
+        "description": "Corbin Carroll homers (16) on a fly ball to center field. James McCann scores. Ryan Waldschmidt scores.",
+        "matchup": "AZ @ CLE",
+        "videoUrl": "https://sporty-clips.mlb.com/WERaQWpfV0ZRVkV3dEdEUT09X0RnVlVCMU1HVlFjQUFWVlRBZ0FIQkFCUUFBTlhWVmNBVVFBQkJnWU5CRlZTVmdVRQ&#x3D;&#x3D;.mp4"
+      }
+    ],
+    "683002": [],
+    "683083": [],
+    "683146": [
+      {
+        "date": "2026-08-05",
+        "distance": 399,
+        "exitVelo": 106.8,
+        "launchAngle": 26,
+        "event": "home_run",
+        "description": "Brett Baty homers (7) on a fly ball to left center field.",
+        "matchup": "NYM @ CLE",
+        "videoUrl": "https://sporty-clips.mlb.com/WU9WMG5fWGw0TUFRPT1fVkZBRkFWY0FCUUlBQ1ZNQlh3QUhVMU5VQUZrR1ZsQUFVUVFOVlFzR0ExRlhVd0FD.mp4"
+      }
+    ],
+    "683357": [],
+    "683737": [
+      {
+        "date": "2026-08-03",
+        "distance": 381,
+        "exitVelo": 101.5,
+        "launchAngle": 22,
+        "event": "home_run",
+        "description": "Michael Busch homers (14) on a line drive to left center field.",
+        "matchup": "LAD @ CHC",
+        "videoUrl": "https://sporty-clips.mlb.com/QndSV0JfWGw0TUFRPT1fRDFSUlUxUUdYd1VBVzFJRkF3QUhDRlJXQUZrRkJsVUFCd0FBQmxjTVVnVmRBVllE.mp4"
+      }
+    ],
+    "683953": [],
+    "686217": [],
+    "686469": [],
+    "686527": [],
+    "686555": [],
+    "686611": [],
+    "686681": [
+      {
+        "date": "2026-08-05",
+        "distance": 422,
+        "exitVelo": 103.3,
+        "launchAngle": 24,
+        "event": "home_run",
+        "description": "Michael Massey homers (9) on a fly ball to right center field.",
+        "matchup": "MIN @ KC",
+        "videoUrl": "https://sporty-clips.mlb.com/akR3d2tfWGw0TUFRPT1fVWdSU0J3QlNCMUFBWFZCWEJBQUhWd0ZSQUFBQlVsTUFBVjBBQlFJSEJBSUJVZ1VI.mp4"
+      }
+    ],
+    "686797": [
+      {
+        "date": "2026-08-09",
+        "distance": 401,
+        "exitVelo": 103.8,
+        "launchAngle": 29,
+        "event": "home_run",
+        "description": "Brooks Lee homers (17) on a fly ball to right center field.",
+        "matchup": "MIN @ MIL",
+        "videoUrl": "https://sporty-clips.mlb.com/NHlLZUJfWGw0TUFRPT1fVXdkUVZWSUNBMWNBV2x0V1ZRQUhDUVpXQUZsV1dsQUFDbEVCQVFKVFZBUUJCRllF.mp4"
+      },
+      {
+        "date": "2026-07-31",
+        "distance": 367,
+        "exitVelo": 97.1,
+        "launchAngle": 34,
+        "event": "home_run",
+        "description": "Brooks Lee homers (16) on a fly ball to right field. Josh Bell scores.",
+        "matchup": "MIN @ SEA",
+        "videoUrl": "https://sporty-clips.mlb.com/TUFYd1lfWGw0TUFRPT1fQlFSV1hRWU5WbEFBWEZaVUFBQUhDVkFFQUFOUlUxVUFCVmNBVmxCUlVnSUJCZ0VI.mp4"
+      }
+    ],
+    "686948": [],
+    "687093": [],
+    "687263": [
+      {
+        "date": "2026-08-06",
+        "distance": 411,
+        "exitVelo": 105,
+        "launchAngle": 30,
+        "event": "home_run",
+        "description": "Zach Neto homers (20) on a fly ball to center field. Wade Meckler scores. Nolan Schanuel scores.",
+        "matchup": "LAA @ BAL",
+        "videoUrl": "https://sporty-clips.mlb.com/NXliekJfWGw0TUFRPT1fQmdnRkJsTlNYZ2NBRGxjRFZnQUhCQTVlQUZnTVZnUUFWRllIQ1ZVQkJsSlVBRk5Y.mp4"
+      }
+    ],
+    "687401": [
+      {
+        "date": "2026-07-20",
+        "distance": 373,
+        "exitVelo": 104.9,
+        "launchAngle": 21,
+        "event": "home_run",
+        "description": "Joey Ortiz homers (5) on a line drive to left field. Jake Bauers scores. Cooper Pratt scores.",
+        "matchup": "NYM @ MIL",
+        "videoUrl": "https://sporty-clips.mlb.com/cU93clFfWGw0TUFRPT1fQVZCVkFGeFdWbEFBRGxFRVh3QUhBUU5UQUFOV0FGa0FBMUVFQWdkVVVnQlhBVlJX.mp4"
+      }
+    ],
+    "687462": [],
+    "687551": [],
+    "687859": [],
+    "689414": [
+      {
+        "date": "2026-08-04",
+        "distance": 402,
+        "exitVelo": 98.8,
+        "launchAngle": 26,
+        "event": "home_run",
+        "description": "Liam Hicks hits a grand slam (15) to right field. Richie Palacios scores. Taylor Walls scores. Jonathan Aranda scores.",
+        "matchup": "TB @ COL",
+        "videoUrl": "https://sporty-clips.mlb.com/eUx3NlJfWGw0TUFRPT1fQWxSVVVseFdYZ0lBWFFaUkJ3QUhCRkFDQUFBSFZnTUFVRklEVXdaWENBTlZBQUJX.mp4"
+      }
+    ],
+    "690993": [],
+    "691016": [
+      {
+        "date": "2026-08-08",
+        "distance": 413,
+        "exitVelo": 108.4,
+        "launchAngle": 24,
+        "event": "home_run",
+        "description": "Tyler Soderstrom homers (19) on a fly ball to right field.",
+        "matchup": "ATH @ BOS",
+        "videoUrl": "https://sporty-clips.mlb.com/TDY1UmtfWGw0TUFRPT1fVkFZRkJsWUdBMVFBRHdjQ1VnQUhBQVJTQUFOUlZRTUFVRndGVmxJTUF3WlNVd0lI.mp4"
+      },
+      {
+        "date": "2026-08-07",
+        "distance": 387,
+        "exitVelo": 103.7,
+        "launchAngle": 42,
+        "event": "home_run",
+        "description": "Tyler Soderstrom homers (18) on a fly ball to right center field.",
+        "matchup": "ATH @ BOS",
+        "videoUrl": "https://sporty-clips.mlb.com/eHl3ZHpfWGw0TUFRPT1fQXdVRUJWUU5Yd3NBRFFCUVZnQUhDQVFFQUFNRVdnY0FVVkVEQ1ZVRVVsQlNDUVFD.mp4"
+      }
+    ],
+    "691023": [
+      {
+        "date": "2026-08-08",
+        "distance": 432,
+        "exitVelo": 107.3,
+        "launchAngle": 31,
+        "event": "home_run",
+        "description": "Jordan Walker homers (23) on a fly ball to left center field.",
+        "matchup": "COL @ STL",
+        "videoUrl": "https://sporty-clips.mlb.com/eUx3TlBfWGw0TUFRPT1fVXdFRFhBY0FYMUVBRFZRRUJBQUhVMWNGQUZrQVZWRUFVRllGQkZFQUJBb0RVbEJY.mp4"
+      }
+    ],
+    "691026": [],
+    "691406": [
+      {
+        "date": "2026-08-05",
+        "distance": 449,
+        "exitVelo": 105.1,
+        "launchAngle": 38,
+        "event": "home_run",
+        "description": "Junior Caminero homers (33) on a fly ball to left field.",
+        "matchup": "TB @ COL",
+        "videoUrl": "https://sporty-clips.mlb.com/N3l6azBfWGw0TUFRPT1fQlFoWFZnQlJYbEFBQzFJR0FnQUhVZzlmQUZsVFdsRUFBd01GQVZZRVVsSUJVUXBU.mp4"
+      },
+      {
+        "date": "2026-08-03",
+        "distance": 422,
+        "exitVelo": 109.1,
+        "launchAngle": 22,
+        "event": "home_run",
+        "description": "Junior Caminero homers (31) on a fly ball to right center field. Jonathan Aranda scores.",
+        "matchup": "TB @ COL",
+        "videoUrl": "https://sporty-clips.mlb.com/ZU53N1pfWGw0TUFRPT1fRGxKVUIxRUZYZ0lBQ1FBRVZnQUhWd1FDQUZnRFZGWUFVMXdOQUZjQVVsQlhDVlJR.mp4"
+      },
+      {
+        "date": "2026-08-03",
+        "distance": 442,
+        "exitVelo": 112.4,
+        "launchAngle": 22,
+        "event": "home_run",
+        "description": "Junior Caminero homers (32) on a fly ball to left center field.",
+        "matchup": "TB @ COL",
+        "videoUrl": "https://sporty-clips.mlb.com/ZU53N1pfWGw0TUFRPT1fRGdCWkFsUUJYZ1lBQVZGV1VRQUhWQWNBQUZrRlVBVUFWMUFHQWdOUVZBZFZCUW9D.mp4"
+      },
+      {
+        "date": "2026-07-31",
+        "distance": 453,
+        "exitVelo": 109.5,
+        "launchAngle": 29,
+        "event": "home_run",
+        "description": "Junior Caminero homers (30) on a fly ball to center field.",
+        "matchup": "CWS @ TB",
+        "videoUrl": "https://sporty-clips.mlb.com/M3k2OVZfWGw0TUFRPT1fVXdFQ1VnWlNCMU1BV2daVVhnQUhBQVZUQUZsVUJnUUFCQVpYVVZVRVVBQmNCd0pX.mp4"
+      }
+    ],
+    "691594": [
+      {
+        "date": "2026-08-01",
+        "distance": 377,
+        "exitVelo": 103.2,
+        "launchAngle": 23,
+        "event": "home_run",
+        "description": "Javier Sanoja homers (4) on a fly ball to left field. Kyle Stowers scores.",
+        "matchup": "MIA @ NYM",
+        "videoUrl": "https://sporty-clips.mlb.com/TkFON0JfWGw0TUFRPT1fVWdNSEJ3RUJBQXNBQ0FRS1VBQUhCUVpUQUZrR1VnUUFCVjFRQmdvRFVsQlZBVmRY.mp4"
+      }
+    ],
+    "691718": [
+      {
+        "date": "2026-08-05",
+        "distance": 405,
+        "exitVelo": 104.4,
+        "launchAngle": 37,
+        "event": "home_run",
+        "description": "Pete Crow-Armstrong homers (26) on a fly ball to right field. Tyrone Taylor scores.",
+        "matchup": "LAD @ CHC",
+        "videoUrl": "https://sporty-clips.mlb.com/WU9WamdfWGw0TUFRPT1fVUFKU1hRSlZYZ01BWEFaUUFnQUhWQVJXQUFBSEJWSUFWbE1HQVFzTkFRSlRBQXNF.mp4"
+      },
+      {
+        "date": "2026-08-05",
+        "distance": 420,
+        "exitVelo": 101.5,
+        "launchAngle": 27,
+        "event": "home_run",
+        "description": "Pete Crow-Armstrong homers (25) on a fly ball to center field.",
+        "matchup": "LAD @ CHC",
+        "videoUrl": "https://sporty-clips.mlb.com/WU9WamdfWGw0TUFRPT1fQmxOWUFGMENVMVFBV3dZS1VBQUhVQVpSQUFNQ1ZsZ0FWbFFOVlF0WEJBUlVBd1JT.mp4"
+      }
+    ],
+    "691720": [],
+    "691723": [
+      {
+        "date": "2026-08-05",
+        "distance": 436,
+        "exitVelo": 105.9,
+        "launchAngle": 31,
+        "event": "home_run",
+        "description": "Coby Mayo homers (15) on a fly ball to left center field.",
+        "matchup": "LAA @ BAL",
+        "videoUrl": "https://sporty-clips.mlb.com/TkE2MDVfWGw0TUFRPT1fVWdJSFVGY0hBRkFBQ0FjR1h3QUhVbE1EQUFCUldsUUFWZ1pSQ0FVSFVndFJVd0ZR.mp4"
+      },
+      {
+        "date": "2026-07-27",
+        "distance": 390,
+        "exitVelo": 94.7,
+        "launchAngle": 29,
+        "event": "home_run",
+        "description": "Coby Mayo homers (14) on a fly ball to left center field. Jackson Holliday scores.",
+        "matchup": "BAL @ DET",
+        "videoUrl": "https://sporty-clips.mlb.com/M3k2Qk5fWGw0TUFRPT1fVjFjQ1hGSU5YMUVBQ2dNSEF3QUhDQUpmQUFBQ1UxY0FDbElGVVZKV1Z3b0JBMWNE.mp4"
+      }
+    ],
+    "693304": [],
+    "693307": [
+      {
+        "date": "2026-08-06",
+        "distance": 401,
+        "exitVelo": 101.3,
+        "launchAngle": 27,
+        "event": "home_run",
+        "description": "Dillon Dingler homers (26) on a fly ball to center field. Kevin McGonigle scores.",
+        "matchup": "DET @ SEA",
+        "videoUrl": "https://sporty-clips.mlb.com/WERabGtfWGw0TUFRPT1fVXdVQUJnY0NBRk1BQ3dBSEJBQUhWQVJTQUFOVVV3SUFDd2NIQVFNTUNWSlJDRlJX.mp4"
+      },
+      {
+        "date": "2026-08-05",
+        "distance": 424,
+        "exitVelo": 109.3,
+        "launchAngle": 24,
+        "event": "home_run",
+        "description": "Dillon Dingler homers (25) on a fly ball to center field. Gleyber Torres scores.",
+        "matchup": "DET @ SEA",
+        "videoUrl": "https://sporty-clips.mlb.com/TkFOZDJfWGw0TUFRPT1fQWxVREFnY0VCVlFBV2dkV1VnQUhBVklDQUZrTlUxVUFCbE5UVkFKVUJGRmNBMU1G.mp4"
+      },
+      {
+        "date": "2026-08-04",
+        "distance": 391,
+        "exitVelo": 107.3,
+        "launchAngle": 22,
+        "event": "home_run",
+        "description": "Dillon Dingler homers (24) on a fly ball to right center field.",
+        "matchup": "DET @ SEA",
+        "videoUrl": "https://sporty-clips.mlb.com/NnlNTzJfWGw0TUFRPT1fVWdGUVVWd0FYMUFBRGxKUVZBQUhBRmRVQUZsVUIxRUFCbElDQndkVUF3RmNWRlpl.mp4"
+      },
+      {
+        "date": "2026-07-31",
+        "distance": 411,
+        "exitVelo": 100.2,
+        "launchAngle": 33,
+        "event": "home_run",
+        "description": "Dillon Dingler hits a grand slam (23) to center field. Javier Báez scores. Ben Malgeri scores. Kevin McGonigle scores.",
+        "matchup": "DET @ ATH",
+        "videoUrl": "https://sporty-clips.mlb.com/QXdkYUJfWGw0TUFRPT1fQUZkUlZnRlFWRkVBQVZjTEJRQUhWd2NIQUZrRFVGa0FDd0VIVWdGV1YxRUVWQXBX.mp4"
+      }
+    ],
+    "694192": [
+      {
+        "date": "2026-08-09",
+        "distance": 387,
+        "exitVelo": 103.4,
+        "launchAngle": 26,
+        "event": "home_run",
+        "description": "Jackson Chourio homers (17) on a fly ball to right center field.",
+        "matchup": "MIN @ MIL",
+        "videoUrl": "https://sporty-clips.mlb.com/NHlLZUJfWGw0TUFRPT1fVlFKWFVsTUhYbEVBQ3dSVFVRQUhBMUJlQUZrR0FGRUFWMWNBVVFjRUFRVlZDQUpX.mp4"
+      },
+      {
+        "date": "2026-08-07",
+        "distance": 423,
+        "exitVelo": 107.6,
+        "launchAngle": 30,
+        "event": "home_run",
+        "description": "Jackson Chourio homers (16) on a fly ball to center field.",
+        "matchup": "MIN @ MIL",
+        "videoUrl": "https://sporty-clips.mlb.com/TkFOUjVfWGw0TUFRPT1fQlZKVkFRWlZCQU1BWGx0VVVBQUhVbFVEQUZnTkJnQUFCZ2RRVXdVQ1VGVldWUVZW.mp4"
+      },
+      {
+        "date": "2026-08-06",
+        "distance": 388,
+        "exitVelo": 100,
+        "launchAngle": 30,
+        "event": "home_run",
+        "description": "Jackson Chourio homers (15) on a fly ball to center field.",
+        "matchup": "PIT @ MIL",
+        "videoUrl": "https://sporty-clips.mlb.com/OTdQZVZfWGw0TUFRPT1fRGxOWUJnWURCVk1BQVZzQkJBQUhWd1plQUZnTlZBQUFCbFpVQndzR0J3Y0JBMUVB.mp4"
+      },
+      {
+        "date": "2026-08-04",
+        "distance": 399,
+        "exitVelo": 102.9,
+        "launchAngle": 30,
+        "event": "home_run",
+        "description": "Jackson Chourio homers (14) on a fly ball to right center field.",
+        "matchup": "PIT @ MIL",
+        "videoUrl": "https://sporty-clips.mlb.com/ek13cjlfWGw0TUFRPT1fQVZOUUFBZFZYZ1lBRFZkVEJBQUhWdzRFQUFBR1dsSUFBbFpXQ0ZZQVVBTURDQXRT.mp4"
+      }
+    ],
+    "694212": [],
+    "694384": [
+      {
+        "date": "2026-08-07",
+        "distance": 399,
+        "exitVelo": 102.2,
+        "launchAngle": 30,
+        "event": "home_run",
+        "description": "Nolan Schanuel homers (7) on a fly ball to center field. Mike Trout scores.",
+        "matchup": "LAA @ MIA",
+        "videoUrl": "https://sporty-clips.mlb.com/RDFkOHFfWGw0TUFRPT1fVjFNSFhWVUNWd1VBQUFGUUJBQUhCQUZUQUFOVUFBSUFCd1pUQXdkVVZWWURCRlJU.mp4"
+      }
+    ],
+    "694497": [],
+    "694671": [
+      {
+        "date": "2026-08-01",
+        "distance": 348,
+        "exitVelo": 103.9,
+        "launchAngle": 22,
+        "event": "home_run",
+        "description": "Wyatt Langford homers (13) on a fly ball to left field.",
+        "matchup": "TEX @ HOU",
+        "videoUrl": "https://sporty-clips.mlb.com/cU93bHpfWGw0TUFRPT1fQVFNQ1ZWWUJWQUVBVzFjRlhnQUhBQTRFQUZoUUFnY0FVUVpSVVFFR1VBTUVBMVpT.mp4"
+      }
+    ],
+    "695506": [
+      {
+        "date": "2026-08-08",
+        "distance": 420,
+        "exitVelo": 111,
+        "launchAngle": 33,
+        "event": "home_run",
+        "description": "Jac Caglianone homers (20) on a fly ball to center field. Carter Jensen scores.",
+        "matchup": "CHC @ KC",
+        "videoUrl": "https://sporty-clips.mlb.com/YVlkZEFfWGw0TUFRPT1fVlFoVVZGRUFCd0VBWFFaVFVnQUhVbE1FQUFNQ1ZsTUFVd1lOQ1FRRENRSlNBUU5Y.mp4"
+      },
+      {
+        "date": "2026-08-08",
+        "distance": 448,
+        "exitVelo": 111.9,
+        "launchAngle": 24,
+        "event": "home_run",
+        "description": "Jac Caglianone homers (19) on a fly ball to center field.",
+        "matchup": "CHC @ KC",
+        "videoUrl": "https://sporty-clips.mlb.com/YVlkZEFfWGw0TUFRPT1fQmxWUUJsUlNVd1VBREFNQlVRQUhBd1FGQUFNTlVRQUFCMUVDVWdvQkJRc0JCQUJX.mp4"
+      },
+      {
+        "date": "2026-08-01",
+        "distance": 410,
+        "exitVelo": 102.6,
+        "launchAngle": 37,
+        "event": "home_run",
+        "description": "Jac Caglianone homers (18) on a fly ball to right field. Tyler Tolbert scores.",
+        "matchup": "KC @ COL",
+        "videoUrl": "https://sporty-clips.mlb.com/TDY1a05fWGw0TUFRPT1fQXdjRVZBQlhBd1VBQ1FNSEFBQUhDQWRTQUFNQlZGRUFVVklBVWxBTlVGWUFCUUZY.mp4"
+      },
+      {
+        "date": "2026-07-30",
+        "distance": 438,
+        "exitVelo": 113.7,
+        "launchAngle": 31,
+        "event": "home_run",
+        "description": "Jac Caglianone homers (17) on a fly ball to right field. John Rave scores.",
+        "matchup": "KC @ MIN",
+        "videoUrl": "https://sporty-clips.mlb.com/ZzZ3QVFfWGw0TUFRPT1fVkFRRkFnQUJVd1FBRFFkUkF3QUhVZ1JXQUZsVVZWVUFCUU1EVmdJQ0FncFVVbFFD.mp4"
+      }
+    ],
+    "695578": [
+      {
+        "date": "2026-07-26",
+        "distance": 430,
+        "exitVelo": 108.3,
+        "launchAngle": 37,
+        "event": "home_run",
+        "description": "James Wood homers (29) on a fly ball to center field. Nasim Nuñez scores.",
+        "matchup": "AZ @ WSH",
+        "videoUrl": "https://sporty-clips.mlb.com/TkFEdmJfWGw0TUFRPT1fVUFJRkJ3SUhVd1VBQzFwV0JRQUhBRmRRQUFBTUIxWUFBVkZYQUFvQkFWVURVMU1G.mp4"
+      },
+      {
+        "date": "2026-07-26",
+        "distance": 418,
+        "exitVelo": 109.6,
+        "launchAngle": 25,
+        "event": "home_run",
+        "description": "James Wood homers (30) on a fly ball to left center field.",
+        "matchup": "AZ @ WSH",
+        "videoUrl": "https://sporty-clips.mlb.com/TkFEdmJfWGw0TUFRPT1fQkZSVEFGQU1WQXNBQ1FkV1VnQUhCQVJSQUFOVEIxY0FVUVFHQkFNSEExZFNBbE5m.mp4"
+      }
+    ],
+    "695600": [
+      {
+        "date": "2026-08-07",
+        "distance": 356,
+        "exitVelo": 96.1,
+        "launchAngle": 29,
+        "event": "home_run",
+        "description": "Carter Jensen homers (16) on a fly ball to left field.",
+        "matchup": "CHC @ KC",
+        "videoUrl": "https://sporty-clips.mlb.com/a0R2djlfWGw0TUFRPT1fVWdjQ0IxMVhWUUFBREZkV0FnQUhCQThDQUFOV0IxUUFDbHdGVlFZQlZGSURWRlpS.mp4"
+      },
+      {
+        "date": "2026-07-31",
+        "distance": 424,
+        "exitVelo": 102.5,
+        "launchAngle": 30,
+        "event": "home_run",
+        "description": "Carter Jensen homers (15) on a fly ball to right field.",
+        "matchup": "KC @ COL",
+        "videoUrl": "https://sporty-clips.mlb.com/ZFh2eXZfWGw0TUFRPT1fRHdnRkFsWUdBZ1lBRFZBSFZnQUhDQUlIQUZsUUJWY0FBMUFBQUFFQUJWRmNCMUVI.mp4"
+      }
+    ],
+    "695657": [
+      {
+        "date": "2026-08-09",
+        "distance": 391,
+        "exitVelo": 110.7,
+        "launchAngle": 24,
+        "event": "home_run",
+        "description": "Colson Montgomery homers (26) on a fly ball to right field. Randal Grichuk scores. Braden Montgomery scores.",
+        "matchup": "CLE @ CWS",
+        "videoUrl": "https://sporty-clips.mlb.com/bmJ3OThfWGw0TUFRPT1fQUZVRlZWeFFVVmNBV1ZGVFZ3QUhDVk1FQUZoUVYxY0FDd05YQkFBRVZRb0RBRk5X.mp4"
+      },
+      {
+        "date": "2026-07-31",
+        "distance": 425,
+        "exitVelo": 107.4,
+        "launchAngle": 33,
+        "event": "home_run",
+        "description": "Colson Montgomery homers (25) on a fly ball to right field. Munetaka Murakami scores.",
+        "matchup": "CWS @ TB",
+        "videoUrl": "https://sporty-clips.mlb.com/M3k2OVZfWGw0TUFRPT1fQXdRRlZRSlNVMWNBQUFBRVh3QUhDQVZUQUFNSFZWZ0FWQUFCVTFWWEFnQlRCd1VI.mp4"
+      }
+    ],
+    "695734": [
+      {
+        "date": "2026-08-07",
+        "distance": 400,
+        "exitVelo": 103.8,
+        "launchAngle": 34,
+        "event": "home_run",
+        "description": "Daylen Lile homers (15) on a fly ball to right field. CJ Abrams scores. Brady House scores.",
+        "matchup": "CIN @ WSH",
+        "videoUrl": "https://sporty-clips.mlb.com/TUFETDFfWGw0TUFRPT1fVkZCWlhWd0hWUUlBWFZvREFBQUhWMU5WQUFOVFZsZ0FVQU1GVXdzQ0JGQlRWbEZY.mp4"
+      },
+      {
+        "date": "2026-08-03",
+        "distance": 373,
+        "exitVelo": 99.5,
+        "launchAngle": 35,
+        "event": "home_run",
+        "description": "Daylen Lile homers (14) on a fly ball to right center field. Keibert Ruiz scores.",
+        "matchup": "WSH @ PHI",
+        "videoUrl": "https://sporty-clips.mlb.com/QXc3UlFfWGw0TUFRPT1fRDFWVUJnWlJCUVFBRHdkVFhnQUhDRlZXQUFNRFcxUUFWQU5XQ1ZjTkFWQURWZ0JS.mp4"
+      }
+    ],
+    "696100": [
+      {
+        "date": "2026-08-09",
+        "distance": 394,
+        "exitVelo": 104,
+        "launchAngle": 36,
+        "event": "home_run",
+        "description": "Hunter Goodman homers (34) on a fly ball to left field.",
+        "matchup": "COL @ STL",
+        "videoUrl": "https://sporty-clips.mlb.com/bmJ3TXZfWGw0TUFRPT1fQmdOVFhRVlJWd3NBQ0ZzS1VnQUhVMUpRQUFOUkFRY0FDd0VDQmdCVENRTUhVd1pl.mp4"
+      },
+      {
+        "date": "2026-08-01",
+        "distance": 384,
+        "exitVelo": 97.6,
+        "launchAngle": 41,
+        "event": "home_run",
+        "description": "Hunter Goodman homers (32) on a fly ball to left field. Kyle Karros scores. TJ Rumfield scores.",
+        "matchup": "KC @ COL",
+        "videoUrl": "https://sporty-clips.mlb.com/TDY1a05fWGw0TUFRPT1fQWdGUVUxeFhWZ0VBRFFSUkJ3QUhWd0JYQUZsWFVsQUFVd0JUQVFvR0FGWlZCUXBS.mp4"
+      },
+      {
+        "date": "2026-08-01",
+        "distance": 424,
+        "exitVelo": 100.9,
+        "launchAngle": 34,
+        "event": "home_run",
+        "description": "Hunter Goodman homers (33) on a fly ball to left field.",
+        "matchup": "KC @ COL",
+        "videoUrl": "https://sporty-clips.mlb.com/TDY1a05fWGw0TUFRPT1fRDFKUkFGUlJWZ1FBRFFFQkJ3QUhDQVZVQUFBSFZBSUFBVjFSQmdRRUJRdFRVVlJR.mp4"
+      }
+    ],
+    "696285": [],
+    "700250": [
+      {
+        "date": "2026-08-08",
+        "distance": 431,
+        "exitVelo": 105.2,
+        "launchAngle": 35,
+        "event": "home_run",
+        "description": "Ben Rice homers (32) on a fly ball to center field.",
+        "matchup": "ATL @ NYY",
+        "videoUrl": "https://sporty-clips.mlb.com/UHY2d3hfWGw0TUFRPT1fQTFVSFhGTUVYMUFBQ2dBRVVRQUhWQVpRQUZnQkFsY0FWMWRSQVFBR1ZGRmNBQXRS.mp4"
+      }
+    ],
+    "700932": [
+      {
+        "date": "2026-07-29",
+        "distance": 425,
+        "exitVelo": 104.1,
+        "launchAngle": 31,
+        "event": "home_run",
+        "description": "Kyle Manzardo homers (13) on a fly ball to right center field.",
+        "matchup": "CLE @ CIN",
+        "videoUrl": "https://sporty-clips.mlb.com/dnZ3UUtfWGw0TUFRPT1fQWxjSFVBSlFYd0lBQ3daVFZ3QUhVRklBQUZrSEFWTUFWRlJXQkFvQVZRdFdCUXRY.mp4"
+      },
+      {
+        "date": "2026-07-28",
+        "distance": 369,
+        "exitVelo": 100.1,
+        "launchAngle": 32,
+        "event": "home_run",
+        "description": "Kyle Manzardo hits a grand slam (12) to right field. José Ramírez scores. Chase DeLauter scores. Travis Bazzana scores.",
+        "matchup": "CLE @ CIN",
+        "videoUrl": "https://sporty-clips.mlb.com/WU9WZW5fWGw0TUFRPT1fVTFWUlVWVUhWRkVBRDF0UVh3QUhDUTlTQUFOUVVGQUFWMWRRQndBR1ZRUmRCVk5U.mp4"
+      },
+      {
+        "date": "2026-07-22",
+        "distance": 344,
+        "exitVelo": 97.3,
+        "launchAngle": 41,
+        "event": "home_run",
+        "description": "Kyle Manzardo homers (11) on a fly ball to right field.",
+        "matchup": "MIN @ CLE",
+        "videoUrl": "https://sporty-clips.mlb.com/NnlNRzVfWGw0TUFRPT1fVUFSV0JWSUFCRk1BV1FNS0J3QUhBUWRYQUFBQlV3Y0FDbDBHQWdJREF3cFFCUUlE.mp4"
+      }
+    ],
+    "701358": [
+      {
+        "date": "2026-08-07",
+        "distance": 383,
+        "exitVelo": 104.2,
+        "launchAngle": 21,
+        "event": "home_run",
+        "description": "Cam Smith homers (14) on a line drive to left center field.",
+        "matchup": "HOU @ SD",
+        "videoUrl": "https://sporty-clips.mlb.com/N3l6QTBfWGw0TUFRPT1fVjFNRVZnRUdBQXNBRFZZRUFBQUhWQU1BQUFBR1VsTUFWZ2RUQ1ZCUlZBUlVBMWRl.mp4"
+      },
+      {
+        "date": "2026-08-07",
+        "distance": 392,
+        "exitVelo": 106.4,
+        "launchAngle": 23,
+        "event": "home_run",
+        "description": "Cam Smith homers (15) on a fly ball to left field.",
+        "matchup": "HOU @ SD",
+        "videoUrl": "https://sporty-clips.mlb.com/N3l6QTBfWGw0TUFRPT1fVkFGVFVBSUZCUVVBRGxkUkFnQUhBVmNFQUZrQ0FWVUFCVkFIQTFZSEFnVlRVbFJR.mp4"
+      }
+    ],
+    "701398": [
+      {
+        "date": "2026-08-06",
+        "distance": 416,
+        "exitVelo": 105.6,
+        "launchAngle": 32,
+        "event": "home_run",
+        "description": "Sal Stewart homers (25) on a fly ball to center field.",
+        "matchup": "ATH @ CIN",
+        "videoUrl": "https://sporty-clips.mlb.com/a0R2UURfWGw0TUFRPT1fRGxKVkIxQUVWQUFBQ2xVRFZ3QUhBZ1pXQUFNRVUxZ0FBQWNHQ1ZKUlVGQlNBUWRR.mp4"
+      },
+      {
+        "date": "2026-08-02",
+        "distance": 420,
+        "exitVelo": 104.8,
+        "launchAngle": 33,
+        "event": "home_run",
+        "description": "Sal Stewart homers (24) on a fly ball to left field.",
+        "matchup": "PIT @ CIN",
+        "videoUrl": "https://sporty-clips.mlb.com/UUFLWlFfWGw0TUFRPT1fQkZVQ1ZsWURCd2NBV1FNRkFBQUhCQUZXQUZrRFYxWUFDd1JXQkFFR1Z3TUVCRkJS.mp4"
+      },
+      {
+        "date": "2026-07-31",
+        "distance": 409,
+        "exitVelo": 104.1,
+        "launchAngle": 29,
+        "event": "home_run",
+        "description": "Sal Stewart homers (23) on a fly ball to center field. Elly De La Cruz scores.",
+        "matchup": "PIT @ CIN",
+        "videoUrl": "https://sporty-clips.mlb.com/d2V3UThfWGw0TUFRPT1fQndoVFVGQU5YMU1BWFZkVVV3QUhCQVZTQUFBQlV3UUFBUUZUQUZJQUExQUVVUUJm.mp4"
+      }
+    ],
+    "701538": [
+      {
+        "date": "2026-08-09",
+        "distance": 411,
+        "exitVelo": 106.8,
+        "launchAngle": 33,
+        "event": "home_run",
+        "description": "Jackson Merrill homers (18) on a fly ball to center field.",
+        "matchup": "HOU @ SD",
+        "videoUrl": "https://sporty-clips.mlb.com/ZU53WFpfV0ZRVkV3dEdEUT09X0J3TlpVUUZSQkFBQVhsTldVZ0FIQ0FVQ0FGaFRWZ1VBQ3dZQkNBcFRVZ1FBVmxOUQ&#x3D;&#x3D;.mp4"
+      },
+      {
+        "date": "2026-08-08",
+        "distance": 421,
+        "exitVelo": 106.7,
+        "launchAngle": 28,
+        "event": "home_run",
+        "description": "Jackson Merrill homers (17) on a fly ball to center field.",
+        "matchup": "HOU @ SD",
+        "videoUrl": "https://sporty-clips.mlb.com/Uk85eE5fWGw0TUFRPT1fQjFOUkFsWU5VZ0VBWEFZQ0J3QUhVQVVFQUZnQ1ZBY0FDMVVEVlFWUkF3QlRBVkJU.mp4"
+      },
+      {
+        "date": "2026-08-02",
+        "distance": 422,
+        "exitVelo": 105,
+        "launchAngle": 30,
+        "event": "home_run",
+        "description": "Jackson Merrill homers (16) on a fly ball to center field. Ty France scores.",
+        "matchup": "SF @ SD",
+        "videoUrl": "https://sporty-clips.mlb.com/TDY1eE5fWGw0TUFRPT1fRHdNRFhRY0RWMVlBQ1ZBRFZBQUhCd1JTQUFCUkFsUUFWRmNFQUFFR0NWWUFCZ1FF.mp4"
+      }
+    ],
+    "701675": [
+      {
+        "date": "2026-08-03",
+        "distance": 355,
+        "exitVelo": 99,
+        "launchAngle": 24,
+        "event": "home_run",
+        "description": "Nathan Church homers (9) on a fly ball to right field. Blaze Jordan scores. Masyn Winn scores.",
+        "matchup": "STL @ NYY",
+        "videoUrl": "https://sporty-clips.mlb.com/bmJ3RERfWGw0TUFRPT1fVWdWWUFBSU1CUUVBV2xGUVh3QUhVMVFFQUZrRkJWa0FCMU1NQUZCV0JWRmNVZ3Bl.mp4"
+      }
+    ],
+    "701762": [
+      {
+        "date": "2026-07-26",
+        "distance": 412,
+        "exitVelo": 104.1,
+        "launchAngle": 28,
+        "event": "home_run",
+        "description": "Nick Kurtz homers (21) on a fly ball to center field. Jeff McNeil scores. Jacob Wilson scores.",
+        "matchup": "ATH @ MIN",
+        "videoUrl": "https://sporty-clips.mlb.com/b0d3cjlfWGw0TUFRPT1fQWdVQ1ZGQUNVQVlBV1ZOV0FBQUhVQUpYQUZnR0JRTUFBRkpSQlZWV1ZGWUVDRllB.mp4"
+      }
+    ],
+    "701807": [
+      {
+        "date": "2026-08-05",
+        "distance": 369,
+        "exitVelo": 94.7,
+        "launchAngle": 29,
+        "event": "home_run",
+        "description": "Carson Benge homers (13) on a fly ball to right center field.",
+        "matchup": "NYM @ CLE",
+        "videoUrl": "https://sporty-clips.mlb.com/WU9WMG5fWGw0TUFRPT1fQlZkUlZRY0VCQUlBRGdGWFVnQUhWd01GQUFBQVZGSUFBVkFFVVZJRUNWRlVBRlJY.mp4"
+      },
+      {
+        "date": "2026-08-04",
+        "distance": 451,
+        "exitVelo": 107.6,
+        "launchAngle": 26,
+        "event": "home_run",
+        "description": "Carson Benge homers (12) on a fly ball to center field.",
+        "matchup": "NYM @ CLE",
+        "videoUrl": "https://sporty-clips.mlb.com/QndSSzVfWGw0TUFRPT1fQmxWWFVnY0ZVUUlBV1FBSFZRQUhDVmNEQUFBQlVGQUFBd1JYQlFOUUJWVlhVd1lG.mp4"
+      }
+    ],
+    "702222": [],
+    "702284": [
+      {
+        "date": "2026-07-31",
+        "distance": 373,
+        "exitVelo": 110.2,
+        "launchAngle": 16,
+        "event": "home_run",
+        "description": "Cole Young homers (14) on a line drive to right center field.",
+        "matchup": "MIN @ SEA",
+        "videoUrl": "https://sporty-clips.mlb.com/TUFYd1lfWGw0TUFRPT1fVXdrQUJRRUdVQUVBRGdRREJRQUhCZ2NDQUZrSFcxSUFVRlVGQXdZTUJnY0dBRllE.mp4"
+      }
+    ],
+    "702332": [
+      {
+        "date": "2026-08-04",
+        "distance": 401,
+        "exitVelo": 102.3,
+        "launchAngle": 25,
+        "event": "home_run",
+        "description": "Caleb Durbin hits a grand slam (11) to left center field. Ceddanne Rafaela scores. Willson Contreras scores. Masataka Yoshida scores.",
+        "matchup": "CWS @ BOS",
+        "videoUrl": "https://sporty-clips.mlb.com/QXc3M3ZfWGw0TUFRPT1fQmdKUUIxWUZBd29BV1FjRUJ3QUhCQVZWQUZsWFYxa0FWRlFBQTFKUUFBY0VWQVFB.mp4"
+      }
+    ],
+    "703607": [
+      {
+        "date": "2026-08-08",
+        "distance": 439,
+        "exitVelo": 111.5,
+        "launchAngle": 21,
+        "event": "home_run",
+        "description": "Henry Bolte homers (5) on a fly ball to center field.",
+        "matchup": "ATH @ BOS",
+        "videoUrl": "https://sporty-clips.mlb.com/TDY1UmtfWGw0TUFRPT1fQmdsWVZWUU5VQU1BQ2xvRFVBQUhCdzhFQUFNRUFBVUFDMWNDVWdzRFVnY0VCVkJT.mp4"
+      },
+      {
+        "date": "2026-08-01",
+        "distance": 411,
+        "exitVelo": 105.3,
+        "launchAngle": 26,
+        "event": "home_run",
+        "description": "Henry Bolte homers (4) on a fly ball to center field. Tommy White scores. Lawrence Butler scores.",
+        "matchup": "DET @ ATH",
+        "videoUrl": "https://sporty-clips.mlb.com/ckRsOFZfWGw0TUFRPT1fQmdZQUFGQlNCd01BRFZCVUFnQUhBZzVUQUFNQVdsWUFWQUVHQXdOWEFnSlhDUUJm.mp4"
+      }
+    ],
+    "800050": [
+      {
+        "date": "2026-08-01",
+        "distance": 414,
+        "exitVelo": 104.3,
+        "launchAngle": 31,
+        "event": "home_run",
+        "description": "Chase DeLauter homers (12) on a fly ball to right center field.",
+        "matchup": "AZ @ CLE",
+        "videoUrl": "https://sporty-clips.mlb.com/WERaQWpfV0ZRVkV3dEdEUT09X0FBVUFVbDBEQUFBQURsUlJVUUFIQ0FOV0FBTldXbFVBVUZVTVZnUUNWMUpYQ0FwVw&#x3D;&#x3D;.mp4"
+      }
+    ],
+    "802139": [
+      {
+        "date": "2026-07-30",
+        "distance": 406,
+        "exitVelo": 105.2,
+        "launchAngle": 30,
+        "event": "home_run",
+        "description": "JJ Wetherholt homers (16) on a fly ball to right field.",
+        "matchup": "CHC @ STL",
+        "videoUrl": "https://sporty-clips.mlb.com/Uk85MlpfWGw0TUFRPT1fQmdOUUJWY0dBd1FBVzFJR0F3QUhCQWNBQUZsUUJnVUFCZ0FBVmdZR0JWQlRCd1pl.mp4"
+      }
+    ],
+    "802415": [],
+    "803011": [],
+    "805300": [
+      {
+        "date": "2026-07-30",
+        "distance": 385,
+        "exitVelo": 99.7,
+        "launchAngle": 33,
+        "event": "home_run",
+        "description": "Jakob Marsee homers (6) on a fly ball to right center field.",
+        "matchup": "MIA @ NYM",
+        "videoUrl": "https://sporty-clips.mlb.com/NHlLNzZfWGw0TUFRPT1fQmdKVFVRQUFBd1lBQ3dFQlZ3QUhWQVVDQUZrRkFBQUFVVndCQ1ZVRlZRdFhVMUZV.mp4"
+      }
+    ],
+    "805367": [
+      {
+        "date": "2026-08-06",
+        "distance": 409,
+        "exitVelo": 105.5,
+        "launchAngle": 37,
+        "event": "home_run",
+        "description": "Chase Meidroth homers (10) on a fly ball to left center field. Braden Montgomery scores.",
+        "matchup": "CWS @ BOS",
+        "videoUrl": "https://sporty-clips.mlb.com/OHliTE1fWGw0TUFRPT1fQndOWVhGSUJCVkVBVzFOVVVnQUhCMVVFQUFNQkFsTUFDMVlFQkFBRFVnSURWQU5m.mp4"
+      },
+      {
+        "date": "2026-08-06",
+        "distance": 362,
+        "exitVelo": 95.1,
+        "launchAngle": 30,
+        "event": "home_run",
+        "description": "Chase Meidroth homers (11) on a fly ball to left field. Braden Montgomery scores.",
+        "matchup": "CWS @ BOS",
+        "videoUrl": "https://sporty-clips.mlb.com/OHliTE1fWGw0TUFRPT1fQkFSWVZsY0dBZ0FBRDFNSEFnQUhBQVpVQUZnTkJsa0FDZ0VEQ1FzTVZBVlhVVlpm.mp4"
+      }
+    ],
+    "805779": [],
+    "805808": [
+      {
+        "date": "2026-08-06",
+        "distance": 368,
+        "exitVelo": 102.7,
+        "launchAngle": 41,
+        "event": "home_run",
+        "description": "Kevin McGonigle homers (12) on a fly ball to center field. Zach McKinstry scores.",
+        "matchup": "DET @ SEA",
+        "videoUrl": "https://sporty-clips.mlb.com/WERabGtfWGw0TUFRPT1fQmdJRlhGWUNCd3NBWGxBRUJBQUhVZ2RYQUFNTUJWTUFBVk1BQlZjRkJsQlhVd3NF.mp4"
+      },
+      {
+        "date": "2026-08-01",
+        "distance": 386,
+        "exitVelo": 99.7,
+        "launchAngle": 31,
+        "event": "home_run",
+        "description": "Kevin McGonigle homers (11) on a fly ball to left field.",
+        "matchup": "DET @ ATH",
+        "videoUrl": "https://sporty-clips.mlb.com/ckRsOFZfWGw0TUFRPT1fQkFkVkFWY0RYbEFBWFFSUVZnQUhCZ1JXQUFBTUFGY0FBbE1GQ1FGVFV3ZFJWUXNI.mp4"
+      },
+      {
+        "date": "2026-07-31",
+        "distance": 415,
+        "exitVelo": 101.9,
+        "launchAngle": 39,
+        "event": "home_run",
+        "description": "Kevin McGonigle homers (10) on a fly ball to center field.",
+        "matchup": "DET @ ATH",
+        "videoUrl": "https://sporty-clips.mlb.com/QXdkYUJfWGw0TUFRPT1fRGdnRlUxVUFWRlFBQVZvR1VnQUhBZ0lEQUFNSEJsY0FWd0ZUQWdBR0ExWURDVlpm.mp4"
+      }
+    ],
+    "805811": [],
+    "805999": [],
+    "807712": [
+      {
+        "date": "2026-08-02",
+        "distance": 373,
+        "exitVelo": 102.2,
+        "launchAngle": 32,
+        "event": "home_run",
+        "description": "Luke Keaschall homers (6) on a fly ball to right center field.",
+        "matchup": "MIN @ SEA",
+        "videoUrl": "https://sporty-clips.mlb.com/NHlLV3FfWGw0TUFRPT1fQndsUlVsVUdYZ0FBQ1FZRUFnQUhBUVpWQUZrTVVsQUFBQVJVVWxVTlZ3WlJVZ29B.mp4"
+      },
+      {
+        "date": "2026-08-01",
+        "distance": 385,
+        "exitVelo": 100.4,
+        "launchAngle": 31,
+        "event": "home_run",
+        "description": "Luke Keaschall homers (5) on a fly ball to left center field.",
+        "matchup": "MIN @ SEA",
+        "videoUrl": "https://sporty-clips.mlb.com/SzRCcjJfWGw0TUFRPT1fQTFNRkFWUU5Bd3NBREFRQkJ3QUhCRlFBQUFBTVZWZ0FWQUZSQUFOVEFnVURBQXRY.mp4"
+      }
+    ],
+    "807799": [
+      {
+        "date": "2026-08-02",
+        "distance": 374,
+        "exitVelo": 98.7,
+        "launchAngle": 30,
+        "event": "home_run",
+        "description": "Masataka Yoshida homers (5) on a fly ball to right field.",
+        "matchup": "BOS @ LAD",
+        "videoUrl": "https://sporty-clips.mlb.com/MnI0THdfV0ZRVkV3dEdEUT09X0FRZFpWMU1DVVZjQUNnY0JWQUFIQkFCUUFGa0FCd01BVUZZRVZsWlRBd0VEQ1FSWA&#x3D;&#x3D;.mp4"
+      }
+    ],
+    "808959": [
+      {
+        "date": "2026-08-08",
+        "distance": 347,
+        "exitVelo": 101.1,
+        "launchAngle": 28,
+        "event": "home_run",
+        "description": "Munetaka Murakami homers (26) on a fly ball to left field.",
+        "matchup": "CLE @ CWS",
+        "videoUrl": "https://sporty-clips.mlb.com/eUx3eU5fV0ZRVkV3dEdEUT09X0R3UlhVMUpXQUZZQVhGc0NWUUFIQUE5VUFBTlVVd0FBVkZ4V1ZGY0NWd3BSQlZGUQ&#x3D;&#x3D;.mp4"
+      },
+      {
+        "date": "2026-08-07",
+        "distance": 406,
+        "exitVelo": 110.5,
+        "launchAngle": 42,
+        "event": "home_run",
+        "description": "Munetaka Murakami homers (25) on a fly ball to center field.",
+        "matchup": "CLE @ CWS",
+        "videoUrl": "https://sporty-clips.mlb.com/N3l6YTZfWGw0TUFRPT1fQUFWU0JRY01CUXNBWEFjR0JBQUhCd05TQUFBQ0JRSUFBMUpSVkZBTUNBQlJWVllD.mp4"
+      },
+      {
+        "date": "2026-07-31",
+        "distance": 389,
+        "exitVelo": 100.3,
+        "launchAngle": 29,
+        "event": "home_run",
+        "description": "Munetaka Murakami homers (24) on a fly ball to left center field. Sam Antonacci scores.",
+        "matchup": "CWS @ TB",
+        "videoUrl": "https://sporty-clips.mlb.com/M3k2OVZfWGw0TUFRPT1fQTFWUkFWUUhWMWNBRGxBQlV3QUhCRlJXQUZrTlVBSUFWMXdDQlZBQ1YxWmNDUUVI.mp4"
+      }
+    ],
+    "808982": [
+      {
+        "date": "2026-08-03",
+        "distance": 410,
+        "exitVelo": 100.6,
+        "launchAngle": 28,
+        "event": "home_run",
+        "description": "Jung Hoo Lee homers (7) on a fly ball to right center field.",
+        "matchup": "SF @ TEX",
+        "videoUrl": "https://sporty-clips.mlb.com/Uk85UE1fV0ZRVkV3dEdEUT09X1ZBbFNVVklCVndjQUFRY0RVZ0FIQndJRUFGbFhVQWNBQVZOVENRSUJBd0pkQXdNQQ&#x3D;&#x3D;.mp4"
+      },
+      {
+        "date": "2026-08-03",
+        "distance": 385,
+        "exitVelo": 100.1,
+        "launchAngle": 23,
+        "event": "home_run",
+        "description": "Jung Hoo Lee homers (8) on a line drive to right center field.",
+        "matchup": "SF @ TEX",
+        "videoUrl": "https://sporty-clips.mlb.com/Uk85UE1fV0ZRVkV3dEdEUT09X0RsVlZWVjFTQndzQUNRUlFCd0FIQWdFQ0FGZ0ZWZ0FBQ2xSUUFWWU1CZ2RjQmdSZg&#x3D;&#x3D;.mp4"
+      }
+    ],
+    "810938": [
+      {
+        "date": "2026-08-02",
+        "distance": 380,
+        "exitVelo": 101.1,
+        "launchAngle": 20,
+        "event": "home_run",
+        "description": "Ben Williamson homers (3) on a line drive to left field.",
+        "matchup": "CWS @ TB",
+        "videoUrl": "https://sporty-clips.mlb.com/dnZ3NjRfWGw0TUFRPT1fVUFaWlVsWU1Cd1lBQUZBRVVBQUhCZ1JTQUFOVVZWZ0FCVklGVkFKUkJ3SlhCRk5X.mp4"
+      }
+    ]
+  }
+}

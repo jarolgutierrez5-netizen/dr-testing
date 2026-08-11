@@ -1,0 +1,113 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "at": "2026-07-21T04:15:08.323Z",
+      "param": "HR_MULT_SHRINKAGE",
+      "effectiveSince": "2026-07-20",
+      "excludedPreEffective": 362,
+      "nLow": 0,
+      "nHigh": 0,
+      "lowHitRate": null,
+      "highHitRate": null,
+      "z": null,
+      "decision": "skip",
+      "reason": "sample size gate not met",
+      "current": 0.6
+    },
+    {
+      "at": "2026-07-23T02:13:41.680Z",
+      "param": "HR_MULT_SHRINKAGE",
+      "effectiveSince": "2026-07-20",
+      "excludedPreEffective": 362,
+      "nLow": 90,
+      "nHigh": 48,
+      "lowHitRate": 0.16666666666666666,
+      "highHitRate": 0.22916666666666666,
+      "z": -0.8942640015094001,
+      "decision": "skip",
+      "reason": "sample size gate not met",
+      "current": 0.6
+    },
+    {
+      "at": "2026-08-03T17:20:43.568Z",
+      "param": "HR_MULT_SHRINKAGE",
+      "effectiveSince": "2026-07-20",
+      "excludedPreEffective": 362,
+      "nLow": 539,
+      "nHigh": 248,
+      "lowHitRate": 0.14100185528756956,
+      "highHitRate": 0.16129032258064516,
+      "z": -0.7458758979093798,
+      "decision": "skip",
+      "reason": "not statistically significant",
+      "current": 0.6
+    },
+    {
+      "at": "2026-08-06T14:09:18.776Z",
+      "param": "HR_MULT_SHRINKAGE",
+      "effectiveSince": "2026-07-20",
+      "excludedPreEffective": 362,
+      "nLow": 582,
+      "nHigh": 269,
+      "lowHitRate": 0.13573883161512026,
+      "highHitRate": 0.15613382899628253,
+      "z": -0.792085295573984,
+      "decision": "skip",
+      "reason": "not statistically significant",
+      "current": 0.6
+    },
+    {
+      "at": "2026-08-06T14:09:18.846Z",
+      "param": "HR_SCORE_CALIBRATION",
+      "effectiveSince": null,
+      "excludedPreEffective": 0,
+      "n": 1213,
+      "fittedSlope": -0.10979287419409171,
+      "fittedIntercept": 15.692737991086748,
+      "seSlope": 0.25962291972270396,
+      "tSlope": -4.274633670168376,
+      "decision": "adjust",
+      "reason": "stepping toward fitted calibration line",
+      "previous": {
+        "slope": 1,
+        "intercept": 0
+      },
+      "next": {
+        "slope": 0.95,
+        "intercept": 3
+      }
+    },
+    {
+      "at": "2026-08-10T16:11:03.095Z",
+      "param": "HR_MULT_SHRINKAGE",
+      "effectiveSince": "2026-07-20",
+      "excludedPreEffective": 362,
+      "nLow": 638,
+      "nHigh": 299,
+      "lowHitRate": 0.13322884012539185,
+      "highHitRate": 0.15384615384615385,
+      "z": -0.8482905707719238,
+      "decision": "skip",
+      "reason": "not statistically significant",
+      "current": 0.6
+    },
+    {
+      "at": "2026-08-10T16:11:03.096Z",
+      "param": "HR_SCORE_CALIBRATION",
+      "effectiveSince": "2026-08-06",
+      "excludedPreEffective": 1284,
+      "n": 15,
+      "fittedSlope": null,
+      "fittedIntercept": null,
+      "seSlope": null,
+      "tSlope": null,
+      "decision": "skip",
+      "reason": "sample size gate not met",
+      "current": {
+        "slope": 0.95,
+        "intercept": 3
+      }
+    }
+  ]
+}

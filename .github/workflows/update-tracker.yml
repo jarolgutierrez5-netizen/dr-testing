@@ -1,0 +1,153 @@
+name: Update Diamond Report Tracker
+
+on:
+  # --- schedule trigger disabled on import into this repo (no secrets configured
+  # yet for the external syncs) -- uncomment to re-enable automatic runs. Still
+  # runnable manually via workflow_dispatch below in the meantime. ---
+  # schedule:
+  #   # 14:07 UTC = ~9am CDT — grades the prior day and captures Diamond Report Pick/K
+  #   # Props for today (neither needs a posted lineup), plus a first pass at HR Threats.
+  #   # Well before essentially all MLB first pitches. Offset a few minutes off
+  #   # the hour on purpose — GitHub's own docs warn on-the-hour is the highest-congestion
+  #   # time for scheduled workflows and can cause delays or silent skips; every run of
+  #   # this workflow so far has been a manual workflow_dispatch, never an actual
+  #   # `schedule` trigger, which is the exact symptom that warning describes.
+  #   - cron: '7 14 * * *'
+  #   # 20:13 UTC = ~3pm CDT — official MLB lineups are usually posted 1-4 hours before
+  #   # first pitch, so most are still not up at the 9am run. This second pass re-tries
+  #   # HR Threats capture with real lineups now available for most of the evening
+  #   # slate. DRP/K Props are already captured by the morning run and get skipped
+  #   # (see the check-before-compute guard in captureToday), so this only adds newly
+  #   # lineup-qualified HR Threat picks — it never re-touches an already-locked pick.
+  #   - cron: '13 20 * * *'
+  #   # 00:19 UTC = ~7:19pm CDT (previous calendar day) — a third pass to catch the
+  #   # latest-posting lineups, mainly west-coast games (first pitch often ~8:40-9:10pm
+  #   # CDT, lineups sometimes not up until 5-6pm CDT — after the 3pm pass already ran).
+  #   # Same fill-only-open-slots behavior as the second pass; captureHRThreatToday's
+  #   # already-locked-stays-locked logic means this is always safe to add, never
+  #   # disruptive. Chosen to land comfortably before the earliest evening games are
+  #   # still Preview but the latest ones haven't gone Live yet.
+  #   - cron: '19 0 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-tracker
+  cancel-in-progress: false
+
+jobs:
+  update-tracker:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Run tracker updater
+        env:
+          # Optional — real sportsbook lines for K Props + batter prop markets (used
+          # by the Situational True Probability panel). Set in Settings → Secrets and
+          # variables → Actions. Everything falls back to the model-only line/analysis
+          # if this isn't set.
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+          # Optional — Ballpark Pal's licensed API, used here only to capture their
+          # Moneyline projection alongside ours in data/ballparkpal-comparison.json
+          # for an accuracy comparison. Skipped entirely if unset.
+          BALLPARKPAL_API_KEY: ${{ secrets.BALLPARKPAL_API_KEY }}
+        run: node scripts/update-tracker.mjs
+
+      # Independent of the tracker step above (no shared inputs/outputs) -- captures
+      # whichever official lineups MLB has posted by the time each of this workflow's
+      # three daily passes runs, which is exactly the same "lineups fill in through the
+      # day" problem this workflow's own 3-pass schedule (see the cron comments above)
+      # was already designed around for HR Threats capture. Real lineups only, never a
+      # projected/expected one -- see the script's own header.
+      - name: Sync today's confirmed batting lineups
+        run: node scripts/sync-lineups.mjs
+        continue-on-error: true
+        timeout-minutes: 5
+
+      # Depends on data/tracker.json's just-graded prior-day results (for the recap
+      # paragraph) and today's freshly-captured pool (for the storylines) -- must run
+      # after the step above. Own try/catch around the schedule fetch inside the script
+      # itself means a transient MLB API hiccup only costs the storylines, never the
+      # recap, so this is safe to run unconditionally rather than gating it like the
+      # continue-on-error steps elsewhere in this repo.
+      - name: Generate Diamond Report Headlines (recap, trends, notable performances, weather, injuries, model movement, leaderboard, trending players, featured player)
+        run: node scripts/generate-headlines.mjs
+
+      # Depends on data/tracker.json's just-graded results (including the nearMiss
+      # field the two grading steps above now stamp onto each row) -- pure
+      # aggregation, no network calls, so it's cheap to run every pass regardless
+      # of whether today's slate has started yet.
+      - name: Generate Performance Report (roadmap 2.5 daily/weekly/monthly/season views + leaderboard)
+        run: node scripts/generate-performance-report.mjs
+
+      - name: Commit and push if changed
+        run: |
+          # git diff --quiet only detects changes to already-tracked files — it silently
+          # ignores a brand-new untracked file, which is exactly what data/k-props.json
+          # is on its first-ever run. Stage first, then check the index against HEAD so
+          # a genuinely new file is treated as a real change instead of "nothing to commit".
+          git add data/tracker.json
+          [ -f data/k-props.json ] && git add data/k-props.json
+          [ -f data/ballparkpal-comparison.json ] && git add data/ballparkpal-comparison.json
+          [ -f data/drp-sim-comparison.json ] && git add data/drp-sim-comparison.json
+          [ -f data/daily-headlines.json ] && git add data/daily-headlines.json
+          [ -f data/trending-players.json ] && git add data/trending-players.json
+          # generate-headlines.mjs has written data/featured-player.json since the
+          # Featured Player feature was added, but this step never staged it -- same
+          # "written to the runner's local copy and silently discarded" gap the
+          # data/prop-market-odds.json fix below already describes.
+          [ -f data/featured-player.json ] && git add data/featured-player.json
+          [ -f data/performance-report.json ] && git add data/performance-report.json
+          # update-tracker.mjs has written data/prop-market-odds.json since the
+          # situational-true-probability edge feature was added, but this step never
+          # staged it — every run silently wrote the file to the runner's local working
+          # copy and then discarded it, so it never once reached a commit. Confirmed via
+          # job logs: the file has never existed on main despite the script succeeding.
+          [ -f data/prop-market-odds.json ] && git add data/prop-market-odds.json
+          [ -f data/lineups.json ] && git add data/lineups.json
+          if git diff --cached --quiet; then
+            echo "No changes to data/tracker.json, data/k-props.json, data/ballparkpal-comparison.json, data/drp-sim-comparison.json, data/prop-market-odds.json, data/daily-headlines.json, data/trending-players.json, data/featured-player.json, data/performance-report.json, or data/lineups.json — nothing to commit."
+            exit 0
+          fi
+          git config user.name "diamond-report-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git commit -m "Update tracker: capture today's picks, grade prior day's results"
+
+          # main can move during this run -- confirmed live 2026-08-08 (run 31262562751):
+          # this workflow's own concurrency group only serializes it against ITSELF, not
+          # against sync-statcast.yml/sync-transactions.yml/other workflows that also push
+          # to main on their own schedules. That run's plain `git push` was flat-out
+          # rejected ("fetch first") with no retry, so the whole run's picks capture +
+          # grading + headlines + performance report was silently discarded.
+          #
+          # Same retry+rebase loop as sync-statcast.yml/calibration-report.yml/
+          # sync-transactions.yml's own push step (see sync-statcast.yml's comment for the
+          # full rationale). -X theirs is safe here for the same reason it is there: every
+          # file this step stages (tracker.json, k-props.json, daily-headlines.json, etc.)
+          # is unique to this workflow -- no other workflow writes any of them -- so a
+          # rebase onto a newer main is a no-op fast-forward-style replay, never a real
+          # conflict.
+          for attempt in 1 2 3 4 5; do
+            if git push; then
+              exit 0
+            fi
+            echo "Push rejected (attempt $attempt/5) — main moved during this run. Fetching and rebasing..."
+            git fetch origin main
+            if ! git rebase -X theirs origin/main; then
+              echo "::error::Rebase onto origin/main failed even preferring our own side — aborting. This run's data was NOT pushed."
+              git rebase --abort
+              exit 1
+            fi
+            sleep 5
+          done
+          echo "::error::Push still rejected after 5 attempts."
+          exit 1
