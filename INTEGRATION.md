@@ -6,6 +6,8 @@ The root `index.html` is the redesigned multi-sport homepage. The previous produ
 
 The homepage intentionally ships with preview data. Its inline `mockDashboard` object supplies the current matchup cards and projection board. A `PREVIEW DATA` badge and informational disclaimer remain visible so mock outcomes are not presented as live projections.
 
+`category-preview-data.js` supplies the visual-only records shown after a user selects a sport subsection. Every sample card is labeled `MOCK SAMPLE`. The file exposes `window.DiamondCategoryPreviewData.getPreview(sport, group, item)`, allowing the sample generator to be replaced with production subsection providers without changing the card layout.
+
 ## Production data hook
 
 Before the homepage's main inline script runs, define:
